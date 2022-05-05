@@ -1,0 +1,1629 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/*******************************/
+/********* COMPONENTES *********/
+/*******************************/
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+ul li a {
+    color: white;
+}
+
+
+.textoRojo {
+    color: #FF0000;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #2271C8;
+    border-radius: 50px;
+    color: #FFFFFF;
+    width: 70%;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.btn a {
+    color: #FFFFFF;
+}
+
+input,
+textarea,
+select {
+    padding: 1.5%;
+    width: 50%;
+    margin: 1% 0;
+    background: #C4C4C4;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.puntoLista {
+    font-weight: bold;
+}
+
+/*CARGANDO*/
+.contenedorCarga {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgLoading {
+    width: 25%;
+}
+
+
+
+/********* POP UP - SWEETALERT ***********/
+.swal-text,
+.swal-title {
+    color: rgba(0, 0, 0, 1);
+}
+
+.swal-text {
+    font-size: 18px;
+    padding: 2%;
+}
+
+.swal-overlay--show-modal .swal-modal {
+    will-change: initial;
+}
+
+/*
+.swal-overlay{
+    background-color: rgba(0,0,0,.8);
+}
+*/
+/*******************************/
+/********* CABECERA ************/
+/*******************************/
+.cabeceraPP {
+    background-image: radial-gradient(circle at 120.71% 50%, #a8b8ff 0, #3c78f2 50%, #0041c1 100%);
+    padding-top: 1.5%;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+#pagLogin .cabeceraPP,
+#pagContacto .cabeceraPP,
+#pagNosotros .cabeceraPP,
+#pagCookies .cabeceraPP,
+#pagPrivacidad .cabeceraPP,
+#pagTermsCond .cabeceraPP {
+    padding-bottom: 1.5%;
+}
+
+.cabeceraPP .barraMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeceraPP .barraMenu .logoEmpresa {
+    margin-left: 5%;
+}
+
+.cabeceraPP .barraMenu .logoEmpresa h3 a {
+    color: #FFFFFF;
+}
+
+
+.cabeceraPP .barraMenu .opcMenu {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.cabeceraPP .barraMenu .opcMenu .menuSup {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabeceraPP .barraMenu .opcMenu .menuSup li {
+    display: inline;
+    list-style-type: none;
+}
+
+.cabeceraPP .barraMenu .login {
+    margin-right: 5%;
+}
+
+.cabeceraPP .barraMenu img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(116deg) brightness(106%) contrast(101%);
+}
+
+
+/**********************************/
+/***** CONTENIDO PAG PRINCIPAL ****/
+/**********************************/
+.contenedorSupPP {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5%;
+    padding-bottom: 1%;
+}
+
+.contenedorSupPP .textoPortada {
+    display: flex;
+    flex-direction: column;
+    margin-left: 23%;
+}
+
+.contenedorSupPP .textoPortada .titTextoPortada {
+    margin-top: 4%;
+}
+
+.contenedorSupPP .textoPortada .titTextoPortada h1 {
+    font-size: 3em;
+}
+
+.contenedorSupPP .textoPortada .descTextoPortada {
+    margin: 5% 0;
+}
+
+.contenedorSupPP .textoPortada .botonTextoPortada {
+    text-align: center;
+    margin: 7% 15% 5% 0;
+}
+
+.contenedorSupPP .imgPortada {
+    position: relative;
+    right: 0;
+    left: 12%;
+}
+
+.contenedorSupPP .imgPortada img {
+    width: 500px;
+    height: 400px;
+}
+
+.contenedorContenidoPP {
+    margin-top: 8%;
+}
+
+.fila1 {
+    text-align: center;
+}
+
+.titFila,
+.descFila p {
+    font-weight: bold;
+}
+
+.titFila {
+    color: #4980F2;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+.descFila p {
+    font-size: 28px;
+}
+
+.contExtServiciosPP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 8% 6%;
+}
+
+.contIntServiciosPP {
+    width: 22%;
+    border: 2px solid #8EB7E5;
+    padding: 4%;
+    background-color: #E5F3FE;
+}
+
+.contIntServiciosPP img {
+    width: 25%;
+}
+
+.contIntServiciosPP .titServicios {
+    font-weight: bold;
+    padding: 8% 0;
+    font-size: 20px;
+}
+
+.fila2 {
+    display: flex;
+    flex-direction: row;
+    margin: 4% 8% 6% 8%;
+}
+
+.fila2>div {
+    width: 50%;
+}
+
+.fila2 .imgPanelConfigPP {
+    display: flex;
+    justify-content: center;
+}
+
+.fila2 img {
+    width: 75%;
+}
+
+
+.fila2 .textoPanelConfigPP {
+    margin-left: 10%;
+    margin-top: 4%;
+    width: 40%;
+    padding-bottom: 3%;
+}
+
+.fila2 .descFila {
+    margin-bottom: 10%;
+}
+
+.fila2 p {
+    width: 65%;
+}
+
+.fila2>div>p {
+    margin-bottom: 6%;
+}
+
+.contenedorSolicitar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #387FCD;
+    color: #FFFFFF;
+    padding: 4% 0px;
+}
+
+
+.solicitudPP {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solicitudPP p:first-child {
+    font-weight: bold;
+    margin-bottom: 10%;
+    font-size: 28px;
+}
+
+.solicitudPP button {
+    width: 25%;
+}
+
+.imgPanelConfigPP {
+    width: 50%;
+    display: flex;
+    padding-left: 11%;
+}
+
+.imgSolicitudPP {
+    width: 40%;
+}
+
+.imgSolicitudPP img {
+    width: 50%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+
+/**********************************/
+/********* PIE DE PÁGINA  *********/
+/**********************************/
+.piePag {
+    /*background-color: #E5F3FE;*/
+    background-color: #BEE0FC;
+}
+
+.piePag .contSupPiePag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5% 0;
+}
+
+
+.piePag .contSupPiePag .logoEmpresa h3 {
+    text-align: center;
+}
+
+.piePag .contSupPiePag .logoEmpresa h3 a {
+    color: #4980F2;
+    margin-left: 55%;
+}
+
+.piePag .menuInf {
+    width: 30%;
+    margin-right: 2.5%;
+}
+
+.piePag .menuInf ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.piePag .menuInf ul li {
+    display: inline;
+}
+
+.piePag .contInfPiePag {
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+.piePag .menuInf ul li a,
+.piePag .contInfPiePag {
+    color: black;
+}
+
+
+/**********************************/
+/********** PAG LOGIN  ************/
+/**********************************/
+
+.titPagsInternas {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.contenedorPagsInternas {
+    background-color: #7A97FF;
+    background-color: #387FCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5% 5% 5%;
+}
+
+.contenedorIntPagsInternas {
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    margin: 3% 0;
+}
+
+
+
+.contIzqPagsInternas,
+.contDerPagsInternas {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorIntPagsInternas .contIzqPagsInternas form {
+    width: 100%;
+}
+
+.titFormLogin {
+    margin-top: 6%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.contIzqPagsInternas {
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.contDerPagsInternas {
+    background-color: #E9EEFF;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 6% 0;
+}
+
+.contDerPagsInternas img {
+    width: 50%;
+}
+
+.cajaParametrosLogin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-left: 34%;
+}
+
+.cajaParametrosLogin label {
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.cajaParametrosLogin label[for="password"],
+.cajaParametrosLogin label[for="pass"],
+.cajaParametrosLogin label[for="localidad"] {
+    margin-top: 5%;
+}
+
+
+.contIzqPagsInternas .btnForm {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.contIzqPagsInternas .btnForm .btn {
+    width: 20%;
+}
+
+.contIzqPagsInternas .textoRegistrar {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.contIzqPagsInternas .textoRegistrar .textoRojo {
+    cursor: pointer;
+}
+
+.contIzqPagsInternas .textoRegistrar #registrarse {
+    cursor: pointer;
+}
+
+.formularioLogin {
+    display: block;
+}
+
+/**********************************/
+/*********** REGISTRO  ************/
+/**********************************/
+.formularioRegistro {
+    display: none;
+}
+
+.formularioRegistro .textoRegistrar {
+    padding-bottom: 4%;
+}
+
+.cajaParametrosRegistro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.col1Registro,
+.col2Registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col2Registro {
+    margin-left: 6%;
+}
+
+.cajaParametrosRegistro label,
+.cajaParametrosRegistro input {
+    width: 95%;
+}
+
+.cajaParametrosRegistro label {
+    margin-bottom: 4%;
+}
+
+.cajaParametrosRegistro input {
+    margin-bottom: 12%;
+    padding: 5%;
+}
+
+.cajaLocalidad {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cajaLocalidad select {
+    width: 53%;
+}
+
+
+
+/**********************************/
+/*********** CONTACTO  ************/
+/**********************************/
+#pagContacto .contIzqPagsInternas {
+    flex-direction: column;
+    align-items: center;
+}
+
+.contIzqPagsInternas iframe {
+    width: 80%;
+}
+
+#pagContacto .contIzqPagsInternas p {
+    margin: 0.5% 0;
+}
+
+#pagContacto .contIzqPagsInternas p:first-of-type {
+    margin-top: 8%;
+}
+
+#pagContacto .contDerPagsInternas form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+#pagContacto input,
+#pagContacto textarea {
+    width: 75%;
+}
+
+#pagContacto .contDerPagsInternas {
+    font-weight: bold;
+    padding: 2% 0;
+}
+
+#pagContacto .contDerPagsInternas input {
+    margin-bottom: 5%;
+}
+
+#pagContacto input.btnContacto {
+    width: 35%;
+    position: relative;
+    left: 20%;
+    right: 0;
+    margin-bottom: 0;
+    margin-top: 4%;
+}
+
+
+
+/**********************************/
+/******** PAG NOSOTROS  ***********/
+/**********************************/
+#pagNosotros .contIzqPagsInternas,
+#pagNosotros .contDerPagsInternas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pagNosotros .contIzqPagsInternas h1 {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    color: #4980F2;
+}
+
+#pagNosotros .contIzqPagsInternas img {
+    width: 50%;
+    padding: 4% 0;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    margin-top: 4%;
+}
+
+#pagNosotros .contDerPagsInternas {
+    padding: 4% 0;
+}
+
+#pagNosotros .contDerPagsInternas .descNosotros {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+#pagNosotros .contDerPagsInternas .descNosotros p {
+    margin: 6% 0px;
+}
+
+
+#pagNosotros .contDerPagsInternas .descNosotros p:last-child {
+    position: relative;
+    top: 8%;
+    text-align: center;
+
+}
+
+/**********************************/
+/********* PAG COOKIES  ***********/
+/**********************************/
+
+#pagCookies .contenedorPagsInternas {
+    justify-content: initial;
+    align-items: initial;
+    flex-direction: column;
+    margin: 0;
+}
+
+#pagCookies .textoPoliticas {
+    color: #FFFFFF;
+    padding: 6% 12%;
+    font-size: 18px;
+}
+
+#pagCookies .textoPoliticas h3 {
+    font-size: 32px;
+    margin: 8% 0px 1% 0;
+    color: #C6E3FC;
+}
+
+#pagCookies .textoPoliticas h3 {
+    margin-top: 6%
+}
+
+#pagCookies .textoPoliticas hr {
+    border: 2px solid #C6E3FC;
+    width: 35%;
+}
+
+#pagCookies .textoPoliticas p {
+    margin: 2% 0;
+}
+
+#pagCookies .textoPoliticas p a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#pagCookies .textoPoliticas p {
+    line-height: 1.5;
+}
+
+
+#pagCookies .textoPoliticas ul li a {
+    text-decoration: underline;
+}
+
+
+
+
+
+/**********************************/
+/********** RESPONSIVE  ***********/
+/**********************************/
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+
+    /**PAG PRINCIPAL **/
+    .contenedorSupPP .textoPortada {
+        margin-left: 18%;
+    }
+
+    .contenedorSupPP .imgPortada {
+        left: 8%;
+        width: 40%;
+    }
+
+    .contenedorSupPP .imgPortada img {
+        width: 80%;
+        height: 350px;
+    }
+
+    .contIntServiciosPP {
+        width: 25%;
+    }
+
+    .fila2 p {
+        width: 70%;
+    }
+
+    .fila2 img {
+        width: 90%;
+    }
+
+    .imgSolicitudPP img {
+        width: 70%;
+    }
+
+    .piePag .menuInf {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 999px) {
+    /**PAG PRINCIPAL **/
+    /***CABECERA****/
+    .login {
+        position: absolute;
+        top: 2.5%;
+        right: 0;
+    }
+
+    .cabeceraPP .barraMenu {
+        flex-wrap: wrap;
+    }
+
+    .cabeceraPP .barraMenu .logoEmpresa {
+        margin-left: 0;
+    }
+
+    .logoEmpresa {
+        padding: 4% 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cabeceraPP .barraMenu .opcMenu {
+        padding: 0;
+    }
+
+    .cabeceraPP .barraMenu .opcMenu .menuSup {
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 4%;
+    }
+
+    .cabeceraPP .barraMenu .opcMenu .menuSup li {
+        width: 33.33%;
+        text-align: center;
+    }
+
+    .cabeceraPP .barraMenu .opcMenu {
+        padding: 4% 0;
+        width: 75%;
+        width: 100%;
+        margin-right: 0;
+        padding: 4% 2%;
+    }
+
+    .cabeceraPP .textoPortada .botonTextoPortada{
+        margin-top: 4%;
+        width: 40%;
+        margin-left: 33%;
+        padding: 0;
+    }
+    
+
+    .contenedorSupPP {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        padding-bottom: 8%;
+    }
+
+    .contenedorSupPP .textoPortada {
+        padding: 0 15%;
+        margin-left: 0;
+    }
+
+    .contenedorSupPP .textoPortada .descTextoPortada p br {
+        display: none;
+    }
+
+    .contenedorSupPP .imgPortada {
+        width: 85%;
+    }
+
+    .contenedorSupPP .imgPortada img {
+        width: 70%;
+        height: auto;
+        margin-top: 10%;
+    }
+
+    .imgPortada {
+        display: none;
+    }
+
+    /**NUESTROS SERVICIOS - PAG PRINCIPAL*/
+    .fila1{
+        margin-top: 12%;
+    }
+
+    .titFila {
+        margin-top: 8%;
+        margin-bottom: 5%;
+        font-size: 24px;
+    }
+
+    .descFila {
+        margin-bottom: 4%;
+        padding: 0 2%;
+        font-size: 34px;
+    }
+
+    .contExtServiciosPP {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin: 6%;
+    }
+
+
+    .contIntServiciosPP {
+        width: 65%;
+        margin: 6% 0;
+        font-size: 18px;
+    }
+
+    .contIntServiciosPP .titServicios{
+        font-size: 22px;
+    }
+
+    /* PANEL CONFIG - PAG PRINCIPAL*/
+    .textoPanelConfigPP {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fila2 {
+        flex-direction: column-reverse;
+        margin: 0;
+        margin-bottom: 10%;
+    }
+
+    .fila2 .titFila,
+    .fila2 .descFila {
+        text-align: center;
+    }
+
+    .fila2 .titFila p{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .fila2 .descFila{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .fila2 .descFila p{
+        margin-left: 9%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .fila2 .textoPanelConfigPP {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .fila2 .textoPanelConfigPP > p{
+        font-size: 18px;
+    }
+
+
+    .fila2 .descFila,
+    .fila2 .descFila p {
+        padding: 0;
+    }
+
+    .fila2 p {
+        width: 80%;
+        text-align: center;
+        padding: 0 14%;
+    }
+
+
+    .fila2 .imgPanelConfigPP {
+        width: 100%;
+        margin: 12% 0;
+        padding-left: 0%;
+    }
+
+    .fila2 img{
+        width: 55%;
+    }
+
+    /** SOLICITAR - PAG PRINC**/
+    .contenedorSolicitar {
+        flex-direction: column-reverse;
+    }
+
+    .imgSolicitudPP {
+        width: auto;
+    }
+
+    .imgSolicitudPP img {
+        width: auto;
+        padding: 4%;
+        margin-top: 8%;
+    }
+
+    .solicitudPP {
+        margin-top: 4%;
+    }
+
+    .solicitudPP p:first-child{
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+    .solicitudPP button {
+        width: 60%;
+        margin-top: 6%;
+        margin-bottom: 8%;
+    }
+    /**PIE PAG**/
+    .piePag .contSupPiePag {
+        flex-direction: column;
+        text-align: center;
+        padding: 2% 0;
+    }
+
+    .piePag .contSupPiePag .logoEmpresa h3 a {
+        margin-left: 0;
+    }
+
+    .piePag .logoEmpresa{
+        font-size: 18px;
+    }
+
+    .piePag .menuInf {
+        width: auto;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        margin-right: 0%;
+    }
+
+    .piePag .menuInf ul {
+        align-items: center;
+        padding: 0;
+    }
+
+    .piePag .menuInf ul li {
+        width: 33.33%;
+        font-size: 16px;
+    }
+
+    .contInfPiePag p {
+        font-size: 14px;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+
+    /*** CONTACTO ***/
+    .titPagsInternas {
+        padding: 7% 0;
+        margin-top: 2%;
+    }
+
+    .contenedorPagsInternas {
+        margin: 0% 5% 10% 5%;
+    }
+
+    .contenedorIntPagsInternas {
+        flex-direction: column-reverse;
+    }
+
+    .contDerPagsInternas,
+    .contIzqPagsInternas {
+        width: 100%;
+    }
+
+    #pagContacto label {
+        margin: 4% 0;
+    }
+
+    #pagContacto .contDerPagsInternas input {
+        padding: 4%;
+    }
+
+    #pagContacto .contDerPagsInternas input:last-of-type{
+        padding: 0;
+    }
+
+    .contDerPagsInternas {
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 0;
+    }
+
+    #pagContacto .contIzqPagsInternas {
+        padding-bottom: 8%;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 0;
+    }
+
+    .contIzqPagsInternas iframe {
+        margin-top: 12%;
+        margin-bottom: 4%;
+    }
+
+    #pagContacto .contIzqPagsInternas p {
+        margin: 1% 0;
+    }
+
+    #pagContacto .contDerPagsInternas form {
+        margin-top: 8%;
+    }
+
+    #pagContacto .contDerPagsInternas form {
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #pagContacto input,
+    #pagContacto textarea {
+        margin-bottom: 4%;
+    }
+
+    #pagContacto input.btnContacto {
+        position: initial;
+        margin: 8%;
+    }
+
+    #pagContacto label,
+    #pagContacto input,
+    #pagContacto textarea {
+        width: 95%;
+    }
+
+
+    /** SOBRE NOSOTROS **/
+    #pagNosotros .contenedorIntPagsInternas,
+    #pagLogin .contenedorIntPagsInternas {
+        flex-direction: column;
+    }
+
+    #pagNosotros .contIzqPagsInternas,
+    #pagLogin .contIzqPagsInternas {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0;
+        padding: 4%;
+    }
+
+    #pagNosotros .contDerPagsInternas,
+    #pagLogin .contDerPagsInternas {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    #pagNosotros .contIzqPagsInternas h1 {
+        margin-top: 10%;
+    }
+
+    #pagNosotros .contIzqPagsInternas img {
+        padding-top: 6%;
+        padding-bottom: 10%;
+    }
+
+    #pagNosotros .contDerPagsInternas .descNosotros,
+    #pagLogin .contDerPagsInternas .descNosotros {
+        width: 75%;
+        padding: 8% 0px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    #pagNosotros .contDerPagsInternas .descNosotros p:last-child {
+        margin-top: 16%;
+    }
+
+    #pagNosotros .contDerPagsInternas,
+    #pagLogin .contDerPagsInternas {
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    /** LOGIN **/
+    #pagLogin .contDerPagsInternas {
+        padding: 12% 0;
+    }
+
+    #pagLogin .titFormLogin {
+        font-size: 28px;
+        margin-top: 8%;
+        margin-bottom: 14%;
+    }
+
+    .cajaParametrosLogin {
+        margin: 0% 0 0% 10%;
+    }
+
+    .cajaParametrosLogin input,
+    textarea,
+    select {
+        width: 85%;
+        padding: 3%;
+        margin-bottom: 10%;
+    }
+
+    .textoRegistrar {
+        padding: 5%;
+        margin-bottom: 6%;
+    }
+
+    .contIzqPagsInternas .textoRegistrar {
+        margin-top: 6%;
+    }
+
+    .contIzqPagsInternas .btnForm .btn,
+    #pagContacto input.btnContacto {
+        width: 45%;
+    }
+
+    .contIzqPagsInternas .btnForm{
+        margin-top: 2%;
+    }
+
+    #titFormLogin {
+        margin: 12% 0;
+        margin-bottom: 16%;
+    }
+
+    /** REGISTRO **/
+    #pagLogin .cajaParametrosRegistro {
+        flex-direction: column;
+    }
+
+    #pagLogin .col2Registro {
+        margin-left: 0;
+    }
+
+    #pagLogin .cajaLocalidad {
+        margin: 0 2%;
+        width: 100%;
+        align-items: initial;
+    }
+
+    .cajaParametrosRegistro input{
+        margin-bottom: 10%;
+        padding: 3%;
+    }
+
+    #pagLogin .cajaLocalidad select {
+        width: 96%;
+    }
+
+    /**PAG COOKIES**/
+    #pagCookies .textoPoliticas h3{
+        margin-top: 10%;
+    }
+
+    #pagCookies .textoPoliticas ul{
+        margin: 6% 0;
+    }
+
+    #pagCookies .textoPoliticas ul li{
+        margin: 4% 0;
+    }
+
+    #pagCookies .textoPoliticas hr{
+        width: 60%;
+        margin-bottom: 4%;
+    }
+
+
+    /**PAG COOKIES, AVISO PRIVACIDAD, TERMINOS Y CONDICIONES**/
+    #pagCookies .textoPoliticas h3{
+        margin-top: 10%;
+    }
+
+    #pagCookies .textoPoliticas ul{
+        margin: 6% 0;
+    }
+
+    #pagCookies .textoPoliticas ul li{
+        margin: 4% 0;
+    }
+
+    #pagCookies .textoPoliticas hr{
+        width: 60%;
+        margin-bottom: 4%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /***CABECERA****/
+    .login {
+        position: absolute;
+        top: 2.5%;
+        right: 0;
+    }
+
+    .cabeceraPP .barraMenu {
+        flex-wrap: wrap;
+    }
+
+    .cabeceraPP .barraMenu .logoEmpresa {
+        margin-left: 0;
+    }
+
+    .logoEmpresa {
+        padding: 4% 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cabeceraPP .barraMenu .opcMenu {
+        padding: 0;
+    }
+
+    .cabeceraPP .barraMenu .opcMenu .menuSup {
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 4%;
+    }
+
+    .cabeceraPP .barraMenu .opcMenu .menuSup li {
+        width: 33.33%;
+        text-align: center;
+    }
+
+    .cabeceraPP .barraMenu .opcMenu {
+        padding: 4% 0;
+        width: 75%;
+        width: 100%;
+        margin-right: 0;
+        padding: 4% 2%;
+    }
+
+    .contenedorSupPP {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .contenedorSupPP .textoPortada {
+        padding: 0 15%;
+        margin-left: 0;
+    }
+
+    .contenedorSupPP .textoPortada .descTextoPortada p br {
+        display: none;
+    }
+
+    .contenedorSupPP .textoPortada .botonTextoPortada {
+        margin: 0;
+    }
+
+    .contenedorSupPP .imgPortada {
+        width: 85%;
+    }
+
+    .contenedorSupPP .imgPortada img {
+        width: 70%;
+        height: auto;
+        margin-top: 10%;
+    }
+
+    .contenedorSupPP .textoPortada .botonTextoPortada {
+        padding: 15% 0;
+    }
+
+    .imgPortada {
+        display: none;
+    }
+
+    /**NUESTROS SERVICIOS - PAG PRINCIPAL*/
+    .titFila {
+        margin-top: 20%;
+        margin-bottom: 5%;
+    }
+
+    .descFila {
+        margin-bottom: 15%;
+        padding: 0 2%;
+    }
+
+    .contExtServiciosPP {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contIntServiciosPP {
+        width: 75%;
+        margin: 10% 0;
+    }
+
+    /* PANEL CONFIG - PAG PRINCIPAL*/
+    .textoPanelConfigPP {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fila2 {
+        flex-direction: column-reverse;
+        margin: 0;
+        margin-bottom: 10%;
+    }
+
+    .fila2 .titFila,
+    .fila2 .descFila {
+        text-align: center;
+    }
+
+    .fila2 .textoPanelConfigPP {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .fila2 .descFila,
+    .fila2 .descFila p {
+        padding: 0;
+    }
+
+    .fila2 p {
+        width: 100%;
+        text-align: center;
+        padding: 0 14%;
+    }
+
+
+    .fila2 .imgPanelConfigPP {
+        width: 100%;
+        margin: 20% 0;
+        padding-left: 0%;
+    }
+
+    /** SOLICITAR - PAG PRINC**/
+    .contenedorSolicitar {
+        flex-direction: column-reverse;
+    }
+
+    .imgSolicitudPP {
+        width: auto;
+    }
+
+    .imgSolicitudPP img {
+        width: auto;
+        padding: 10%;
+    }
+
+    .solicitudPP {
+        margin-top: 4%;
+    }
+
+    .solicitudPP button {
+        width: 60%;
+        margin-top: 8%;
+        margin-bottom: 12%;
+    }
+
+    /**PIE PAG**/
+    .piePag .contSupPiePag {
+        flex-direction: column;
+        text-align: center;
+        padding: 6% 0;
+    }
+
+    .piePag .contSupPiePag .logoEmpresa h3 a {
+        margin-left: 0;
+    }
+
+    .piePag .menuInf {
+        width: auto;
+        margin-top: 4%;
+        margin-bottom: 2%;
+        margin-right: 0%;
+        font-size: 14px;
+    }
+
+    .piePag .menuInf ul {
+        align-items: center;
+        padding: 0;
+    }
+
+    .piePag .menuInf ul li {
+        width: 33.33%;
+    }
+
+    .contInfPiePag p {
+        font-size: 12px;
+        padding-top: 4%;
+        padding-bottom: 6%;
+    }
+
+
+    /*** CONTACTO ***/
+    .titPagsInternas {
+        padding: 7% 0;
+        margin-top: 2%;
+    }
+
+    .contenedorPagsInternas {
+        margin: 0% 5% 10% 5%;
+    }
+
+    .contenedorIntPagsInternas {
+        flex-direction: column-reverse;
+    }
+
+    .contDerPagsInternas,
+    .contIzqPagsInternas {
+        width: 100%;
+    }
+
+    #pagContacto label {
+        margin: 4% 0;
+    }
+
+    #pagContacto .contDerPagsInternas input {
+        padding: 2%;
+    }
+
+    .contDerPagsInternas {
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 0;
+    }
+
+    #pagContacto .contIzqPagsInternas {
+        padding-bottom: 8%;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 0;
+    }
+
+    .contIzqPagsInternas iframe {
+        margin-top: 12%;
+        margin-bottom: 4%;
+    }
+
+    #pagContacto .contIzqPagsInternas p {
+        margin: 1% 0;
+    }
+
+    #pagContacto .contDerPagsInternas form {
+        margin-top: 8%;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #pagContacto input,
+    #pagContacto textarea {
+        margin-bottom: 4%;
+    }
+
+    #pagContacto input.btnContacto {
+        position: initial;
+        margin: 8%;
+    }
+
+    #pagContacto label,
+    #pagContacto input,
+    #pagContacto textarea {
+        width: 95%;
+    }
+
+
+    /** SOBRE NOSOTROS **/
+    #pagNosotros .contenedorIntPagsInternas,
+    #pagLogin .contenedorIntPagsInternas {
+        flex-direction: column;
+    }
+
+    #pagNosotros .contIzqPagsInternas,
+    #pagLogin .contIzqPagsInternas {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0;
+        padding: 4%;
+    }
+
+    #pagNosotros .contDerPagsInternas,
+    #pagLogin .contDerPagsInternas {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    #pagNosotros .contIzqPagsInternas h1 {
+        margin-top: 10%;
+    }
+
+    #pagNosotros .contIzqPagsInternas img {
+        padding-top: 6%;
+        padding-bottom: 10%;
+    }
+
+    #pagNosotros .contDerPagsInternas .descNosotros,
+    #pagLogin .contDerPagsInternas .descNosotros {
+        width: 75%;
+        padding: 8% 0px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    #pagNosotros .contDerPagsInternas .descNosotros p:last-child {
+        margin-top: 16%;
+    }
+
+    #pagNosotros .contDerPagsInternas,
+    #pagLogin .contDerPagsInternas {
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    /** LOGIN **/
+    #pagLogin .contDerPagsInternas {
+        padding: 12% 0;
+    }
+
+    #pagLogin .titFormLogin {
+        font-size: 28px;
+        margin-top: 10%;
+        margin-bottom: 16%;
+    }
+
+    .cajaParametrosLogin {
+        margin: 10% 0 10% 10%;
+    }
+
+    .cajaParametrosLogin input,
+    textarea,
+    select {
+        width: 85%;
+        padding: 4%;
+        margin-bottom: 10%;
+    }
+
+    .textoRegistrar {
+        padding: 5%;
+        margin-bottom: 6%;
+    }
+
+    .contIzqPagsInternas .textoRegistrar {
+        margin-top: 12%;
+    }
+
+    .contIzqPagsInternas .btnForm .btn,
+    #pagContacto input.btnContacto {
+        width: 45%;
+    }
+
+    #titFormLogin {
+        margin: 12% 0;
+        margin-bottom: 16%;
+    }
+
+    /** REGISTRO **/
+    #pagLogin .cajaParametrosRegistro {
+        flex-direction: column;
+    }
+
+    #pagLogin .col2Registro {
+        margin-left: 0;
+    }
+
+    #pagLogin .cajaLocalidad {
+        margin: 0 2%;
+        width: 100%;
+        align-items: initial;
+    }
+
+    #pagLogin .cajaLocalidad select {
+        width: 96%;
+    }
+
+    /**PAG COOKIES, AVISO PRIVACIDAD, TERMINOS Y CONDICIONES**/
+    #pagCookies .textoPoliticas h3{
+        margin-top: 14%;
+    }
+
+    #pagCookies .textoPoliticas ul{
+        margin: 6% 0;
+    }
+
+    #pagCookies .textoPoliticas ul li{
+        margin: 4% 0;
+    }
+
+    #pagCookies .textoPoliticas hr{
+        width: 80%;
+        margin-bottom: 4%;
+    }
+
+
+}

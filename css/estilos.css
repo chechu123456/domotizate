@@ -1,0 +1,1180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********* POP UP - SWEETALERT ***********/
+.swal-text, .swal-title{
+    color: rgba(0,0,0,1);
+}
+
+.swal-text{
+    font-size: 18px;
+    padding: 2%;    
+}
+.swal-overlay--show-modal .swal-modal{
+    will-change: initial;
+}
+
+
+
+.contenedorErrores{
+    display: none;
+}
+
+.icoCerrarSesion{
+    position: fixed;
+    right: 3.5%;
+    top: 5%;
+    width: 1.5%;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.fondoPanel{
+    background-image: radial-gradient(circle at 25.82% -16.45%, #a1a3e3 0, #5f6ebb 50%, #003e94 100%);
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.menuVertPanel{
+    width: 5%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    margin-left: 1%;
+}
+
+.menuOpcSeleccionada1{
+    position: absolute;
+    background-color: #4C5A9C;
+    width: 90px;
+    height: 35px;
+    top: 41.4vh;
+    left: -18%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.iconosMenuPanel{
+    margin-top: 24vh;
+}
+
+.iconosMenuPanel .iconoMP{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60% 0px;
+}
+
+.iconosMenuPanel img{
+    width: 25px;
+    filter: invert(100%);
+    margin-top: 15%;
+}
+
+.userMenuInfPanel{
+    margin-top: 20vh;
+}
+.userMenuInfPanel img{
+    border-radius: 50px;
+}
+
+.userMenuInfPanel p{
+    text-align: center;
+}
+
+.letraUserLogPanel{
+    font-size: 30px;
+    margin-top: 45%;
+}
+
+.userMenuInfPanel img{
+    width: 45px;
+}
+
+.contenedorPagPanel{
+    width: 90%;
+    margin-left: 10%;
+}
+
+.contenedorPagPanel .titPrincPanel{    
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 3.5%;
+    margin-bottom: 4.5%;
+}
+
+.contenedorPagPanel .titPrincPanel{
+    width: 90%;
+    text-transform: uppercase;
+}
+
+.titPrincPanel h1{
+    font-size: 40px;
+}
+
+.contenedorPagPanel .contFechaTiempo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+
+.contenedorPagPanel .contFechaTiempo .contFechaHora, .contenedorPagPanel .contFechaTiempo .contTiempo{
+    width: 41%;
+}
+
+.paneles{
+    background: #4F5C9C;
+    color: white;
+    border-radius: 25px;
+}
+
+
+
+.contenedorPagPanel .contFechaHora, .contenedorPagPanel .contTiempo{
+    width: 40%;
+}
+
+.contenedorPagPanel .contFechaHora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.contenedorPagPanel .contTiempo{
+    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.contFechaHora .subTitPanelFila1, .contTiempo .subTitPanelFila1{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.contFechaHora .fecha, .contTiempo .direccionTiempo{
+    font-size: 12px;
+    margin: 2%;
+}
+
+.contFechaHora .hora, .contTiempo .gradosTiempo{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.contTiempo .gradosTiempo{
+    padding-left: 12%;
+}
+
+
+
+.textoTiempo .errorDatosTiempo{
+    margin-top: 25%;
+    margin-left: 40%;
+    width: 100%;
+}
+
+.contenedorPagPanel .contTiempo img{
+    width: 70px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(13%) hue-rotate(355deg) brightness(104%) contrast(102%);
+}
+
+.contIntTiempo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+}
+
+.contSensores{
+    margin-top: 3.7%;
+}
+
+.contSensores form{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+.contTiempo .subTitPanelFila1, .contTiempo .gradosTiempo{
+    width: 100%;
+}
+
+
+.contSensores form .contIzqSensores{
+    width: 62%;
+}
+
+.contDistribucionPanelLuces{
+    text-align: center;
+    color: white;
+}
+
+.subTitPanelesFila2, .contTemperatura p:first-child{
+    font-size: 30px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.contTemperatura p:first-child{
+    margin-top: 0;
+}
+
+.opcLucesBloque1, .opcLucesBloque2{
+    width: 40%;
+}
+
+.contBarraDivisora{
+    display: flex;
+    justify-content: center;
+    margin: 4% 2%;
+}
+
+.contBarraDivisora hr{
+    width: 85%;
+}
+
+.titAscensor{
+    font-size: 30px;
+    margin: 4% 3% 3% 3%;
+}
+
+.plantasAscensor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 4%;
+}
+
+.pb, .pa{
+    width: 18%;
+    padding: 2% 0;
+    background-color: #6D7CBD;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.botonBloqueado{
+    background-color: grey;
+    color: white;
+}
+
+.plantaSeleccionada{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.opcL{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 8% 15% 6% 15%;
+
+}
+
+.contSensores form .contDerSensores{
+    width: 24%;
+    margin-left: 4%;
+}
+
+.contIzqSensores .opcionesLuces{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contDerSensores .contTemperatura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 0;
+}
+
+.contGaraje, .contPP, .ventilador, .contAlarma{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+#alarma{
+    width: 50%;
+    padding: 1%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contSensor .paneles{
+    margin-top: 10%;
+}
+
+.tempHum{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.temp, .hum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.temp img, .hum img{
+    width: 35px;
+}
+
+
+.piePagPanel{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 2%;
+    color: white;
+}
+
+.estadoArduino{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.formaCirculo{
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+}
+
+.formaCirculo.conectado{
+    background-color: #00FF42;
+}
+
+.formaCirculo.desconectado{
+    background-color: #FF0000;
+}
+
+.logoPagPanel{
+    font-weight: bold;
+}
+
+.logoPagPanel p a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/**********************/
+/***** BOTONES ********/
+/**********************/
+
+.boton{
+    margin: 10px;
+}
+
+.lbl-switch{
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn-switch:checked ~ .lbl-switch, #btn-switch2:checked ~ .lbl-switch, #btn-switch3:checked ~ .lbl-switch,
+#btn-switch4:checked ~ .lbl-switch, #btn-switch5:checked ~ .lbl-switch, #btn-switch6:checked ~ .lbl-switch,
+#btn-switch7:checked ~ .lbl-switch, #btn-switch8:checked ~ .lbl-switch, #btn-switch9:checked ~ .lbl-switch,
+#btn-switch10:checked ~ .lbl-switch{
+    background-color: #6D7CBD;
+}
+
+.lbl-switch::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-color: #6C7ABE;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+
+#btn-switch:checked ~ .lbl-switch::after, #btn-switch2:checked ~ .lbl-switch::after, #btn-switch3:checked ~ .lbl-switch::after,
+#btn-switch4:checked ~ .lbl-switch::after, #btn-switch5:checked ~ .lbl-switch::after, #btn-switch6:checked ~ .lbl-switch::after,
+#btn-switch7:checked ~ .lbl-switch::after, #btn-switch8:checked ~ .lbl-switch::after, #btn-switch9:checked ~ .lbl-switch::after,
+#btn-switch10:checked ~ .lbl-switch::after{
+    left: 28px;
+    background-color: #D9DBEA;
+}
+
+#btn-switch, #btn-switch2, #btn-switch3, #btn-switch4, #btn-switch5, #btn-switch6,#btn-switch7, #btn-switch8,#btn-switch9, #btn-switch10{
+    display: none;
+}
+
+
+ 
+/**********************/
+/*** CONFIGURACION ****/
+/**********************/
+
+.configPanel .contenedorPagPanel{
+     width: 90%;
+ }
+
+.configPanel .contConfiguracion{
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titConfigPanel{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+
+
+.tiempoConfig, .nombSensores{
+    width: 80%;
+}
+
+
+
+.tiempoConfig p:first-child, .nombSensores .titSensoresConf{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.titSensoresConf{
+    padding: 2%;
+}    
+
+    
+.configPanel form p{
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+.tiempoConfig .titSensoresConf p{
+    margin-left: 0;
+}
+
+.configPanel .contFormSensores input{
+    width: 70%;
+    padding: 1%;
+}
+
+.configPanel .listaLocalidades{
+    padding: 1%;
+    width: 55%;
+    margin-left: 2%;
+}
+
+.contFormSensores{
+    margin-top: 5%;
+}
+
+.colIzqSensoresConf .contFormSensores:first-child, .colDerSensoresConf .contFormSensores:first-child{
+    margin-top: 0;
+}
+
+
+.btnEnviarConf{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.configPanel form input, .btnDefecto{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.configPanel form input[type="submit"], .btnDefecto{
+    margin-right: 2%;
+    width: 15%;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    cursor: pointer;
+}
+
+.configPanel form input[type="submit"]:hover, .btnDefecto:hover{
+    background-color: #555555;
+    color: white;
+}
+.contSensoresConfig{
+    display: flex;
+    flex-direction: row;
+}
+
+.colIzqSensoresConf, .colDerSensoresConf{
+    width: 50%;
+    margin-top: 3%;
+}
+
+.btnEnviarConf{
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.temaPanel select{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+/** TEMA **/
+.temaPanel .btnEnviarConf{
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+.temaPanel .contTemaCols{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temaPanel .temaColIzq, .temaPanel .temaColDer{
+    width: 45%;
+}
+
+.temaPanel .temaColIzq{
+    text-align: right;
+    margin-right: 16%;
+
+}
+
+.temaPanel .contTemaCols input, select{
+    margin: 4% 0;
+}
+
+
+/**********************/
+/**** GRÁFICAS  *******/
+/**********************/
+.contGraficas .titConfigPanel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contGraficas .titConfigPanel hr{
+    text-align: center;
+    margin: 2% 0;
+    width: 85%;
+}
+
+.contGraficas .grafTemp, .contGraficas .grafHum{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 4% 0;
+}
+
+.contGraficas .contSupTemp, .contGraficas .contSupHum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.contGraficas .contSupTemp .filtradoGraficas, .contGraficas .contSupHum .filtradoGraficas{
+    width: 15%;
+}
+
+.contGraficas .filtradoGraficas select{
+    width: 100%;
+    text-align: center;
+}
+
+.contGraficas .contSupTemp .iconosTemp, .contGraficas .contSupHum .iconosHum{
+    width: 25%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.contGraficas .contSupTemp .iconosTemp .maxTemp, .contGraficas .contSupTemp .iconosTemp .minTemp,
+.contGraficas .contSupHum .iconosHum .maxHum, .contGraficas .contSupHum .iconosHum .minHum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contGraficas .contSupTemp img, .contGraficas .contSupHum img{
+    width: 50px;
+}
+
+#contGraficaTemp, #contGraficaHum{
+    margin-top: 4%;
+}
+
+@media screen and (min-width: 1000px)  and (max-width: 1400px) {
+    .icoCerrarSesion{
+        top: 4.5%;
+        width: 2%;
+    }
+
+    .contTemperatura p:first-child{
+        font-size: 1.6vw;
+    }
+
+    .opcL p, .contSensor p{
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 999px) {
+    .icoCerrarSesion{
+        top: 4.5%;
+        right: 2.5%;
+        width: 3.5%;
+    }
+
+    .fondoPanel{
+        flex-direction: row-reverse;
+    }
+
+    .contenedorPagPanel{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 9.5%;
+    }
+
+    #configPanel, .contenedorPagPanel{
+        padding-left: 0%;
+    }
+
+    .menuVertPanel{
+        width: 100%;
+        bottom: 0;
+        flex-direction: row;
+        padding: 0 4%;
+        background: #4169E1;
+        z-index: 99;
+    }
+
+   
+
+    .menuOpcSeleccionada1, .menuOpcSeleccionada2, .menuOpcSeleccionada3{
+        width: 40px;
+        position: absolute;
+        top: 8.5%;
+        left: 34%;
+        height: 40px;
+        border-radius: 50px;
+        border: 1px solid black;
+    }
+
+    .userMenuInfPanel p{
+        display: none;
+    }
+
+    .letraUserLogPanel, .iconosMenuPanel, .userMenuInfPanel{
+        margin-top: 0;
+    }
+
+    .contenedorPagPanel .titPrincPanel{
+        margin: 15% 0;
+    }
+
+    .contenedorPagPanel .contFechaTiempo, .contSensores form{
+        flex-direction: column;
+    }
+
+    .contenedorPagPanel .contFechaTiempo{
+        margin-top: 10%;
+    }
+
+   .contenedorPagPanel .contFechaTiempo .contFechaHora, .contenedorPagPanel .contFechaTiempo .contTiempo, .contSensores form .contIzqSensores {
+        width: 90%;
+    }
+
+    .contenedorPagPanel .contTiempo{
+        margin-left: 0;
+    }
+
+    .contSensores form .contDerSensores{
+        margin-left: 0;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .contTiempo{
+        margin-top: 10%;
+    }
+
+    .contIntTiempo{
+        width: 65%;
+    }
+
+    .textoTiempo{
+        width: 100%;
+    }
+
+    .contSensores {
+        margin-top: 10%;
+    }
+
+    .contenedorPagPanel .contTiempo img{
+        left: 25%;
+        top: 48%;
+    }
+
+    .direccionTiempo{
+        margin-left: 10% !important;
+        margin-top: 4% !important;
+    }
+
+    .contTiempo .gradosTiempo{
+        margin-top: 5%;
+    }
+
+    .contenedorPagPanel .contTiempo, .contenedorPagPanel .contFechaHora{
+        padding: 6% 0;
+    }
+
+
+    .contIzqSensores .opcionesLuces {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opcLucesBloque1, .opcLucesBloque2{
+        width: 90%;
+    }
+
+    .opcL{
+        justify-content: space-between
+    }
+
+    .opcLucesBloque2 .opcL:first-child{
+        margin-top: 2%;
+    }
+
+    .contDerSensores .contTemperatura, .contSensor{
+        width: 75%;
+    }
+
+    .iconosMenuPanel{
+        display: flex;
+        flex-direction: row;
+        width: 25%;
+        justify-content: space-around;
+    }
+
+    .iconosMenuPanel .iconoMP{
+        margin: 0 0% 0 0%;
+    }
+
+    .userMenuInfPanel img {
+        margin-top: 4%;
+    }
+
+    .contBarraDivisora{
+        display: flex;
+        justify-content: center;
+        padding-top: 8%;
+        padding-bottom: 2%;
+    }
+
+    .titAscensor{
+        margin: 8%;
+    }
+
+    .plantasAscensor{
+        justify-content: space-evenly;
+        padding-bottom: 8%;
+    }
+
+    .pa,.pb{
+        width: 40%;
+        padding: 4% 0;
+    }
+
+    .piePagPanel{
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+
+    .estadoArduino{
+        width: 35%;
+        justify-content: flex-start;
+    }
+    
+    .formaCirculo{
+        width: 10px;
+        height: 10px;
+        margin-left: 8%;
+    }
+
+    /** CONFIG **/
+    .configPanel form input[type="submit"]{
+        width: 25%;
+    }
+
+    /** TEMAS**/
+    .temaPanel .contTemaCols {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .temaPanel .temaColIzq{
+        text-align: initial;
+        margin-right: 0; 
+    }
+
+    .temaPanel .temaColIzq, .temaPanel .temaColDer{
+        width: 100%;
+    }
+
+    .temaPanel .temaColDer{
+        margin-top: -4%;
+    }
+
+    .temaPanel form input[type="submit"], .btnDefecto{
+        width: 25%;
+    }
+
+    .temaPanel .titConfigPanel{
+        padding: 8% 6% 4% 6%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /*MOVILES*/
+
+    .icoCerrarSesion{
+        top: 1.5%;
+        right: 1%;
+        width: 6%;
+    }
+
+    .fondoPanel{
+        flex-direction: row-reverse;
+    }
+
+    .contenedorPagPanel{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 9.5%;
+    }
+
+    .menuVertPanel{
+        width: 100%;
+        bottom: 0;
+        flex-direction: row;
+        padding: 0 4%;
+        background: #4169E1;
+        z-index: 99;
+    }
+
+    
+
+    .iconosMenuPanel{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menuOpcSeleccionada1, .menuOpcSeleccionada2, .menuOpcSeleccionada3{
+        width: 40px;
+        position: absolute;
+        top: 8.5%;
+        left: 34%;
+        height: 40px;
+        border-radius: 50px;
+        border: 1px solid black;
+    }
+
+    .userMenuInfPanel p{
+        display: none;
+    }
+
+    .letraUserLogPanel, .iconosMenuPanel, .userMenuInfPanel{
+        margin-top: 0;
+    }
+
+    .contenedorPagPanel .titPrincPanel{
+        margin: 15% 0;
+    }
+
+    .contenedorPagPanel .contFechaTiempo, .contSensores form{
+        flex-direction: column;
+    }
+
+    .contenedorPagPanel .contFechaTiempo{
+        margin-top: 10%;
+    }
+
+   .contenedorPagPanel .contFechaTiempo .contFechaHora, .contenedorPagPanel .contFechaTiempo .contTiempo, .contSensores form .contIzqSensores {
+        width: 90%;
+    }
+
+    .contenedorPagPanel .contTiempo{
+        margin-left: 0;
+    }
+
+    .contSensores form .contDerSensores{
+        margin-left: 0;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .contTiempo{
+        margin-top: 10%;
+    }
+
+    .contIntTiempo{
+        width: 65%;
+    }
+
+    .textoTiempo{
+        width: 100%;
+    }
+
+    .contSensores {
+        margin-top: 10%;
+    }
+
+    .contenedorPagPanel .contTiempo img{
+        left: 25%;
+        top: 48%;
+    }
+
+    .direccionTiempo{
+        margin-left: 10% !important;
+        margin-top: 4% !important;
+    }
+
+    .contTiempo .gradosTiempo{
+        margin-top: 5%;
+    }
+
+    .contenedorPagPanel .contTiempo, .contenedorPagPanel .contFechaHora{
+        padding: 6% 0;
+    }
+
+
+    .contIzqSensores .opcionesLuces {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opcLucesBloque1, .opcLucesBloque2{
+        width: 90%;
+    }
+
+    .opcL{
+        justify-content: space-between
+    }
+
+    .opcLucesBloque2 .opcL:first-child{
+        margin-top: 2%;
+    }
+
+    .contDerSensores .contTemperatura, .contSensor{
+        width: 75%;
+    }
+
+    .iconosMenuPanel{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-around;
+        margin-left: 8%;
+    }
+
+    .iconosMenuPanel .iconoMP{
+        margin: 0 0% 0 0%;
+    }
+
+    .userMenuInfPanel img {
+        margin-top: 4%;
+    }
+
+    .contBarraDivisora{
+        display: flex;
+        justify-content: center;
+        padding-top: 8%;
+        padding-bottom: 2%;
+    }
+
+    .titAscensor{
+        margin: 8%;
+    }
+
+    .plantasAscensor{
+        justify-content: space-evenly;
+        padding-bottom: 8%;
+    }
+
+    .pa,.pb{
+        width: 40%;
+        padding: 4% 0;
+    }
+
+    .subTitPanelesFila2, .contTemperatura p:first-child{
+        font-size: 18px;
+    }
+
+    .piePagPanel{
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+
+    .estadoArduino{
+        width: 35%;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    .formaCirculo{
+        width: 10px;
+        height: 10px;
+        margin-left: 6%;
+        margin-top: 8%;
+    }
+
+    /*PAG CONFIGURACIÓN*/
+    .configPanel .contenedorPagPanel {
+        padding: 0;
+    }
+
+    .titConfigPanel{
+        padding: 12% 0;
+    }
+
+    .configPanel .listaLocalidades{
+        width: auto;
+    }
+
+    .titSensoresConf ~ hr ~ p{
+        margin-top: 15%;
+    }
+
+    .contSensoresConfig{
+        flex-direction: column;
+    }
+    
+    .nombSensores{
+        margin-top: 5%;
+    }
+
+    .colIzqSensoresConf, .colDerSensoresConf,.configPanel .contFormSensores input{
+        width: 100%;
+    }
+    .colIzqSensoresConf .contFormSensores:first-child, .colDerSensoresConf .contFormSensores:first-child, .contFormSensores{
+        margin-top: 15%;
+    }
+
+    .btnEnviarConf{
+        margin-bottom: 10%;
+    }
+
+    .configPanel form input[type="submit"]{
+        width: 45%;
+        padding: 2%;
+        margin-top: 15%;
+    }
+
+    /** TEMAS**/
+    .temaPanel .contTemaCols {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .temaPanel .contTemaCols input, select{
+        margin: 4% auto;
+    }
+
+    .temaPanel .temaColIzq, .temaPanel .temaColDer{
+        text-align: initial;
+        margin-right: 0; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .temaPanel .temaColIzq, .temaPanel .temaColDer{
+        width: 100%;
+    }
+
+    .temaPanel .temaColDer{
+        margin-top: -4%;
+    }
+
+    .temaPanel select {
+        margin-left: auto;
+        margin-top: 6%;
+    }
+
+    .temaPanel form input[type="submit"], .btnDefecto{
+        width: 40%;
+        margin-top: 10%;
+    }
+
+    .btnDefecto{
+        height: 35px;
+    }
+
+    .temaPanel .titConfigPanel{
+        padding: 8% 6% 4% 6%;
+    }
+  
+  }
+
+
