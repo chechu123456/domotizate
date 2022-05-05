@@ -32,7 +32,7 @@
         
         $_SESSION['nickname'] = $nickname;
         $_SESSION['idCasa'] = $listado->buscarIdCasaNickname($nickname);
-        $desconectarArduino = $listado->crearTienenRegistro("arduino", "0", $_SESSION['idCasa']);
+        $desconectarArduino = $listado->crearTienenRegistro("arduino", "0", $_SESSION['idCasa'],  "arduino_$idCasa");
     
         if($listado->comprobarUsuarioContrasena($nickname, $password)){
             echo "Usuario y contraseña OK";

@@ -9,3 +9,4 @@
     $db_name = "r165651_domotizate";
     $listado = new Listado($db_host, $db_user, $db_passwd, $db_name);
     
+    

@@ -22,20 +22,20 @@
 
         if($sensores['puertaGaraje'] == 1){
             echo "puertaGaraje=1 \n";
-            $listado->crearTienenRegistro("puertaGaraje","E",$idCasa);
+            $listado->crearTienenRegistro("puertaGaraje","E",$idCasa,"arduino_$idCasa");
         }else if($sensores['puertaGaraje'] == 0){
             echo "puertaGaraje=0 \n";
-            $listado->crearTienenRegistro("puertaGaraje","E",$idCasa);
+            $listado->crearTienenRegistro("puertaGaraje","E",$idCasa, "arduino_$idCasa");
         }else{
             echo "puertaGaraje=E \n";
         }
 
         if($sensores['puertaPrincipal'] == 1){
             echo "puertaPP=1 \n";
-            $listado->crearTienenRegistro("puertaPrincipal","E",$idCasa);
+            $listado->crearTienenRegistro("puertaPrincipal","E",$idCasa, "arduino_$idCasa");
         }else if($sensores['puertaPrincipal'] == 0){
             echo "puertaPP=0 \n";
-            $listado->crearTienenRegistro("puertaPrincipal","E",$idCasa);
+            $listado->crearTienenRegistro("puertaPrincipal","E",$idCasa, "arduino_$idCasa");
         }else{
             echo "puertaPP=E \n";
         }

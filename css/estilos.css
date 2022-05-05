@@ -654,6 +654,37 @@
     margin-top: 4%;
 }
 
+/*************************/
+/******* LOG *************/
+/*************************/
+
+.contLog{
+    padding-bottom: 6%;
+}
+
+#tablaLogs_wrapper{
+    width: 80%;
+    background: white;
+    color: black;
+    padding: 3%;
+}
+
+#tablaLogs_wrapper table{
+    padding: 2%;
+}
+
+#tablaLogs_wrapper td{
+    text-align: center;
+}
+
+#tablaLogs_paginate, #tablaLogs_info{
+    margin-top: 2%;
+
+}
+
+
+
+
 @media screen and (min-width: 1000px)  and (max-width: 1400px) {
     .icoCerrarSesion{
         top: 4.5%;

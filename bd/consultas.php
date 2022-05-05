@@ -1,4 +1,4 @@
-<?php
+<?php 
     require("conexion.php");
     class Listado extends Conexion{
 
@@ -155,7 +155,7 @@
                     }
                     echo ' ar: '. $enlace->affected_rows.'<br>';
 
-                    $this->crearSensorTienenRegistro($idCasa);
+                    $this->crearSensorTienenRegistro($idCasa, $nickname);
                     
                     mysqli_close($enlace);
                 }                    
@@ -185,7 +185,7 @@
                 }
                 echo ' ar: '. $enlace->affected_rows.'<br>';
                     
-                $this->crearSensorTienenRegistro($idCasa);
+                $this->crearSensorTienenRegistro($idCasa, $nickname);
 
 
                 mysqli_close($enlace);
@@ -455,10 +455,10 @@
             return $localidadActualizada;
         }
 
-        function crearRegistro($valor){
+        function crearRegistro($valor, $nickname){
             ($valor == "NULL") ? $valor = 'NULL': $valor = $valor;        
 
-            $query = "INSERT INTO registro (valor) VALUES('".$valor."')";
+            $query = "INSERT INTO registro (valor, nickname) VALUES('".$valor."', '".$nickname."')";
             
             $enlace = parent::conecta();
             $res = $enlace ->query($query);
@@ -484,9 +484,9 @@
             return $registroCreado;
         }
 
-        function obtenerUltRegistro(){
+        function obtenerUltRegistro($nickname){
            
-            $query = "SELECT idRegistro FROM registro ORDER BY idRegistro DESC LIMIT 1";
+            $query = "SELECT idRegistro FROM registro WHERE nickname = '".$nickname."' ORDER BY idRegistro DESC LIMIT 1";
             
             $enlace = parent::conecta();
             $res = $enlace ->query($query);
@@ -537,6 +537,39 @@
             mysqli_close($enlace);
 
             return $registroActualizado;
+        }
+
+        function listarRegistrosCasa($idCasa){
+            $registrosCasa = new stdClass();
+            $datos = array();
+            $array = array();
+
+            if(!empty($idCasa)){
+                $query = "SELECT registro.idRegistro, registro.fechaRegistro, registro.valor, registro.nickname
+                            FROM registro
+                            INNER JOIN tienen ON tienen.idRegistro = registro.idRegistro
+                            INNER JOIN sensor ON tienen.idSensor = sensor.idSensor
+                            INNER JOIN casa ON sensor.idCasa = sensor.idCasa
+                            WHERE casa.idCasa =$idCasa";
+
+                        
+                if($res = parent::conecta()->query($query)) {   
+                    while( $fila = mysqli_fetch_assoc($res) ){     
+                        $datos[]  = $fila;       
+                    }
+                    $registrosCasa->data = $datos;   
+                }else{
+                    echo "No se han obtenido los registros de la casa";
+                }
+
+            }else{
+                echo "ERROR: No se pudo obtener el listado de registros de la casa porque no se tiene el IdCasa";
+            }
+
+            return $registrosCasa;
+            
+            mysqli_close(parent::conecta());
+            
         }
 
 
@@ -670,7 +703,7 @@
             return $crearTienen;
         }
 
-        function crearSensorTienenRegistro($idCasa){            
+        function crearSensorTienenRegistro($idCasa, $nickname){            
             //Al crear la casa se crearan y se asignaran los sensores y el registro, que permite tener un historial
             //de todos los eventos con los sensores 
             //Se inicializa, para que cuando se cree el usuario, tenga un valor inicial y no de errores al entrar 
@@ -688,8 +721,8 @@
                     $valorSensorDefecto = 0;
                 }
                 
-                $this->crearRegistro($valorSensorDefecto);
-                $idRegistro = $this->obtenerUltRegistro();
+                $this->crearRegistro($valorSensorDefecto, $nickname);
+                $idRegistro = $this->obtenerUltRegistro($nickname);
                 
                 echo "\n ------------------------ \n";
                 echo "\n El registro obtenido es: " .$idRegistro ."\n";
@@ -700,14 +733,14 @@
             }
         }
 
-        function crearTienenRegistro($nombSensor, $valor, $idCasa){            
+        function crearTienenRegistro($nombSensor, $valor, $idCasa, $nickname){            
             //Al crear la casa se crearan y se asignaran los sensores y el registro, que permite tener un historial
             //de todos los eventos con los sensores 
             //Se inicializa, para que cuando se cree el usuario, tenga un valor inicial y no de errores al entrar 
             //a la página de inicio del panel
 
-            $this->crearRegistro($valor);
-            $idRegistro = $this->obtenerUltRegistro();
+            $this->crearRegistro($valor, $nickname);
+            $idRegistro = $this->obtenerUltRegistro($nickname);
             
             //echo "\n ------------------------ \n";
             ///echo "\n El registro obtenido es: " .$idRegistro ."\n";

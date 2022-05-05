@@ -14,11 +14,11 @@
         if($sensores['ascensor'] == 0){
             echo "ascensorPB=1 \n";
             echo "ascensorPA=0 \n";
-            $listado->crearTienenRegistro("ascensor","E",$idCasa);
+            $listado->crearTienenRegistro("ascensor","E",$idCasa, "arduino_$idCasa");
         }else if($sensores['ascensor'] == 1){
             echo "ascensorPA=1 \n";
             echo "ascensorPB=0 \n";
-            $listado->crearTienenRegistro("ascensor","E",$idCasa);
+            $listado->crearTienenRegistro("ascensor","E",$idCasa, "arduino_$idCasa");
         }else{
             echo "ascensorPB=E \n";
             echo "ascensorPA=E \n";
@@ -27,7 +27,7 @@
 
         if(is_numeric($sensores['alarma'])){
             echo "cuentaReg=". $sensores['alarma']." \n";
-            $listado->crearTienenRegistro("alarma","E",$idCasa);
+            $listado->crearTienenRegistro("alarma","E",$idCasa, "arduino_$idCasa");
         }else{
             echo "cuentaReg=E \n";
         }

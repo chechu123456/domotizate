@@ -1,4 +1,5 @@
 <?php
+  //Actualiza los valores constantemente de la página de Inicio del Panel (Conectado o Desconectado, Valores Temperatura y Humedad)
   session_start();
   include("../inc.php");
   comprobarSesionVacia();

@@ -1,6 +1,7 @@
 <?php
     session_start();
     include("../inc.php");
+    comprobarSesionVacia();
 
     if(isset($_POST['defecto'])){
         $colorFondoPagPanel = "";

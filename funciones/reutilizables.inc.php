@@ -23,7 +23,10 @@ function cabeceraPaginasPanel(){
         \n<!--SWEETALERT-->
         \n<script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'></script>
         \n<!--Plotly - Gráficas -->
-        \n	<script src='https://cdn.plot.ly/plotly-2.11.1.min.js'></script>";
+        \n	<script src='https://cdn.plot.ly/plotly-2.11.1.min.js'></script>
+        \n <!-- DATA TABLES -->
+        \n<link rel='stylesheet' type='text/css' href='https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css'>
+        \n<script type='text/javascript' charset='utf8' src='https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js'></script>";
 }
 
 function obtenerDominio(){
