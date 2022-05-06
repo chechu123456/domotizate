@@ -542,10 +542,9 @@
         function listarRegistrosCasa($idCasa){
             $registrosCasa = new stdClass();
             $datos = array();
-            $array = array();
 
             if(!empty($idCasa)){
-                $query = "SELECT registro.idRegistro, registro.fechaRegistro, registro.valor, registro.nickname
+                $query = "SELECT sensor.nombsensor, registro.fechaRegistro, registro.valor, registro.nickname
                             FROM registro
                             INNER JOIN tienen ON tienen.idRegistro = registro.idRegistro
                             INNER JOIN sensor ON tienen.idSensor = sensor.idSensor

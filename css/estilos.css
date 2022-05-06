@@ -25,7 +25,7 @@
 
 .icoCerrarSesion{
     position: fixed;
-    right: 3.5%;
+    right: 3%;
     top: 5%;
     width: 1.5%;
     filter: invert(1);
@@ -103,7 +103,7 @@
 
 .contenedorPagPanel{
     width: 90%;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 
 .contenedorPagPanel .titPrincPanel{    
@@ -116,7 +116,7 @@
 }
 
 .contenedorPagPanel .titPrincPanel{
-    width: 90%;
+    width: 92%;
     text-transform: uppercase;
 }
 
@@ -450,11 +450,11 @@
 /**********************/
 
 .configPanel .contenedorPagPanel{
-     width: 90%;
+     width: 92%;
  }
 
 .configPanel .contConfiguracion{
-    margin-right: 10%;
+    margin-right: 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -475,7 +475,7 @@
 
 
 
-.tiempoConfig p:first-child, .nombSensores .titSensoresConf{
+.tiempoConfig p:first-child, .nombSensores .titSensoresConf, .nombSensores .titSensoresConf, .log .titLog{
     font-size: 22px;
     font-weight: bold;
 }
@@ -562,6 +562,39 @@
     margin-top: 3%;
     margin-left: 2%;
 }
+
+
+.log{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.log .titLog{
+    margin-left: 2%;
+    padding: 2%;
+}
+
+.contenidoLog{
+    margin-top: 4%;
+    padding-bottom: 8%;
+}
+
+.contenidoLog a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.contenidoLog a button{
+    width: 30%;
+    border-radius: 25px;
+    padding: 1%;
+    cursor: pointer;
+}
+
 
 /** TEMA **/
 .temaPanel .btnEnviarConf{
@@ -654,12 +687,26 @@
     margin-top: 4%;
 }
 
+
+
 /*************************/
 /******* LOG *************/
 /*************************/
-
 .contLog{
     padding-bottom: 6%;
+}
+
+.contLog .titConfigPanel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contLog .titConfigPanel hr{
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 4%;
 }
 
 #tablaLogs_wrapper{
@@ -679,8 +726,8 @@
 
 #tablaLogs_paginate, #tablaLogs_info{
     margin-top: 2%;
-
 }
+
 
 
 
@@ -699,13 +746,23 @@
         font-size: 14px;
     }
 
+    /** CONFIG **/
+    .contenidoLog a button{
+        width: 50%;
+        padding: 1.5%;
+    }
+
+    /**** LOG ****/
+    .dataTables_length, #tablaLogs_filter, .dataTables_info, .dataTables_paginate{
+        font-size: 14px;
+    }
 
 }
 
 @media screen and (min-width: 601px) and (max-width: 999px) {
     .icoCerrarSesion{
         top: 4.5%;
-        right: 2.5%;
+        right: 2%;
         width: 3.5%;
     }
 
@@ -841,7 +898,7 @@
     .iconosMenuPanel{
         display: flex;
         flex-direction: row;
-        width: 25%;
+        width: 35%;
         justify-content: space-around;
     }
 
@@ -895,10 +952,19 @@
         width: 25%;
     }
 
+    .contenidoLog a button{
+        width: 70%;
+        padding: 1.5%;
+        margin-top: 6%;
+        margin-bottom: 4%;
+    }
+    
+
     /** TEMAS**/
     .temaPanel .contTemaCols {
         align-items: center;
         flex-direction: column;
+        margin-top: 12%;
     }
 
     .temaPanel .temaColIzq{
@@ -921,6 +987,22 @@
     .temaPanel .titConfigPanel{
         padding: 8% 6% 4% 6%;
     }
+
+    /*** LOG ***/
+    .dataTables_length, #tablaLogs_filter, .dataTables_info, .dataTables_paginate{
+        font-size: 12px;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    /*** LOG ***/
+    #tablaLogs_wrapper{
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -951,12 +1033,18 @@
         z-index: 99;
     }
 
-    
-
     .iconosMenuPanel{
         display: flex;
         flex-direction: row;
+        width: 45%;
+        justify-content: space-around;
+        margin-left: 6%;
     }
+
+    .iconosMenuPanel .iconoMP{
+        margin: 0 0% 0 0%;
+    }
+
 
     .menuOpcSeleccionada1, .menuOpcSeleccionada2, .menuOpcSeleccionada3{
         width: 40px;
@@ -1062,17 +1150,6 @@
         width: 75%;
     }
 
-    .iconosMenuPanel{
-        display: flex;
-        flex-direction: row;
-        width: 40%;
-        justify-content: space-around;
-        margin-left: 8%;
-    }
-
-    .iconosMenuPanel .iconoMP{
-        margin: 0 0% 0 0%;
-    }
 
     .userMenuInfPanel img {
         margin-top: 4%;
@@ -1163,10 +1240,24 @@
         margin-top: 15%;
     }
 
+    /** CONFIG **/
+    .log{
+        margin-top: 4%;
+    }
+
+    .contenidoLog a button{
+        width: 90%;
+        padding: 4%;
+        margin: 8% 0;
+    }
+    
+    
+
     /** TEMAS**/
     .temaPanel .contTemaCols {
         align-items: center;
         flex-direction: column;
+        margin-top: 20%;
     }
 
     .temaPanel .contTemaCols input, select{
@@ -1188,6 +1279,10 @@
         margin-top: -4%;
     }
 
+    .temaPanel .contTemaCols label{
+        margin-top: 6%;
+    }
+
     .temaPanel select {
         margin-left: auto;
         margin-top: 6%;
@@ -1203,9 +1298,50 @@
     }
 
     .temaPanel .titConfigPanel{
-        padding: 8% 6% 4% 6%;
+        padding: 10% 8% 8% 8%;
     }
+
+    .temaPanel input{
+        margin-top: 10%;
+    }
+
+    .temaPanel .contTemaCols input{
+        margin-top: 10%;
+    }
+
+     /*** LOG ***/
+    .contLog{
+        padding-bottom: 0%;
+    }
+
+    #tablaLogs_wrapper{
+        width: 100%;
+        padding: 0;
+        font-size: 10px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        padding-bottom: 6%;
+    }
+/*
+    #tablaLogs_wrapper thead tr th:first-child, #tablaLogs_wrapper tbody tr td:first-child, #tablaLogs_wrapper tfoot tr th:first-child{
+        display: none;
+    }
+*/
+    .contLog .titConfigPanel{
+        padding-bottom: 6%
+    }
+
   
   }
+
+    @media screen and (max-width: 380px) {
+        /*** LOG ***/
+        #tablaLogs_wrapper{
+            width: 100%;
+            padding: 0;
+        }
+
+
+    }
 
 

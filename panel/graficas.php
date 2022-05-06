@@ -294,7 +294,9 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
                 title: 'Hoy',
             };
 
-            Plotly.newPlot('contGraficaTemp', data, layout);
+            var config = {responsive: true}
+
+            Plotly.newPlot('contGraficaTemp', data, layout, config);
 
             $("#valorMaxHum").html("<?= (empty($registrosHumedadDiaMax)) ?  "-" : $registrosHumedadDiaMax ?>");
             $("#valorMinHum").html("<?= (empty($registrosHumedadDiaMin)) ? "-"  : $registrosHumedadDiaMin ?>");
@@ -309,7 +311,9 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
                 title: 'Hoy',
             };
 
-            Plotly.newPlot('contGraficaHum', dataHum, layout);
+            var config = {responsive: true}
+
+            Plotly.newPlot('contGraficaHum', dataHum, layout, config);
            
 
             /* Poner fondo sobre la opción seleccionada en el menu vertical */
@@ -322,6 +326,7 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
             }
         });
 
+     
 
 
         $(document).on("change", "#fechaTemp", function() {
@@ -342,7 +347,7 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
 
 
                 Plotly.newPlot('contGraficaTemp', dataTemp, layout);
-
+                
                 
             } else if ($("#fechaTemp option:selected").text() == "Mes") {
                 console.log("Has elegido mes");

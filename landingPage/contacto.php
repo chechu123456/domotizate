@@ -5,6 +5,8 @@
 
 <head>
     <?= cabeceraPaginasLanding() ?>
+    <!-- Captcha -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeEccofAAAAAOjIw1PH8B845aB17AbyvAMl87Nk"></script>
 </head>
 
 <body id="pagContacto">

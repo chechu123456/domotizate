@@ -117,6 +117,15 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
                         </form>
                     </div>
                 </div>
+                <div class="log">
+                    <div class="titLog">
+                        <p>Log</p>
+                    </div>
+                    <hr>
+                    <div class="contenidoLog">
+                        <a href="./logCasa.php"><button class="mostrarLog">Mostrar log de las acciones de la casa</button></a>
+                    </div>
+                </div>
             </div>
 
 

@@ -38,16 +38,16 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
                 <table id="tablaLogs" class="display" style="width:100%">
                     <thead>
                         <tr>
-                            <th>IdRegistro</th>
-                            <th>fechaRegistro</th>
+                            <th>Sensor</th>
+                            <th>Fecha Registro</th>
                             <th>Valor</th>
                             <th>Nickname</th>
                         </tr>
                     </thead>
                     <tfoot>
                         <tr>
-                            <th>IdRegistro</th>
-                            <th>fechaRegistro</th>
+                            <th>Sensor</th>
+                            <th>Fecha Registro</th>
                             <th>Valor</th>
                             <th>Nickname</th>
                         </tr>
@@ -73,13 +73,51 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
             $('#tablaLogs').DataTable( {
                 "ajax": "./cogerDatosLog.php",
                 "columns": [
-                    { "data": "idRegistro" },
+                    { "data": "nombsensor" },
                     { "data": "fechaRegistro" },
                     { "data": "valor" },
                     { "data": "nickname" },
                 ]
             } );
+
+
+            //Cada vez que se carguen los datos de la tabla, cambiar los valores
+            //de la columna valor de cualquier sensor que no sea de temperatura y humedad
+            //por Texto
+            $('#tablaLogs').DataTable().on("draw.dt", function(){
+
+                $('tbody tr').each(function(){
+                    var nombSensor = $(this).children("td:nth-child(1)");
+                    console.log(nombSensor.html());
+
+                    if(nombSensor.html() != "temperatura" && nombSensor.html() != "humedad" && nombSensor.html() != "ascensor" ){
+                        var valorSensor = $(this).children("td:nth-child(3)");
+                        console.log(valorSensor.html());
+
+                        if(valorSensor.html() == "0" || valorSensor.html() == "E"){
+                            valorSensor.html("Apagado");
+                        }else if(valorSensor.html() == "1"){
+                            valorSensor.html("Encendido");
+                        }
+                        
+                    }else if( nombSensor.html() == "ascensor" ){
+                        var valorSensor = $(this).children("td:nth-child(3)");
+                        console.log("----------\n"+valorSensor.html());
+
+                        if(valorSensor.html() == "0" || valorSensor.html() == "E" ){
+                            valorSensor.html("Planta Baja");
+                        }else if(valorSensor.html() == "1"){
+                            valorSensor.html("Planta Alta");
+                        }
+                    }
+                });
+            
+            });
+
+            
         });
+
+     
 
         $(document).on("click", ".icoCerrarSesion", function() {
             window.location.href = "<?php echo localizacion() . "funciones/cerrarSesion.php" ?>";
