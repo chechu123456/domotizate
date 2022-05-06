@@ -55,12 +55,17 @@ function cabeceraPaginasLanding(){
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha256.js"></script>
     <script src="https://momentjs.com/downloads/moment.js"></script>
+    
 
     <!-- NORMALIZE -->
     <link rel="stylesheet" href="<?= localizacion() ?>css/normalize.css">
 
     <!-- MIS ESTILOS -->
     <link rel="stylesheet" href="<?= localizacion() ?>landingPage/estilosLandingPage.css">
+
+    <!-- Captcha -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeEccofAAAAAOjIw1PH8B845aB17AbyvAMl87Nk"></script>
+
 <?php
 }
 
