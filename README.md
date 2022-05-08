@@ -1,2 +1,2 @@
-# domotizate
+# Domotizate
 Proyecto DAW Fin de Curso
