@@ -1,0 +1,25 @@
+{
+    "name": "APP DOMOTIZATE",
+    "short_name": "Domotizate",
+    "start_url": "./panel/index.php?utm_source=homescreen",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "imagenes/logos/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "imagenes/logos/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "dir": "ltr",
+    "lang": "es-ES",
+    "description": "Aplicación para controlar toda tu casa desde el movil",
+    "scope": "/"
+}

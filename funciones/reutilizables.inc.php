@@ -28,7 +28,16 @@ function cabeceraPaginasPanel(){
         \n	<script src='https://cdn.plot.ly/plotly-2.11.1.min.js'></script>
         \n <!-- DATA TABLES -->
         \n<link rel='stylesheet' type='text/css' href='https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css'>
-        \n<script type='text/javascript' charset='utf8' src='https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js'></script>       
+        \n<script type='text/javascript' charset='utf8' src='https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js'></script>  
+        \n<link rel='apple-touch-icon' sizes='180x180' href='../imagenes/logos/apple-touch-icon.png'>
+        \n<link rel='icon' type='image/png' sizes='32x32' href='../imagenes/logos/favicon-32x32.png'>
+        \n<link rel='icon' type='image/png' sizes='16x16' href='../imagenes/logos/favicon-16x16.png'>
+        \n<link rel='manifest' href='../manifest.json'>
+        \n<link rel='mask-icon' href='../imagenes/safari-pinned-tab.svg' color='#5bbad5'>
+        \n<meta name='apple-mobile-web-app-title' content='DOMOTIZATE'>
+        \n<meta name='application-name' content='DOMOTIZATE'>
+        \n<meta name='msapplication-TileColor' content='#da532c'>
+        \n<meta name='theme-color' content='#ffffff'>     
         ";
 }
 
@@ -44,6 +53,16 @@ function cabeceraPaginasLanding(){
     <!-- CACHE-->
     <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
     <meta http-equiv="Pragma" content="no-cache">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../imagenes/logos/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../imagenes/logos/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../imagenes/logos/favicon-16x16.png">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="mask-icon" href="../imagenes/logos/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="DOMOTIZATE">
+    <meta name="application-name" content="DOMOTIZATE">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <title>DOMOTIZATE</title>
 

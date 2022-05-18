@@ -254,6 +254,47 @@
     </div>
 </body>
     <script>
+        
+        //Solicitar permiso al cargar la página
+        document.addEventListener("DOMContentLoaded", function(){
+            if (!Notification) {
+                alert('Tu navegador no soporta notificaciones');
+                return;
+            }
+
+            if (Notification.permission !== 'granted') {
+                Notification.requestPermission();
+            }
+
+            
+
+            if ('Notification' in window) {
+            Notification.requestPermission();
+            }
+            
+        });
+
+        $(document).ready(function(){
+            if (!Notification) {
+                alert('Tu navegador no soporta notificaciones');
+                return;
+            }
+
+            if (Notification.permission !== 'granted') {
+                Notification.requestPermission();
+            }
+
+            
+
+            if ('Notification' in window) {
+                Notification.requestPermission();
+            }
+            
+        });
+
+
+
+        
         function getDate(){
             var myDate = new Date();
             //console.log(myDate)
@@ -534,6 +575,89 @@
             });
         }
 
+           
+
+        $(document).on("click","input#btn-switch9",function(){
+            //Esperar 10sg
+            setTimeout(function(){
+                //Comprobar si sigue activado
+                if($('#btn-switch9').prop('checked')){
+                    notificacionPuertaGaraje();
+                    //Cada 2 minutos lanzar la notificación
+                    var puertaGar = setInterval(function(){
+                        if($('#btn-switch9').prop('checked')){
+                            notificacionPuertaGaraje();
+                        }
+                    },120000); //Cada 2 minutos
+                }else{
+                    //Si no está activado desactivar la notificación de cada 2 mins
+                    clearInterval(puertaGar);
+                }
+            },10000); //Cada 10 sg
+            
+        });
+
+        function notificacionPuertaGaraje(){
+            if(Notification.permission !== "granted"){
+                Notification.requestPermission();
+            }else{
+                console.log("Notificacion activada Puerta Garaje");
+                var notificacion = new Notification('IMPORTANTE',{
+                    icon: '../imagenes/logos/android-chrome-192x192.png',
+                    body: "Te has dejado la Puerta del Garaje Abierta!!!",
+                })
+
+                notificacion.onclick = function(){
+                    window.open("https://domotizate.site/panel/index.php");
+                };
+            }
+        }
+
+        $(document).on("click","input#btn-switch10",function(){
+            //Esperar 10sg
+            setTimeout(function(){
+                //Comprobar si sigue activado
+                if($('#btn-switch10').prop('checked')){
+                    notificacionPuertaPrincipal();
+                    //Cada 2 minutos lanzar la notificación
+                    var puertaPrinc = setInterval(function(){
+                        if($('#btn-switch9').prop('checked')){
+                            notificacionPuertaPrincipal();
+                        }
+                    },120000); //Cada 2 minutos
+                }else{
+                    //Si no está activado desactivar la notificación de cada 2 mins
+                    clearInterval(puertaPrinc);
+                }
+            },10000); //Cada 10 sg
+            
+        });
+
+        function notificacionPuertaPrincipal(){
+            if(Notification.permission !== "granted"){
+                Notification.requestPermission();
+            }else{
+                console.log("Notificacion activada Puerta Principal");
+                var notificacion = new Notification('IMPORTANTE',{
+                    icon: '../imagenes/logos/android-chrome-192x192.png',
+                    body: "Te has dejado la Puerta del Principal Abierta!!!",
+                })
+
+                notificacion.onclick = function(){
+                    window.open("https://domotizate.site/panel/index.php");
+                };
+            }
+        }
+
+        /*************************************************** */
+        /******************* PERMISOS ********************** */
+        /*************************************************** */
+     //https://developer.mozilla.org/es/docs/Web/API/Notification/requestPermission
+
         
     </script>
+
+    <!-- ACTIVAR SERVICE WORKER -->
+    <script src="../swcache_register.js"></script>
+
 </html>
