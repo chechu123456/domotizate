@@ -215,6 +215,10 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
 
                     var msgRecibido = data.split(";");
                     var estadoArduino = "arduino=1";
+                    var temperatura = "temperatura=1";
+                    var humedad = "humedad=1";
+                    var valorTemp = msgRecibido[1].split("=");
+                    var valorHum = msgRecibido[2].split("=");
 
                     //console.log(msgRecibido);
 
@@ -234,7 +238,7 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
 
                 })
                 .fail(function() {
-                    console.error('Error: No se han podido recuperar los datos de la temperatura, la humedad y del estado del arduino');
+                    alert('Error al realizar la petición!');
                 });
         }
 
