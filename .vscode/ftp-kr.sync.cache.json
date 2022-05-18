@@ -1,54 +1,253 @@
 {
-  "ftp://sergio@domotizate.site@domotizate.site": {
-    "public_html": {
-      ".htaccess": {
+  "ftp://r165651@allnatural.site": {
+    "domotizate.allnatural.site": {
+      "ESP32": {
+        "cogerDatos.php": {
+          "type": "-",
+          "size": 0,
+          "lmtime": 0,
+          "modified": false
+        },
+        "enviarDatos.php": {
+          "type": "-",
+          "size": 2460,
+          "lmtime": 0,
+          "modified": false
+        },
+        "enviarDatos1.php": {
+          "type": "-",
+          "size": 1165,
+          "lmtime": 1651748994855,
+          "modified": false
+        },
+        "enviarDatos2.php": {
+          "type": "-",
+          "size": 1769,
+          "lmtime": 1651748595433,
+          "modified": false
+        },
+        "error_log": {
+          "type": "-",
+          "size": 385398,
+          "lmtime": 0,
+          "modified": false
+        },
+        "recibirDatos.php": {
+          "type": "-",
+          "size": 1665,
+          "lmtime": 1651748648055,
+          "modified": false
+        }
+      },
+      "README.md": {
         "type": "-",
-        "size": 0,
+        "size": 38,
         "lmtime": 0,
         "modified": false
       },
-      ".well-known": {},
-      "ESP32": {},
-      "bd": {},
-      "css": {},
+      "bd": {
+        "conexion.php": {
+          "type": "-",
+          "size": 1729,
+          "lmtime": 0,
+          "modified": false
+        },
+        "consultas.php": {
+          "type": "-",
+          "size": 40123,
+          "lmtime": 1651759010177,
+          "modified": false
+        },
+        "imagenes": {}
+      },
+      "css": {
+        "estilos.css": {
+          "type": "-",
+          "size": 22790,
+          "lmtime": 1651760773102,
+          "modified": false
+        },
+        "normalize.css": {
+          "type": "-",
+          "size": 6138,
+          "lmtime": 0,
+          "modified": false
+        }
+      },
+      "domotizate.rar": {
+        "type": "-",
+        "size": 1039499,
+        "lmtime": 0,
+        "modified": false
+      },
+      "domotizate_03052022.rar": {
+        "type": "-",
+        "size": 823827,
+        "lmtime": 0,
+        "modified": false
+      },
+      "domotizate_04052022.rar": {
+        "type": "-",
+        "size": 958433,
+        "lmtime": 0,
+        "modified": false
+      },
+      "domotizate_OLD.rar": {
+        "type": "-",
+        "size": 421427,
+        "lmtime": 0,
+        "modified": false
+      },
+      "domotizate_old.rar": {
+        "type": "-",
+        "size": 59,
+        "lmtime": 0,
+        "modified": false
+      },
       "error_log": {
         "type": "-",
-        "size": 3717,
+        "size": 118198,
         "lmtime": 0,
         "modified": false
       },
-      "funciones": {},
+      "funciones": {
+        "cerrarSesion.php": {
+          "type": "-",
+          "size": 723,
+          "lmtime": 0,
+          "modified": false
+        },
+        "configSesiones.inc.php": {
+          "type": "-",
+          "size": 433,
+          "lmtime": 0,
+          "modified": false
+        },
+        "error_log": {
+          "type": "-",
+          "size": 3844,
+          "lmtime": 0,
+          "modified": false
+        },
+        "reutilizables.inc.php": {
+          "type": "-",
+          "size": 5717,
+          "lmtime": 1651746664728,
+          "modified": false
+        }
+      },
       "imagenes": {},
       "inc.php": {
         "type": "-",
-        "size": 345,
-        "lmtime": 1651878840481,
+        "size": 338,
+        "lmtime": 1651749039262,
         "modified": false
       },
       "index.php": {
         "type": "-",
-        "size": 5390,
+        "size": 5517,
         "lmtime": 0,
         "modified": false
       },
+      "js": {},
       "landingPage": {
         "sesion": {
-          "error_log": {
-            "type": "-",
-            "size": 832,
-            "lmtime": 0,
-            "modified": false
-          },
           "procesar.php": {
             "type": "-",
-            "size": 2248,
-            "lmtime": 1651879093178,
+            "size": 2013,
+            "lmtime": 1651748658686,
             "modified": false
           }
         }
       },
       "librerias": {},
-      "panel": {}
+      "panel": {
+        "ActualizardatosSensoresBD.php": {
+          "type": "-",
+          "size": 0,
+          "lmtime": 0,
+          "modified": false
+        },
+        "actualizarDatos.php": {
+          "type": "-",
+          "size": 1750,
+          "lmtime": 1651748991136,
+          "modified": false
+        },
+        "actualizarDatosSensoresBD.php": {
+          "type": "-",
+          "size": 436,
+          "lmtime": 1651749521901,
+          "modified": false
+        },
+        "actualizarDatosTema.php": {
+          "type": "-",
+          "size": 1752,
+          "lmtime": 1651749100385,
+          "modified": false
+        },
+        "actualizarValoresPanel.php": {
+          "type": "-",
+          "size": 611,
+          "lmtime": 1651749112694,
+          "modified": false
+        },
+        "actualizardatosSensoresBD.php": {
+          "type": "-",
+          "size": 107,
+          "lmtime": 0,
+          "modified": false
+        },
+        "cambiarTema.php": {
+          "type": "-",
+          "size": 10002,
+          "lmtime": 1651749135772,
+          "modified": false
+        },
+        "cogerDatosLog.php": {
+          "type": "-",
+          "size": 428,
+          "lmtime": 1651759376643,
+          "modified": false
+        },
+        "configuracion.php": {
+          "type": "-",
+          "size": 11672,
+          "lmtime": 1651749168334,
+          "modified": false
+        },
+        "error_log": {
+          "type": "-",
+          "size": 3659027,
+          "lmtime": 0,
+          "modified": true
+        },
+        "estadoArduino.php": {
+          "type": "-",
+          "size": 254,
+          "lmtime": 1651749171713,
+          "modified": false
+        },
+        "funciones": {},
+        "graficas.php": {
+          "type": "-",
+          "size": 22514,
+          "lmtime": 1651749193540,
+          "modified": false
+        },
+        "index.php": {
+          "type": "-",
+          "size": 27089,
+          "lmtime": 1651749186601,
+          "modified": false
+        },
+        "logCasa.php": {
+          "type": "-",
+          "size": 5144,
+          "lmtime": 1651760324798,
+          "modified": false
+        }
+      }
     }
   },
   "$version": 1
