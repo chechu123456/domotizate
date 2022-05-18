@@ -98,7 +98,7 @@
     <?php echo cabeceraPaginasPanel();?>
 </head>
 
-<body>
+<body class="inicioPanel">
     <img src="../imagenes/iconos/exit.svg" alt="Cerrar Sesión" class="icoCerrarSesion"></a>
     <div class="fondoPanel">
         <?=menuPanel()?>
@@ -360,7 +360,7 @@
              
             })
             .fail(function() {
-                alert('Error al realizar la petición!');
+                console.error('Error: No se han podido recuperar los datos de la temperatura, la humedad y del estado del arduino');
             });
         }
 
@@ -436,10 +436,12 @@
 
 
             if(tamanoLetraTit == "NULO"){
+                /*
                 $(".subTitPanelFila1").css("font-size", "24px");
                 $(".subTitPanelesFila2").css("font-size", "30px");
                 $(".contTemperatura p:first-child()").css("font-size", "30px");
                 $(".titAscensor").css("font-size", "30px");
+                */
             }else{
                 $(".subTitPanelFila1").css("font-size", parseInt($(".subTitPanelFila1").css("font-size"))*tamanoLetraTit);
                 $(".subTitPanelesFila2").css("font-size", parseInt($(".subTitPanelFila1").css("font-size"))*tamanoLetraTit);
@@ -449,11 +451,13 @@
 
 
             if(tamanoLetraNombSensores == "NULO"){
+                /*
                 $(".opcl p").css("font-size", "16px");
                 $(".contGaraje p").css("font-size", "16px");
                 $(".contPP p").css("font-size", "16px");
                 $(".ventilador p").css("font-size", "16px");
                 $(".contAlarma p").css("font-size", "16px");
+                */
             }else{
                 $(".opcl p").css("font-size", parseInt($(".opcl p").css("font-size"))*tamanoLetraNombSensores);
                 $(".contGaraje p").css("font-size", parseInt($(".contGaraje p").css("font-size"))*tamanoLetraNombSensores);

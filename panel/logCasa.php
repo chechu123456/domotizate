@@ -88,11 +88,11 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
 
                 $('tbody tr').each(function(){
                     var nombSensor = $(this).children("td:nth-child(1)");
-                    console.log(nombSensor.html());
+                    //console.log(nombSensor.html());
 
                     if(nombSensor.html() != "temperatura" && nombSensor.html() != "humedad" && nombSensor.html() != "ascensor" ){
                         var valorSensor = $(this).children("td:nth-child(3)");
-                        console.log(valorSensor.html());
+                        //console.log(valorSensor.html());
 
                         if(valorSensor.html() == "0" || valorSensor.html() == "E"){
                             valorSensor.html("Apagado");
@@ -102,7 +102,7 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
                         
                     }else if( nombSensor.html() == "ascensor" ){
                         var valorSensor = $(this).children("td:nth-child(3)");
-                        console.log("----------\n"+valorSensor.html());
+                        //console.log("----------\n"+valorSensor.html());
 
                         if(valorSensor.html() == "0" || valorSensor.html() == "E" ){
                             valorSensor.html("Planta Baja");
@@ -140,10 +140,6 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
 
                     var msgRecibido = data.split(";");
                     var estadoArduino = "arduino=1";
-                    var temperatura = "temperatura=1";
-                    var humedad = "humedad=1";
-                    var valorTemp = msgRecibido[1].split("=");
-                    var valorHum = msgRecibido[2].split("=");
 
                     //console.log(msgRecibido);
 
@@ -163,7 +159,7 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
 
                 })
                 .fail(function() {
-                    alert('Error al realizar la petición!');
+                    console.error('Error: No se han podido recuperar los datos de la temperatura, la humedad y del estado del arduino');
                 });
         }
 

@@ -1,8 +1,8 @@
 {
-    "host": "allnatural.site",
-    "username": "r165651",
-    "password": "p-MD*zWaEf_v",
-    "remotePath": "./domotizate.allnatural.site",
+    "host": "domotizate.site",
+    "username": "sergio@domotizate.site",
+    "password": "W.C!x@z0kqKC",
+    "remotePath": "./public_html",
     "protocol": "ftp",
     "port": 0,
     "fileNameEncoding": "utf8",

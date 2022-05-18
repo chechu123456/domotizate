@@ -32,6 +32,10 @@
         
         $_SESSION['nickname'] = $nickname;
         $_SESSION['idCasa'] = $listado->buscarIdCasaNickname($nickname);
+        $idCasa =  $_SESSION['idCasa'];
+
+        //Cada vez que se inicia sesión, el estado del arduino se pone como Apagado, así si el arduino está conectado,
+        //creará el un nuevo registro diciendo que está conectado
         $desconectarArduino = $listado->crearTienenRegistro("arduino", "0", $_SESSION['idCasa'],  "arduino_$idCasa");
     
         if($listado->comprobarUsuarioContrasena($nickname, $password)){
