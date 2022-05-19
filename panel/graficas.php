@@ -509,9 +509,7 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
             recuperarValores();
         }, 5000);
 
-        $(document).ready(function() {
- 
-        });
+        
     </script>
 </body>
 

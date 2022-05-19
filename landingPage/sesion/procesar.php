@@ -6,7 +6,7 @@
     if(isset($_POST['nickname']) && isset($_POST['password']) &&  isset($_POST['localidad'])
                 &&  isset($_POST['idCasa']) &&  isset($_POST['nombCasa'])){
         //Si no tengo cuenta, registrarme
-        $nickname =  trim(stripslashes(htmlspecialchars($_POST['nickname'])));
+        $nickname =  strtolower(trim(stripslashes(htmlspecialchars($_POST['nickname']))));
         $password = trim(stripslashes(htmlspecialchars($_POST['password'])));
         $idCasa = trim(stripslashes(htmlspecialchars($_POST['idCasa'])));
         $nombCasa = trim(stripslashes(htmlspecialchars($_POST['nombCasa'])));
@@ -26,7 +26,7 @@
 
     }else if(isset($_POST['nickname']) && isset($_POST['password'])){
         //Si ya tengo cuenta, entrar en la página
-        $nickname = trim(stripslashes(htmlspecialchars($_POST['nickname'])));
+        $nickname = strtolower(trim(stripslashes(htmlspecialchars($_POST['nickname']))));
         $password = trim(stripslashes(htmlspecialchars($_POST['password'])));
         $listado->comprobarUsuarioContrasena($nickname, $password);
         

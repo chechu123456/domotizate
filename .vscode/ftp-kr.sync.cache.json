@@ -1,252 +1,932 @@
 {
-  "ftp://r165651@allnatural.site": {
-    "domotizate.allnatural.site": {
+  "ftp://sergio@domotizate.site@domotizate.site": {
+    "public_html": {
+      ".htaccess": {
+        "type": "-",
+        "size": 0,
+        "lmtime": 0,
+        "modified": false
+      },
+      ".well-known": {},
       "ESP32": {
-        "cogerDatos.php": {
-          "type": "-",
-          "size": 0,
-          "lmtime": 0,
-          "modified": false
-        },
-        "enviarDatos.php": {
-          "type": "-",
-          "size": 2460,
-          "lmtime": 0,
-          "modified": false
-        },
         "enviarDatos1.php": {
           "type": "-",
-          "size": 1165,
-          "lmtime": 1651748994855,
+          "size": 1441,
+          "lmtime": 1652870822238,
           "modified": false
         },
         "enviarDatos2.php": {
           "type": "-",
-          "size": 1769,
-          "lmtime": 1651748595433,
-          "modified": false
-        },
-        "error_log": {
-          "type": "-",
-          "size": 385398,
-          "lmtime": 0,
+          "size": 2072,
+          "lmtime": 1652870822240,
           "modified": false
         },
         "recibirDatos.php": {
           "type": "-",
           "size": 1665,
-          "lmtime": 1651748648055,
+          "lmtime": 1652870822241,
           "modified": false
         }
       },
       "README.md": {
         "type": "-",
-        "size": 38,
-        "lmtime": 0,
+        "size": 41,
+        "lmtime": 1652870822243,
         "modified": false
       },
       "bd": {
         "conexion.php": {
           "type": "-",
           "size": 1729,
-          "lmtime": 0,
+          "lmtime": 1652870822245,
           "modified": false
         },
         "consultas.php": {
           "type": "-",
-          "size": 40123,
-          "lmtime": 1651759010177,
+          "size": 40090,
+          "lmtime": 1652870822247,
           "modified": false
-        },
-        "imagenes": {}
+        }
       },
       "css": {
         "estilos.css": {
           "type": "-",
-          "size": 22790,
-          "lmtime": 1651760773102,
+          "size": 25362,
+          "lmtime": 1652871715838,
           "modified": false
         },
         "normalize.css": {
           "type": "-",
-          "size": 6138,
-          "lmtime": 0,
+          "size": 6487,
+          "lmtime": 1652870822253,
           "modified": false
         }
-      },
-      "domotizate.rar": {
-        "type": "-",
-        "size": 1039499,
-        "lmtime": 0,
-        "modified": false
-      },
-      "domotizate_03052022.rar": {
-        "type": "-",
-        "size": 823827,
-        "lmtime": 0,
-        "modified": false
-      },
-      "domotizate_04052022.rar": {
-        "type": "-",
-        "size": 958433,
-        "lmtime": 0,
-        "modified": false
-      },
-      "domotizate_OLD.rar": {
-        "type": "-",
-        "size": 421427,
-        "lmtime": 0,
-        "modified": false
-      },
-      "domotizate_old.rar": {
-        "type": "-",
-        "size": 59,
-        "lmtime": 0,
-        "modified": false
-      },
-      "error_log": {
-        "type": "-",
-        "size": 118198,
-        "lmtime": 0,
-        "modified": false
       },
       "funciones": {
         "cerrarSesion.php": {
           "type": "-",
           "size": 723,
-          "lmtime": 0,
+          "lmtime": 1652870822255,
           "modified": false
         },
         "configSesiones.inc.php": {
           "type": "-",
           "size": 433,
-          "lmtime": 0,
-          "modified": false
-        },
-        "error_log": {
-          "type": "-",
-          "size": 3844,
-          "lmtime": 0,
+          "lmtime": 1652870822256,
           "modified": false
         },
         "reutilizables.inc.php": {
           "type": "-",
-          "size": 5717,
-          "lmtime": 1651746664728,
+          "size": 7421,
+          "lmtime": 1652874662581,
           "modified": false
         }
       },
-      "imagenes": {},
+      "imagenes": {
+        "iconos": {
+          "accesibilidad.png": {
+            "type": "-",
+            "size": 18001,
+            "lmtime": 1652870822261,
+            "modified": false
+          },
+          "advertencia.png": {
+            "type": "-",
+            "size": 19380,
+            "lmtime": 1652870822263,
+            "modified": false
+          },
+          "cambiarTema.svg": {
+            "type": "-",
+            "size": 822,
+            "lmtime": 1652870822264,
+            "modified": false
+          },
+          "estadisticas.svg": {
+            "type": "-",
+            "size": 2235,
+            "lmtime": 1652870822266,
+            "modified": false
+          },
+          "exit.svg": {
+            "type": "-",
+            "size": 2062,
+            "lmtime": 1652870822267,
+            "modified": false
+          },
+          "fotoPerfil.svg": {
+            "type": "-",
+            "size": 763,
+            "lmtime": 1652870822268,
+            "modified": false
+          },
+          "gestion.png": {
+            "type": "-",
+            "size": 19187,
+            "lmtime": 1652870822270,
+            "modified": false
+          },
+          "homePanel.svg": {
+            "type": "-",
+            "size": 1778,
+            "lmtime": 1652870822271,
+            "modified": false
+          },
+          "humedad.png": {
+            "type": "-",
+            "size": 14796,
+            "lmtime": 1652870822273,
+            "modified": false
+          },
+          "humidity.png": {
+            "type": "-",
+            "size": 14796,
+            "lmtime": 1652870822274,
+            "modified": false
+          },
+          "iconoPerfil.jpg": {
+            "type": "-",
+            "size": 22544,
+            "lmtime": 1652870822276,
+            "modified": false
+          },
+          "lluvia.svg": {
+            "type": "-",
+            "size": 30591,
+            "lmtime": 1652870822278,
+            "modified": false
+          },
+          "login.svg": {
+            "type": "-",
+            "size": 763,
+            "lmtime": 1652870822280,
+            "modified": false
+          },
+          "maxHum.png": {
+            "type": "-",
+            "size": 3244,
+            "lmtime": 1652870822282,
+            "modified": false
+          },
+          "maxTemp.png": {
+            "type": "-",
+            "size": 25094,
+            "lmtime": 1652870822284,
+            "modified": false
+          },
+          "minHum.png": {
+            "type": "-",
+            "size": 3601,
+            "lmtime": 1652870822285,
+            "modified": false
+          },
+          "minTemp.png": {
+            "type": "-",
+            "size": 9637,
+            "lmtime": 1652870822287,
+            "modified": false
+          },
+          "nublado.svg": {
+            "type": "-",
+            "size": 3225,
+            "lmtime": 1652870822288,
+            "modified": false
+          },
+          "opciones.svg": {
+            "type": "-",
+            "size": 2113,
+            "lmtime": 1652870822290,
+            "modified": false
+          },
+          "sistema-de-gestion-de-contenidos.png": {
+            "type": "-",
+            "size": 19187,
+            "lmtime": 1652870822292,
+            "modified": false
+          },
+          "soleado.svg": {
+            "type": "-",
+            "size": 1577,
+            "lmtime": 1652870822294,
+            "modified": false
+          },
+          "soporte.svg": {
+            "type": "-",
+            "size": 6691,
+            "lmtime": 1652870822295,
+            "modified": false
+          },
+          "stats.png": {
+            "type": "-",
+            "size": 7469,
+            "lmtime": 1652870822296,
+            "modified": false
+          },
+          "stats.svg": {
+            "type": "-",
+            "size": 2297,
+            "lmtime": 1652870822297,
+            "modified": false
+          },
+          "temperatura.svg": {
+            "type": "-",
+            "size": 1072,
+            "lmtime": 1652870822298,
+            "modified": false
+          }
+        },
+        "imagenesSitio": {
+          "imagenPP_PanelConf.png": {
+            "type": "-",
+            "size": 42937,
+            "lmtime": 1652870822301,
+            "modified": false
+          },
+          "imagenPortadaCabecera.png": {
+            "type": "-",
+            "size": 245285,
+            "lmtime": 1652870822304,
+            "modified": false
+          },
+          "imagenPortada_Solicitar.jpg": {
+            "type": "-",
+            "size": 165995,
+            "lmtime": 1652870822308,
+            "modified": false
+          },
+          "login.webp": {
+            "type": "-",
+            "size": 34380,
+            "lmtime": 1652870822310,
+            "modified": false
+          },
+          "nosotros.jpg": {
+            "type": "-",
+            "size": 153211,
+            "lmtime": 1652870822313,
+            "modified": false
+          },
+          "registro.webp": {
+            "type": "-",
+            "size": 10590,
+            "lmtime": 1652870822315,
+            "modified": false
+          }
+        },
+        "logos": {
+          "android-chrome-192x192.png": {
+            "type": "-",
+            "size": 444,
+            "lmtime": 1652873850000,
+            "modified": false
+          },
+          "android-chrome-256x256.png": {
+            "type": "-",
+            "size": 432,
+            "lmtime": 1652873850000,
+            "modified": false
+          },
+          "android-icon-192x192.png": {
+            "type": "-",
+            "size": 1041,
+            "lmtime": 1652873424000,
+            "modified": false
+          },
+          "apple-touch-icon.png": {
+            "type": "-",
+            "size": 876,
+            "lmtime": 1652873851000,
+            "modified": false
+          },
+          "browserconfig.xml": {
+            "type": "-",
+            "size": 246,
+            "lmtime": 1652873851000,
+            "modified": false
+          },
+          "d7e9dc4b49303f729f8dc3a15ca01a99.zip": {
+            "type": "-",
+            "size": 22911,
+            "lmtime": 1652873438154,
+            "modified": false
+          },
+          "favicon-16x16.png": {
+            "type": "-",
+            "size": 830,
+            "lmtime": 1652873851000,
+            "modified": false
+          },
+          "favicon-32x32.png": {
+            "type": "-",
+            "size": 1274,
+            "lmtime": 1652873851000,
+            "modified": false
+          },
+          "favicon.ico": {
+            "type": "-",
+            "size": 15086,
+            "lmtime": 1652873852000,
+            "modified": false
+          },
+          "favicon_package_v0.16.zip": {
+            "type": "-",
+            "size": 9067,
+            "lmtime": 1652873873818,
+            "modified": false
+          },
+          "mstile-150x150.png": {
+            "type": "-",
+            "size": 506,
+            "lmtime": 1652873852000,
+            "modified": false
+          },
+          "safari-pinned-tab.svg": {
+            "type": "-",
+            "size": 1025,
+            "lmtime": 1652873852000,
+            "modified": false
+          }
+        }
+      },
       "inc.php": {
         "type": "-",
-        "size": 338,
-        "lmtime": 1651749039262,
+        "size": 345,
+        "lmtime": 1652871461599,
         "modified": false
       },
       "index.php": {
         "type": "-",
         "size": 5517,
-        "lmtime": 0,
+        "lmtime": 1652874914086,
         "modified": false
       },
-      "js": {},
       "landingPage": {
+        "contacto": {
+          "mandarCorreo.php": {
+            "type": "-",
+            "size": 3012,
+            "lmtime": 1652870822322,
+            "modified": false
+          }
+        },
+        "contacto.php": {
+          "type": "-",
+          "size": 6731,
+          "lmtime": 1652870822320,
+          "modified": false
+        },
+        "cookies.php": {
+          "type": "-",
+          "size": 3955,
+          "lmtime": 1652870822323,
+          "modified": false
+        },
+        "estilosLandingPage.css": {
+          "type": "-",
+          "size": 30105,
+          "lmtime": 1652870822326,
+          "modified": false
+        },
+        "login.php": {
+          "type": "-",
+          "size": 12317,
+          "lmtime": 1652870822328,
+          "modified": false
+        },
+        "nosotros.php": {
+          "type": "-",
+          "size": 1442,
+          "lmtime": 1652870822328,
+          "modified": false
+        },
+        "privacidad.php": {
+          "type": "-",
+          "size": 1719,
+          "lmtime": 1652870822354,
+          "modified": false
+        },
         "sesion": {
+          "error_log": {
+            "type": "-",
+            "size": 832,
+            "lmtime": 0,
+            "modified": false
+          },
           "procesar.php": {
             "type": "-",
-            "size": 2013,
-            "lmtime": 1651748658686,
+            "size": 2248,
+            "lmtime": 1652871523806,
+            "modified": false
+          }
+        },
+        "termsCond.php": {
+          "type": "-",
+          "size": 8099,
+          "lmtime": 1652870822372,
+          "modified": false
+        }
+      },
+      "librerias": {
+        "PHPMailer": {
+          "COMMITMENT": {
+            "type": "-",
+            "size": 2138,
+            "lmtime": 1652870822381,
+            "modified": false
+          },
+          "LICENSE": {
+            "type": "-",
+            "size": 27030,
+            "lmtime": 1652870822386,
+            "modified": false
+          },
+          "README.md": {
+            "type": "-",
+            "size": 16469,
+            "lmtime": 1652870822390,
+            "modified": false
+          },
+          "SECURITY.md": {
+            "type": "-",
+            "size": 7621,
+            "lmtime": 1652870822394,
+            "modified": false
+          },
+          "composer.json": {
+            "type": "-",
+            "size": 2561,
+            "lmtime": 1652870822397,
+            "modified": false
+          },
+          "get_oauth_token.php": {
+            "type": "-",
+            "size": 5018,
+            "lmtime": 1652870822399,
+            "modified": false
+          },
+          "language": {
+            "phpmailer.lang-af.php": {
+              "type": "-",
+              "size": 1610,
+              "lmtime": 1652870822402,
+              "modified": false
+            },
+            "phpmailer.lang-ar.php": {
+              "type": "-",
+              "size": 2051,
+              "lmtime": 1652870822404,
+              "modified": false
+            },
+            "phpmailer.lang-az.php": {
+              "type": "-",
+              "size": 1776,
+              "lmtime": 1652870822407,
+              "modified": false
+            },
+            "phpmailer.lang-ba.php": {
+              "type": "-",
+              "size": 1772,
+              "lmtime": 1652870822409,
+              "modified": false
+            },
+            "phpmailer.lang-be.php": {
+              "type": "-",
+              "size": 2205,
+              "lmtime": 1652870822410,
+              "modified": false
+            },
+            "phpmailer.lang-bg.php": {
+              "type": "-",
+              "size": 2223,
+              "lmtime": 1652870822412,
+              "modified": false
+            },
+            "phpmailer.lang-ca.php": {
+              "type": "-",
+              "size": 1757,
+              "lmtime": 1652870822413,
+              "modified": false
+            },
+            "phpmailer.lang-ch.php": {
+              "type": "-",
+              "size": 1641,
+              "lmtime": 1652870822415,
+              "modified": false
+            },
+            "phpmailer.lang-cs.php": {
+              "type": "-",
+              "size": 1826,
+              "lmtime": 1652870822418,
+              "modified": false
+            },
+            "phpmailer.lang-da.php": {
+              "type": "-",
+              "size": 1733,
+              "lmtime": 1652870822419,
+              "modified": false
+            },
+            "phpmailer.lang-de.php": {
+              "type": "-",
+              "size": 1914,
+              "lmtime": 1652870822420,
+              "modified": false
+            },
+            "phpmailer.lang-el.php": {
+              "type": "-",
+              "size": 2321,
+              "lmtime": 1652870822421,
+              "modified": false
+            },
+            "phpmailer.lang-eo.php": {
+              "type": "-",
+              "size": 1691,
+              "lmtime": 1652870822432,
+              "modified": false
+            },
+            "phpmailer.lang-es.php": {
+              "type": "-",
+              "size": 1751,
+              "lmtime": 1652870822435,
+              "modified": false
+            },
+            "phpmailer.lang-et.php": {
+              "type": "-",
+              "size": 1772,
+              "lmtime": 1652870822439,
+              "modified": false
+            },
+            "phpmailer.lang-fa.php": {
+              "type": "-",
+              "size": 2107,
+              "lmtime": 1652870822442,
+              "modified": false
+            },
+            "phpmailer.lang-fi.php": {
+              "type": "-",
+              "size": 1759,
+              "lmtime": 1652870822443,
+              "modified": false
+            },
+            "phpmailer.lang-fo.php": {
+              "type": "-",
+              "size": 1664,
+              "lmtime": 1652870822444,
+              "modified": false
+            },
+            "phpmailer.lang-fr.php": {
+              "type": "-",
+              "size": 2890,
+              "lmtime": 1652870822446,
+              "modified": false
+            },
+            "phpmailer.lang-gl.php": {
+              "type": "-",
+              "size": 1769,
+              "lmtime": 1652870822448,
+              "modified": false
+            },
+            "phpmailer.lang-he.php": {
+              "type": "-",
+              "size": 1839,
+              "lmtime": 1652870822450,
+              "modified": false
+            },
+            "phpmailer.lang-hi.php": {
+              "type": "-",
+              "size": 2618,
+              "lmtime": 1652870822452,
+              "modified": false
+            },
+            "phpmailer.lang-hr.php": {
+              "type": "-",
+              "size": 1781,
+              "lmtime": 1652870822454,
+              "modified": false
+            },
+            "phpmailer.lang-hu.php": {
+              "type": "-",
+              "size": 1744,
+              "lmtime": 1652870822455,
+              "modified": false
+            },
+            "phpmailer.lang-hy.php": {
+              "type": "-",
+              "size": 2212,
+              "lmtime": 1652870822456,
+              "modified": false
+            },
+            "phpmailer.lang-id.php": {
+              "type": "-",
+              "size": 2028,
+              "lmtime": 1652870822457,
+              "modified": false
+            },
+            "phpmailer.lang-it.php": {
+              "type": "-",
+              "size": 1847,
+              "lmtime": 1652870822459,
+              "modified": false
+            },
+            "phpmailer.lang-ja.php": {
+              "type": "-",
+              "size": 2058,
+              "lmtime": 1652870822460,
+              "modified": false
+            },
+            "phpmailer.lang-ka.php": {
+              "type": "-",
+              "size": 2911,
+              "lmtime": 1652870822462,
+              "modified": false
+            },
+            "phpmailer.lang-ko.php": {
+              "type": "-",
+              "size": 1798,
+              "lmtime": 1652870822464,
+              "modified": false
+            },
+            "phpmailer.lang-lt.php": {
+              "type": "-",
+              "size": 1654,
+              "lmtime": 1652870822466,
+              "modified": false
+            },
+            "phpmailer.lang-lv.php": {
+              "type": "-",
+              "size": 1670,
+              "lmtime": 1652870822467,
+              "modified": false
+            },
+            "phpmailer.lang-mg.php": {
+              "type": "-",
+              "size": 1809,
+              "lmtime": 1652870822469,
+              "modified": false
+            },
+            "phpmailer.lang-ms.php": {
+              "type": "-",
+              "size": 1761,
+              "lmtime": 1652870822471,
+              "modified": false
+            },
+            "phpmailer.lang-nb.php": {
+              "type": "-",
+              "size": 1581,
+              "lmtime": 1652870822473,
+              "modified": false
+            },
+            "phpmailer.lang-nl.php": {
+              "type": "-",
+              "size": 2399,
+              "lmtime": 1652870822476,
+              "modified": false
+            },
+            "phpmailer.lang-pl.php": {
+              "type": "-",
+              "size": 1845,
+              "lmtime": 1652870822478,
+              "modified": false
+            },
+            "phpmailer.lang-pt.php": {
+              "type": "-",
+              "size": 1916,
+              "lmtime": 1652870822481,
+              "modified": false
+            },
+            "phpmailer.lang-pt_br.php": {
+              "type": "-",
+              "size": 2757,
+              "lmtime": 1652870822484,
+              "modified": false
+            },
+            "phpmailer.lang-ro.php": {
+              "type": "-",
+              "size": 2481,
+              "lmtime": 1652870822487,
+              "modified": false
+            },
+            "phpmailer.lang-ru.php": {
+              "type": "-",
+              "size": 2275,
+              "lmtime": 1652870822491,
+              "modified": false
+            },
+            "phpmailer.lang-sk.php": {
+              "type": "-",
+              "size": 1939,
+              "lmtime": 1652870822493,
+              "modified": false
+            },
+            "phpmailer.lang-sl.php": {
+              "type": "-",
+              "size": 2613,
+              "lmtime": 1652870822495,
+              "modified": false
+            },
+            "phpmailer.lang-sr.php": {
+              "type": "-",
+              "size": 2329,
+              "lmtime": 1652870822497,
+              "modified": false
+            },
+            "phpmailer.lang-sr_latn.php": {
+              "type": "-",
+              "size": 1842,
+              "lmtime": 1652870822501,
+              "modified": false
+            },
+            "phpmailer.lang-sv.php": {
+              "type": "-",
+              "size": 1637,
+              "lmtime": 1652870822504,
+              "modified": false
+            },
+            "phpmailer.lang-tl.php": {
+              "type": "-",
+              "size": 1749,
+              "lmtime": 1652870822505,
+              "modified": false
+            },
+            "phpmailer.lang-tr.php": {
+              "type": "-",
+              "size": 1803,
+              "lmtime": 1652870822506,
+              "modified": false
+            },
+            "phpmailer.lang-uk.php": {
+              "type": "-",
+              "size": 2310,
+              "lmtime": 1652870822509,
+              "modified": false
+            },
+            "phpmailer.lang-vi.php": {
+              "type": "-",
+              "size": 1820,
+              "lmtime": 1652870822510,
+              "modified": false
+            },
+            "phpmailer.lang-zh.php": {
+              "type": "-",
+              "size": 1698,
+              "lmtime": 1652870822512,
+              "modified": false
+            },
+            "phpmailer.lang-zh_cn.php": {
+              "type": "-",
+              "size": 1685,
+              "lmtime": 1652870822514,
+              "modified": false
+            }
+          },
+          "src": {
+            "Exception.php": {
+              "type": "-",
+              "size": 1280,
+              "lmtime": 1652870822516,
+              "modified": false
+            },
+            "OAuth.php": {
+              "type": "-",
+              "size": 3913,
+              "lmtime": 1652870822519,
+              "modified": false
+            },
+            "OAuthTokenProvider.php": {
+              "type": "-",
+              "size": 1566,
+              "lmtime": 1652870822520,
+              "modified": false
+            },
+            "PHPMailer.php": {
+              "type": "-",
+              "size": 182772,
+              "lmtime": 1652870822524,
+              "modified": false
+            },
+            "POP3.php": {
+              "type": "-",
+              "size": 12574,
+              "lmtime": 1652870822526,
+              "modified": false
+            },
+            "SMTP.php": {
+              "type": "-",
+              "size": 48783,
+              "lmtime": 1652870822528,
+              "modified": false
+            }
+          },
+          "VERSION": {
+            "type": "-",
+            "size": 5,
+            "lmtime": 1652870822395,
             "modified": false
           }
         }
       },
-      "librerias": {},
+      "manifest.json": {
+        "type": "-",
+        "size": 723,
+        "lmtime": 1652879130364,
+        "modified": false
+      },
       "panel": {
         "ActualizardatosSensoresBD.php": {
           "type": "-",
-          "size": 0,
-          "lmtime": 0,
+          "size": 470,
+          "lmtime": 1652871556281,
           "modified": false
         },
         "actualizarDatos.php": {
           "type": "-",
           "size": 1750,
-          "lmtime": 1651748991136,
+          "lmtime": 1652870822532,
           "modified": false
         },
         "actualizarDatosSensoresBD.php": {
           "type": "-",
-          "size": 436,
-          "lmtime": 1651749521901,
+          "size": 470,
+          "lmtime": 1652882326627,
           "modified": false
         },
         "actualizarDatosTema.php": {
           "type": "-",
           "size": 1752,
-          "lmtime": 1651749100385,
+          "lmtime": 1652870822534,
           "modified": false
         },
         "actualizarValoresPanel.php": {
           "type": "-",
           "size": 611,
-          "lmtime": 1651749112694,
+          "lmtime": 1652870822535,
           "modified": false
         },
         "actualizardatosSensoresBD.php": {
           "type": "-",
-          "size": 107,
-          "lmtime": 0,
+          "size": 470,
+          "lmtime": 1652871556281,
           "modified": false
         },
         "cambiarTema.php": {
           "type": "-",
-          "size": 10002,
-          "lmtime": 1651749135772,
+          "size": 9846,
+          "lmtime": 1652871772284,
           "modified": false
         },
         "cogerDatosLog.php": {
           "type": "-",
-          "size": 428,
-          "lmtime": 1651759376643,
+          "size": 271,
+          "lmtime": 1652870822539,
           "modified": false
         },
         "configuracion.php": {
           "type": "-",
-          "size": 11672,
-          "lmtime": 1651749168334,
+          "size": 11911,
+          "lmtime": 1652871793337,
           "modified": false
         },
         "error_log": {
           "type": "-",
-          "size": 3659027,
+          "size": 394514,
           "lmtime": 0,
           "modified": true
         },
         "estadoArduino.php": {
           "type": "-",
           "size": 254,
-          "lmtime": 1651749171713,
+          "lmtime": 1652870822542,
           "modified": false
         },
-        "funciones": {},
         "graficas.php": {
           "type": "-",
-          "size": 22514,
-          "lmtime": 1651749193540,
+          "size": 22491,
+          "lmtime": 1652871824931,
           "modified": false
         },
         "index.php": {
           "type": "-",
-          "size": 27089,
-          "lmtime": 1651749186601,
+          "size": 31703,
+          "lmtime": 1652883955059,
           "modified": false
         },
         "logCasa.php": {
           "type": "-",
-          "size": 5144,
-          "lmtime": 1651760324798,
+          "size": 6646,
+          "lmtime": 1652871981560,
           "modified": false
         }
+      },
+      "swcache.js": {
+        "type": "-",
+        "size": 2188,
+        "lmtime": 1652880273309,
+        "modified": false
+      },
+      "swcache_register.js": {
+        "type": "-",
+        "size": 151,
+        "lmtime": 1652879752631,
+        "modified": false
       }
     }
   },

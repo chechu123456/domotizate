@@ -540,6 +540,7 @@
         }
 
         function listarRegistrosCasa($idCasa){
+            //Crear un objeto vacio
             $registrosCasa = new stdClass();
             $datos = array();
 
@@ -548,7 +549,7 @@
                             FROM registro
                             INNER JOIN tienen ON tienen.idRegistro = registro.idRegistro
                             INNER JOIN sensor ON tienen.idSensor = sensor.idSensor
-                            INNER JOIN casa ON sensor.idCasa = sensor.idCasa
+                            INNER JOIN casa ON casa.idCasa = sensor.idCasa
                             WHERE casa.idCasa =$idCasa";
 
                         

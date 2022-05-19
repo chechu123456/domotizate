@@ -265,35 +265,15 @@
             if (Notification.permission !== 'granted') {
                 Notification.requestPermission();
             }
+           // const permission = await navigator.permissions.query({name: "notifications"});
 
             
-
-            if ('Notification' in window) {
-            Notification.requestPermission();
-            }
-            
-        });
-
-        $(document).ready(function(){
-            if (!Notification) {
-                alert('Tu navegador no soporta notificaciones');
-                return;
-            }
-
-            if (Notification.permission !== 'granted') {
-                Notification.requestPermission();
-            }
-
-            
-
+/*
             if ('Notification' in window) {
                 Notification.requestPermission();
             }
-            
+*/
         });
-
-
-
         
         function getDate(){
             var myDate = new Date();
@@ -306,7 +286,8 @@
         setInterval(function(){ 
             getDate();
         },1000);
-
+       
+        //touchstart
         $(document).on("click", ".icoCerrarSesion", function(){
             window.location.href = "<?php echo localizacion() . "funciones/cerrarSesion.php"?>";
 
@@ -412,6 +393,7 @@
 
          
         $(document).ready(function(){
+
             if($(".formaCirculo").attr("class").split(' ')[1] == "conectado"){
                 $(".textoEstadoArduino").html("Conectado");
             }else if($(".formaCirculo").attr("class").split(' ')[1] == "desconectado"){
@@ -507,6 +489,10 @@
                 $(".contAlarma p").css("font-size", parseInt($(".contAlarma p").css("font-size"))*tamanoLetraNombSensores);
             }
 
+            //NOTIFICACIONES AL CARGAR LA PÁGINA 
+            procesoNotificacionPuertaPrincipal();
+            procesoNotificacionPuertaGaraje();
+
         });
 
 
@@ -543,7 +529,7 @@
         });
 
 
-        $(document).on("change","select",function(){
+        $(document).on("change", function(){
             var valorAlarma = $(this).children("option:selected").text()[0];
             contador = valorAlarma + "000";
             guardarDatosSensoresBD("alarma", valorAlarma);
@@ -577,7 +563,11 @@
 
            
 
-        $(document).on("click","input#btn-switch9",function(){
+        $(document).on("change, load","input#btn-switch9",function(){
+            procesoNotificacionPuertaGaraje();
+        });
+
+        function procesoNotificacionPuertaGaraje(){
             //Esperar 10sg
             setTimeout(function(){
                 //Comprobar si sigue activado
@@ -595,13 +585,13 @@
                 }
             },10000); //Cada 10 sg
             
-        });
+        }
+
 
         function notificacionPuertaGaraje(){
             if(Notification.permission !== "granted"){
                 Notification.requestPermission();
             }else{
-                console.log("Notificacion activada Puerta Garaje");
                 var notificacion = new Notification('IMPORTANTE',{
                     icon: '../imagenes/logos/android-chrome-192x192.png',
                     body: "Te has dejado la Puerta del Garaje Abierta!!!",
@@ -613,7 +603,12 @@
             }
         }
 
-        $(document).on("click","input#btn-switch10",function(){
+        //Al cambiar el checkbox de la puerta principal
+        $(document).on("change","input#btn-switch10",function(){
+            procesoNotificacionPuertaPrincipal();
+        });
+
+        function procesoNotificacionPuertaPrincipal(){
             //Esperar 10sg
             setTimeout(function(){
                 //Comprobar si sigue activado
@@ -630,8 +625,8 @@
                     clearInterval(puertaPrinc);
                 }
             },10000); //Cada 10 sg
-            
-        });
+        }
+
 
         function notificacionPuertaPrincipal(){
             if(Notification.permission !== "granted"){
@@ -640,7 +635,7 @@
                 console.log("Notificacion activada Puerta Principal");
                 var notificacion = new Notification('IMPORTANTE',{
                     icon: '../imagenes/logos/android-chrome-192x192.png',
-                    body: "Te has dejado la Puerta del Principal Abierta!!!",
+                    body: "Te has dejado la Puerta Principal Abierta!!!",
                 })
 
                 notificacion.onclick = function(){
