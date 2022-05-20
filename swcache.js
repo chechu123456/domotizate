@@ -1,4 +1,4 @@
-var version = 'v21';
+var version = 'v25';
 
 // Instalación
 self.addEventListener('install', function(event){
@@ -25,24 +25,22 @@ self.addEventListener('install', function(event){
 // Activación
 //En el proceso de activación del service worker
 //Si se actualiza, borramos caches antiguas 
-// REVISAR FUNCIONAMIENTO
-self.addEventListener("activate", function(event){
-    event.waitUntil(
-        caches.keys()
-        .then(function(keys){
-            return Promise.all(keys.filter(function(key){
-                return key !==version;
-            }).map(function(key){
-                return caches.delete(key);
-            }))
-        })
-    )
-});
 
+self.addEventListener('activate', event => {
+    event.waitUntil(
+      caches.keys().then(cacheNames => Promise.all(
+        cacheNames
+          .filter(cacheName => cacheName !== version)
+          .map(cacheName => caches.delete(cacheName))
+      ))
+    );
+   });
 
 //Activacion
+// Primero lee la cache
 //Capturar las peticiones y responder con los datos que tenemos en la cache
 //cuando esté offline
+/*
 self.addEventListener('fetch', function(event){
     //Escuchamos el evento fetch que nos devolverá un respond
     event.respondWith(
@@ -64,3 +62,19 @@ self.addEventListener('fetch', function(event){
         })
     )
 });
+*/
+
+//Primero se conecta a Internet y compara con lo que tiene en la cache
+//Si es distinto descargalo nuevo
+self.addEventListener('fetch', function(event) {
+    event.respondWith(
+      caches.open(version).then(function(cache) {
+        return cache.match(event.request).then(function (response) {
+          return response || fetch(event.request).then(function(response) {
+            cache.put(event.request, response.clone());
+            return response;
+          });
+        });
+      })
+    );
+  });

@@ -43,8 +43,8 @@
         },
         "consultas.php": {
           "type": "-",
-          "size": 40090,
-          "lmtime": 1652870822247,
+          "size": 40125,
+          "lmtime": 1652965936877,
           "modified": false
         }
       },
@@ -414,8 +414,8 @@
           },
           "procesar.php": {
             "type": "-",
-            "size": 2248,
-            "lmtime": 1652871523806,
+            "size": 2272,
+            "lmtime": 1652966060245,
             "modified": false
           }
         },
@@ -875,8 +875,8 @@
         },
         "cogerDatosLog.php": {
           "type": "-",
-          "size": 271,
-          "lmtime": 1652870822539,
+          "size": 316,
+          "lmtime": 1653031729070,
           "modified": false
         },
         "configuracion.php": {
@@ -887,7 +887,7 @@
         },
         "error_log": {
           "type": "-",
-          "size": 394514,
+          "size": 655293,
           "lmtime": 0,
           "modified": true
         },
@@ -899,27 +899,27 @@
         },
         "graficas.php": {
           "type": "-",
-          "size": 22491,
-          "lmtime": 1652871824931,
+          "size": 22445,
+          "lmtime": 1652944044003,
           "modified": false
         },
         "index.php": {
           "type": "-",
-          "size": 31703,
-          "lmtime": 1652883955059,
+          "size": 31716,
+          "lmtime": 1652966474863,
           "modified": false
         },
         "logCasa.php": {
           "type": "-",
-          "size": 6646,
-          "lmtime": 1652871981560,
+          "size": 7769,
+          "lmtime": 1653033511682,
           "modified": false
         }
       },
       "swcache.js": {
         "type": "-",
-        "size": 2188,
-        "lmtime": 1652880273309,
+        "size": 2742,
+        "lmtime": 1653029010609,
         "modified": false
       },
       "swcache_register.js": {

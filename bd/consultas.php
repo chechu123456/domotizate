@@ -550,7 +550,8 @@
                             INNER JOIN tienen ON tienen.idRegistro = registro.idRegistro
                             INNER JOIN sensor ON tienen.idSensor = sensor.idSensor
                             INNER JOIN casa ON casa.idCasa = sensor.idCasa
-                            WHERE casa.idCasa =$idCasa";
+                            WHERE casa.idCasa =$idCasa
+                            ORDER BY fechaRegistro DESC";
 
                         
                 if($res = parent::conecta()->query($query)) {   

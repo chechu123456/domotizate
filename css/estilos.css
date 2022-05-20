@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h1,h2,h3, p, td{
+    font-family: 'Roboto', sans-serif;
+}
+
 hr{
     color: white;
 }
@@ -1337,6 +1341,10 @@ hr{
 */
     .contLog .titConfigPanel{
         padding-bottom: 6%
+    }
+
+    .dataTables_length, #tablaLogs_filter, .dataTables_info, .dataTables_paginate, #tablaLogs{
+        font-size: 8px;
     }
 
   

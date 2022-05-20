@@ -1,3 +1,6 @@
+<script>var pruebaDatos = [];</script>
+<script>var pruebaDatosArray = [];</script>
+
 <?php
 session_start();
 include("../inc.php");
@@ -8,6 +11,29 @@ date_default_timezone_set("Europe/Madrid");
 $infoUsuario = $listado->recuperarDatosUsuario($_SESSION['nickname']);
 $nombCasa = $listado->buscarNombreCasa($_SESSION['idCasa']);
 $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa']);
+
+//Recoger los datos de la base de datos y guardarlos en una variable
+$registrosCasa = $listado->listarRegistrosCasa($_SESSION['idCasa']);
+$datosObjeto = $registrosCasa->data;
+if(count($registrosCasa->data) <= 3000){
+    $numDatosRecibir = count($registrosCasa->data);
+}else{
+    $numDatosRecibir = 3000;
+}
+
+echo "<script>";
+    for($i= 0; $i < $numDatosRecibir; $i++){
+        $datosTabla = $registrosCasa->data[$i];
+        echo " pruebaDatos = [];\n";
+
+        foreach ($datosTabla as $item => $value){
+            echo "pruebaDatos.push('" . $value   . "');\n";
+        }
+
+        echo "pruebaDatosArray[$i] = pruebaDatos;\n";
+    }
+
+echo "</script>";
 
 ?>
 
@@ -41,7 +67,7 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
                             <th>Sensor</th>
                             <th>Fecha Registro</th>
                             <th>Valor</th>
-                            <th>Nickname</th>
+                            <th>Usuario</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -49,7 +75,7 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
                             <th>Sensor</th>
                             <th>Fecha Registro</th>
                             <th>Valor</th>
-                            <th>Nickname</th>
+                            <th>Usuario</th>
                         </tr>
                     </tfoot>
                 </table>
@@ -70,15 +96,42 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
     <script>
   
         $(document).ready( function () {
-            $('#tablaLogs').DataTable( {
-                "ajax": "./cogerDatosLog.php",
-                "columns": [
-                    { "data": "nombsensor" },
-                    { "data": "fechaRegistro" },
-                    { "data": "valor" },
-                    { "data": "nickname" },
-                ]
-            } );
+            if(navigator.onLine) {
+                var tabla = $('#tablaLogs').DataTable( {
+                    "ajax": "./cogerDatosLog.php",
+                    "columns": [
+                        { "data": "nombsensor" },
+                        { "data": "fechaRegistro" },
+                        { "data": "valor" },
+                        { "data": "nickname" },
+                        ],
+                    order: [[1, 'desc']],
+                    language: {
+                        "decimal": "",
+                        "emptyTable": "No hay información",
+                        "info": "Mostrando _START_ a _END_ de _TOTAL_ entradas",
+                        "infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
+                        "infoFiltered": "(Filtrado de _MAX_ total entradas)",
+                        "infoPostFix": "",
+                        "thousands": ",",
+                        "lengthMenu": "Mostrar _MENU_ entradas",
+                        "loadingRecords": "Cargando...",
+                        "processing": "Procesando...",
+                        "search": "Buscar:",
+                        "zeroRecords": "Sin resultados encontrados",
+                        "paginate": {
+                            "first": "Primero",
+                            "last": "Ultimo",
+                            "next": "Siguiente",
+                            "previous": "Anterior"
+                        }
+                    },
+                } );
+            }else{
+                $('#tablaLogs').DataTable({
+                    data: pruebaDatosArray,
+                });
+            }
 
 
             //Cada vez que se carguen los datos de la tabla, cambiar los valores
@@ -168,9 +221,6 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
             recuperarValores();
         }, 5000);
 
-        $(document).ready(function() {
- 
-        });
     </script>
 </body>
 

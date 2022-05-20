@@ -39,6 +39,9 @@ function cabeceraPaginasPanel(){
         \n<meta name='msapplication-TileColor' content='#da532c'>
         \n<meta name='theme-color' content='#ffffff'>     
         ";
+    echo "\n<link rel='preconnect' href='https://fonts.googleapis.com'>
+        \n<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+        \n<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap' rel='stylesheet'>";
 }
 
 function obtenerDominio(){
