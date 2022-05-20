@@ -1,6 +1,8 @@
 <?php 
+    namespace bd\consultas;
+    
     require("conexion.php");
-    class Listado extends Conexion{
+    class Listado extends conexion{
 
         private $idCasa;
         private $nickname;
