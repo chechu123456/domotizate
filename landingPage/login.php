@@ -249,7 +249,7 @@
                         //alert(data);
                     })
                     .fail(function() {
-                        alert('Error!!');
+                        swal("ERROR!", "No se pudo establecer conexión con el Servidor. Intentalo más tarde", "warning");
                     });
             }
             
