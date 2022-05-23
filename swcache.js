@@ -1,4 +1,4 @@
-var version = 'v25';
+var version = 'v27';
 
 // Instalación
 self.addEventListener('install', function(event){

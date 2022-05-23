@@ -8,14 +8,13 @@
         //Si no tengo cuenta, registrarme
         $nickname =  strtolower(trim(stripslashes(htmlspecialchars($_POST['nickname']))));
         $password = trim(stripslashes(htmlspecialchars($_POST['password'])));
-        $idCasa = trim(stripslashes(htmlspecialchars($_POST['idCasa'])));
+        $idCasa = (int) trim(stripslashes(htmlspecialchars($_POST['idCasa'])));
         $nombCasa = trim(stripslashes(htmlspecialchars($_POST['nombCasa'])));
         $localidad = trim(stripslashes(htmlspecialchars($_POST['localidad'])));
         
         if($listado->buscarUsuario($nickname)){
             echo "El nickname ya existe";
         }else{
-            $idCasa = $listado->__setIdCasa($idCasa);
             $listado->crearUsuario($nickname, $password, $localidad, $nombCasa, $idCasa);
             $idCasa = $listado->buscarIdUltCasa();
             $_SESSION['nickname'] = $nickname;
@@ -36,7 +35,7 @@
 
         //Cada vez que se inicia sesión, el estado del arduino se pone como Apagado, así si el arduino está conectado,
         //creará el un nuevo registro diciendo que está conectado
-        $desconectarArduino = $listado->crearTienenRegistro("arduino", "0", $_SESSION['idCasa'],  "arduino_$idCasa");
+        $desconectarArduino = $listado->crearTienenRegistro("arduino", "0", $idCasa,  "arduino_$idCasa");
     
         if($listado->comprobarUsuarioContrasena($nickname, $password)){
             echo "Usuario y contraseña OK";

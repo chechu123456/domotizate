@@ -1,13 +1,15 @@
+<?php
+    session_start();
+    include("../inc.php");
+    comprobarSesionVacia();
+    //Zona horaria
+    date_default_timezone_set("Europe/Madrid");
+?>
+
 <script>var pruebaDatos = [];</script>
 <script>var pruebaDatosArray = [];</script>
 
 <?php
-session_start();
-include("../inc.php");
-comprobarSesionVacia();
-//Zona horaria
-date_default_timezone_set("Europe/Madrid");
-
 $infoUsuario = $listado->recuperarDatosUsuario($_SESSION['nickname']);
 $nombCasa = $listado->buscarNombreCasa($_SESSION['idCasa']);
 $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa']);

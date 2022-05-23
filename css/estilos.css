@@ -1210,6 +1210,11 @@ hr{
         margin-top: 8%;
     }
 
+    /* ESTADISTICAS */
+    .contGraficas .contSupTemp .filtradoGraficas, .contGraficas .contSupHum .filtradoGraficas{
+        width: 25%;
+    }
+
     /*PAG CONFIGURACIÓN*/
     .configPanel .contenedorPagPanel {
         padding: 0;

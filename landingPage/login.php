@@ -175,7 +175,7 @@
                     //alert(data);
                 })
                 .fail(function() {
-                    alert('Error!!');
+                    alert('Error, vuelvelo a intentar más tarde!!');
                 });
             }
         });
@@ -213,7 +213,7 @@
                         }
                     })
                     .done(function(data) {
-                        //console.log(data);
+                        console.log(data);
                         
                         if(data){
                             //alert(data);
@@ -230,13 +230,13 @@
                                 $(document).on("click", ".swal-button", function(e){
                                     if(data.includes(usuarioOK)){
                                         //Todo OK, redireccionar al panel
-                                        window.location.href = "../panel/index.php";
+                                        //window.location.href = "../panel/index.php";
                                         //console.log(data);                                      
                                     }
                                 });
                             }else{
                                 //Todo OK, redireccionar al panel
-                                window.location.href = "../panel/index.php";
+                                //window.location.href = "../panel/index.php";
                             }
                            
                         }

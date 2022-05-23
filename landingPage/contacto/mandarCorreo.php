@@ -37,25 +37,25 @@ if (isset($_POST['action']) && ($_POST['action'] == 'formularioContacto')) {
                 //Ajustes del Servidor
                 $mail->SMTPDebug = SMTP::DEBUG_SERVER;
                 $mail->isSMTP();
-                $mail->Host       = 'mail.allnatural.site';
+                $mail->Host       = 'mail.domotizate.site';
                 $mail->SMTPAuth   = true;
-                $mail->Username   = 'pruebas@correo.allnatural.site';
-                $mail->Password   = 'domotizate';
+                $mail->Username   = 'contacto@domotizate.site';
+                $mail->Password   = 'contacto@domotizate.site';
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port       = 465;
                 $mail->SMTPDebug  = 4;
             
             
                 //El que lo envía
-                $mail->setFrom('pruebas@correo.allnatural.site', 'Domotizate');
+                $mail->setFrom('contacto@domotizate.site', 'Domotizate');
                 //El que lo recibe
-                $mail->addAddress('pruebas@correo.allnatural.site', 'Sergio');
+                $mail->addAddress('contacto@domotizate.site', 'Sergio');
             
                 //Contenido del correo
                 $mail->isHTML(true);
                 $mail->Subject = "Domotizate: ". $asunto;
-                $mail->Body    = "Desde la Página de Contacto de <a href='https://domotizate.allnatural.site'>Domotizate</a>, te escribieron:<br>".$mensaje.
-                "<br>Contactar con el usuario: ". $correoEmisor;
+                $mail->Body    = "Desde la Página de Contacto de <a href='https://domotizate.site'>Domotizate</a>, te escribieron:<br>".$mensaje.
+                "<br>Contactar con el usuario: <a href=\"mailto:$correoEmisor\">" . $correoEmisor . "</a>"  ;
                 
                 $mail->CharSet = 'UTF-8';
         

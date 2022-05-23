@@ -1,5 +1,4 @@
 <?php
-
     session_start();
     include("../inc.php");
     comprobarSesionVacia();

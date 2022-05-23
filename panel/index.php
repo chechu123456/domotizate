@@ -241,6 +241,7 @@
                     </div>
                 </form>
             </div>
+
             <div class="piePagPanel">
                 <div class="estadoArduino">
                     <p>Estado: <span class="textoEstadoArduino">Conectado</span></p>
@@ -496,7 +497,7 @@
         });
 
 
-
+        /* Al activar o desactivar algun sensor, guardar el valor en la bd */
 
         $(document).on("click","input",function(){
             
@@ -529,7 +530,8 @@
         });
 
 
-        $(document).on("change", function(){
+        // Select de la alarma --> Guardar valor del sensor en la bd
+        $(document).on("change", "#alarma", function(){
             var valorAlarma = $(this).children("option:selected").text()[0];
             contador = valorAlarma + "000";
             guardarDatosSensoresBD("alarma", valorAlarma);
@@ -541,7 +543,7 @@
         });
 
       
-
+        //Petición a la bd para guardar el valor del sensor
         function guardarDatosSensoresBD(nombSensor, valor){
             
             //AJAX - Guardar cambios en la bd
@@ -556,14 +558,19 @@
             .done(function(data) {
                console.log(data);
             })
-            .fail(function() {
-                alert('Error al realizar la petición!');
+            .fail(function( textStatus ) {
+                swal("ERROR!", "No se ha podido realizar esta acción", "warning");
+                console.log(textStatus);
             });
         }
 
            
 
-        $(document).on("change, load","input#btn-switch9",function(){
+        /***************************/
+        /****** NOTIFICACIONES *****/
+        /***************************/
+
+        $(document).on("change","input#btn-switch9",function(){
             procesoNotificacionPuertaGaraje();
         });
 
@@ -592,6 +599,7 @@
             if(Notification.permission !== "granted"){
                 Notification.requestPermission();
             }else{
+                console.log("Notificacion activada Puerta Garaje");
                 var notificacion = new Notification('IMPORTANTE',{
                     icon: '../imagenes/logos/android-chrome-192x192.png',
                     body: "Te has dejado la Puerta del Garaje Abierta!!!",

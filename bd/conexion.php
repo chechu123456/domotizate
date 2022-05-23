@@ -1,5 +1,5 @@
 <?php
-    namespace bd\conexion;
+    namespace bd;
 
     /**
     *
@@ -61,7 +61,7 @@
          * Crear conexion a la base de datos
          * 
          * @access public
-         * @return string conexion a la base de datos
+         * @return object conexion a la base de datos
          * 
          */
         function conecta(){

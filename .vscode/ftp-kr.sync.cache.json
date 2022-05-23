@@ -1,5 +1,5 @@
 {
-  "ftp://sergio@domotizate.site@domotizate.site": {
+  "ftp://domotizate.site@sergio@domotizate.site": {
     "public_html": {
       ".htaccess": {
         "type": "-",
@@ -7,231 +7,2702 @@
         "lmtime": 0,
         "modified": false
       },
+      ".phpdoc": {
+        "cache": {
+          "files": {
+            "0": {
+              "N": {
+                "SXg1NYpBOzrOPjpyVXeQ": {
+                  "type": "-",
+                  "size": 5400,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "1": {
+              "L": {
+                "eOQu9tkOtF-0lpqWHwQg": {
+                  "type": "-",
+                  "size": 50917,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "T": {
+                "JOuc3y3yGfo79F1XznxQ": {
+                  "type": "-",
+                  "size": 49953,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "2": {
+              "M": {
+                "9tvqqvads1M+F+AutovA": {
+                  "type": "-",
+                  "size": 10281,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "3": {
+              "U": {
+                "VHwtOC12y+KqV1i6+Q7A": {
+                  "type": "-",
+                  "size": 7600,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "4": {
+              "1": {
+                "cfxleZhu9KpRiJUsf0Tw": {
+                  "type": "-",
+                  "size": 1676,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "C": {
+                "pKEELVwkkcNJPdmBapsQ": {
+                  "type": "-",
+                  "size": 49409,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "M": {
+                "sIH9q0-iZbDf01NacuNQ": {
+                  "type": "-",
+                  "size": 5704,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "Q": {
+                "GKVWU9et-9Iln8u3jZLQ": {
+                  "type": "-",
+                  "size": 296526,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "5": {
+              "T": {
+                "0AnTGRqefO4HXHyN8m2A": {
+                  "type": "-",
+                  "size": 17197,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "7": {
+              "6": {
+                "wK4iWdDAABntBHDDx9EA": {
+                  "type": "-",
+                  "size": 6332,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "T": {
+                "TTVgngxRoWCvgg3NNq0g": {
+                  "type": "-",
+                  "size": 3604,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "8": {
+              "L": {
+                "7BwRqGJ4490A4cXrst+Q": {
+                  "type": "-",
+                  "size": 6900,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "N": {
+                "OvFtAuTBmuK8ud-HHz8A": {
+                  "type": "-",
+                  "size": 5344,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "9": {
+              "H": {
+                "QpigmoCKmFuz4RFpENcw": {
+                  "type": "-",
+                  "size": 1684,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "+": {
+              "D": {
+                "6rhg9KApGvl6zUc5f9hA": {
+                  "type": "-",
+                  "size": 5556,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "R": {
+                "ruoH6Nxrf47WOD1rMm3w": {
+                  "type": "-",
+                  "size": 7180,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "V": {
+                "rBKuDn8XoVgIGG4Tqj5g": {
+                  "type": "-",
+                  "size": 6528,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "-": {
+              "4": {
+                "ZN20rCMTYaDiGEQVKblA": {
+                  "type": "-",
+                  "size": 17833,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "8": {
+                "1MRfl+QKJVrFo-HXcynA": {
+                  "type": "-",
+                  "size": 1732,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "D": {
+                "oaFk+2AiIQPc28TUkYHQ": {
+                  "type": "-",
+                  "size": 5744,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "E": {
+                "tTT+baB4IjYhhVb+0PVg": {
+                  "type": "-",
+                  "size": 14349,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "K": {
+                "WXBDLE2HMrFB-gtL6ZPg": {
+                  "type": "-",
+                  "size": 31229,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "S": {
+                "Yj2FfN2OftT2u6l29+PA": {
+                  "type": "-",
+                  "size": 1648,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "A": {
+              "8": {
+                "h0B82H+qG7YUBfQamrCQ": {
+                  "type": "-",
+                  "size": 2148,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "C": {
+                "ML6DmU8HGpJt3zQnt1JQ": {
+                  "type": "-",
+                  "size": 5088,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "N": {
+                "lBvaDQbHqQzVzsQDV9pw": {
+                  "type": "-",
+                  "size": 73785,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "B": {
+              "2": {
+                "2qR0S4Sz1XxSCO00rEmQ": {
+                  "type": "-",
+                  "size": 6072,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "K": {
+                "l0WcK5HtWqZ2hnl4RXxA": {
+                  "type": "-",
+                  "size": 4072,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "T": {
+                "Om5rTtwlLC0qEsa6GDow": {
+                  "type": "-",
+                  "size": 49573,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "X": {
+                "XeCHA6zFEtYIc0ucFzEQ": {
+                  "type": "-",
+                  "size": 4916,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "Y": {
+                "ytkRtD2pWOZgNOJtI3EQ": {
+                  "type": "-",
+                  "size": 6096,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "C": {
+              "I": {
+                "ghoct5Q4UYkBXwxwT-DQ": {
+                  "type": "-",
+                  "size": 6844,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "M": {
+                "FZnUgVzoY-nN8uOzjovw": {
+                  "type": "-",
+                  "size": 6900,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "W": {
+                "FCJz3Ob7rVq+Sn+9xeNg": {
+                  "type": "-",
+                  "size": 4344,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "E": {
+              "6": {
+                "N4uwH1kOG9NWhUzb9b+Q": {
+                  "type": "-",
+                  "size": 3528,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "A": {
+                "vzfRSprKoP4O0BYaLHgA": {
+                  "type": "-",
+                  "size": 5656,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "D": {
+                "bLqEyufR-QQc0wH3GYbg": {
+                  "type": "-",
+                  "size": 5696,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "X": {
+                "UF-bV0lWli+kYhVHaCaw": {
+                  "type": "-",
+                  "size": 140634,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "F": {
+              "C": {
+                "gTuAcXMf7IiNL2zqtGqw": {
+                  "type": "-",
+                  "size": 21977,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "H": {
+                "dhaPDYlZzFr7EUKvT+tw": {
+                  "type": "-",
+                  "size": 6276,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "N": {
+                "gZAl268goeNfZkFvNI7Q": {
+                  "type": "-",
+                  "size": 16177,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "W": {
+                "uWSuWg6X11VX7LmSmJKQ": {
+                  "type": "-",
+                  "size": 6776,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "G": {
+              "1": {
+                "kHBry2NhnsnkAZvcZ4yA": {
+                  "type": "-",
+                  "size": 5804,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "7": {
+                "XTFgSsK0BPD9dfdUSjEg": {
+                  "type": "-",
+                  "size": 14729,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "R": {
+                "xA5tOR5I2IbHK4S8uhHw": {
+                  "type": "-",
+                  "size": 5304,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "H": {
+              "F": {
+                "8eawLvPZ4G1RtGxs7JfQ": {
+                  "type": "-",
+                  "size": 241778,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "O": {
+                "sO-aC0xsFAk-E7bvqP-A": {
+                  "type": "-",
+                  "size": 3232,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "I": {
+              "5": {
+                "NcOuCZykBaWL8QvfIx3Q": {
+                  "type": "-",
+                  "size": 6264,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "6": {
+                "hYwegrY70Wr-vhGPknEA": {
+                  "type": "-",
+                  "size": 6808,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "7": {
+                "GgjIsvDBYFCe1vI3sd4A": {
+                  "type": "-",
+                  "size": 2276,
+                  "lmtime": 0,
+                  "modified": false
+                },
+                "oXeYTz1PwZPz3Gdu4vqQ": {
+                  "type": "-",
+                  "size": 14437,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "+": {
+                "JZ7+FxABaUa2lrI-TaQw": {
+                  "type": "-",
+                  "size": 5676,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "F": {
+                "dj5PYb1tznH84glDbAIQ": {
+                  "type": "-",
+                  "size": 6576,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "N": {
+                "c7BZLP+kQdOXorCRMrdQ": {
+                  "type": "-",
+                  "size": 5788,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "J": {
+              "8": {
+                "FWB210CnxD3UbSSB1mZw": {
+                  "type": "-",
+                  "size": 5428,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "R": {
+                "Nb9VLk040KAVhjNHi5bA": {
+                  "type": "-",
+                  "size": 6300,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "S": {
+                "3x5CVQflxefdNYGwfD6Q": {
+                  "type": "-",
+                  "size": 1469291,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "K": {
+              "2": {
+                "BuxZf+UKU6e4BdYkl98g": {
+                  "type": "-",
+                  "size": 12109,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "L": {
+              "F": {
+                "uPNh8naR2Rt+JOrMUn3A": {
+                  "type": "-",
+                  "size": 6360,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "G": {
+                "41Vbmb5WffyTlg6M7LVw": {
+                  "type": "-",
+                  "size": 43289,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "N": {
+                "eOnz5B2WKItkXxFjmPdw": {
+                  "type": "-",
+                  "size": 5692,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "M": {
+              "6": {
+                "Y5i7AMRiBveUbxnhuqjg": {
+                  "type": "-",
+                  "size": 43205,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "C": {
+                "s-e0ikgeKobwS8J7O+5w": {
+                  "type": "-",
+                  "size": 5520,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "M": {
+                "DFrUwEioXmYLjv+mZt8A": {
+                  "type": "-",
+                  "size": 7264,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "S": {
+                "eiSSj8xgTwUQrtN1Ws0A": {
+                  "type": "-",
+                  "size": 73849,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "U": {
+                "BbX0l1j4WFYF-ukJo6Ew": {
+                  "type": "-",
+                  "size": 5116,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "N": {
+              "0": {
+                "RW2ZOIHYLR2foYNWuY8w": {
+                  "type": "-",
+                  "size": 72965,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "B": {
+                "0S+-euBaAT88SyWb3I5Q": {
+                  "type": "-",
+                  "size": 8636,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "K": {
+                "39A54BDByInVsEWRPp7g": {
+                  "type": "-",
+                  "size": 6208,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "O": {
+              "2": {
+                "n+BYzvXFJEk15NnlOcCg": {
+                  "type": "-",
+                  "size": 241014,
+                  "lmtime": 1684862752000,
+                  "modified": false
+                }
+              },
+              "C": {
+                "nd6809QQyHGsYVcumiQw": {
+                  "type": "-",
+                  "size": 5564,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "S": {
+                "++Gnam94BdxCKn6ljJ+Q": {
+                  "type": "-",
+                  "size": 5924,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "X": {
+                "z3feMExKlE1Cab6pLN2Q": {
+                  "type": "-",
+                  "size": 3664,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "L": {
+                "LsoQg1aoUc73ejnkK9NA": {
+                  "type": "-",
+                  "size": 4256,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "P": {
+              "A": {
+                "TmmuEVjM16iksoChdVUw": {
+                  "type": "-",
+                  "size": 75189,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "Q": {
+              "D": {
+                "DfV+wJI6nGEZjgtMMHbw": {
+                  "type": "-",
+                  "size": 8676,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "V": {
+                "zJZQhJ-s060Y0OX2XCDg": {
+                  "type": "-",
+                  "size": 3228,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "S": {
+              "R": {
+                "2p-we9YYMUk5Ymo7g6Zw": {
+                  "type": "-",
+                  "size": 18065,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "V": {
+                "L1umkNGzZYVdGIgYYfbQ": {
+                  "type": "-",
+                  "size": 355838,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "C": {
+                "7mFjeUmlWO076i3GGk9w": {
+                  "type": "-",
+                  "size": 43845,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "T": {
+              "Q": {
+                "tSQezClckPOBYjdyQ2KA": {
+                  "type": "-",
+                  "size": 5724,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "U": {
+              "C": {
+                "s-9SHq32ht7eq6R1WbeQ": {
+                  "type": "-",
+                  "size": 6060,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "I": {
+                "Zzs-+B72Ej-88FwUerXw": {
+                  "type": "-",
+                  "size": 5224,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "K": {
+                "tzVvEU-Xphd82+0YrYmA": {
+                  "type": "-",
+                  "size": 14301,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "V": {
+              "E": {
+                "U0bwmYqR+5TIoLCANB0A": {
+                  "type": "-",
+                  "size": 74905,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "G": {
+                "tTXtoPRVWglXCp6QZ73Q": {
+                  "type": "-",
+                  "size": 179990,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "I": {
+                "hjmU7gPA0ucVmiAjUQ0w": {
+                  "type": "-",
+                  "size": 5808,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "K": {
+                "EXVqw65JWfx0Q6oGgIyQ": {
+                  "type": "-",
+                  "size": 75949,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "W": {
+              "E": {
+                "D0FeUKKQwRTxx7ImF8UA": {
+                  "type": "-",
+                  "size": 6572,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "J": {
+                "nRIGmcKnYoHiFjAyNRpA": {
+                  "type": "-",
+                  "size": 5720,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "K": {
+                "ugh2B2qjABebbiXOdfDA": {
+                  "type": "-",
+                  "size": 7484,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "R": {
+                "FjWLTxCfGOaNbCre9L+Q": {
+                  "type": "-",
+                  "size": 6304,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "X": {
+                "OXymdG+It79U1Tlz8VIA": {
+                  "type": "-",
+                  "size": 5768,
+                  "lmtime": 0,
+                  "modified": false
+                },
+                "P6WKk8dc02a3fQWv0Qww": {
+                  "type": "-",
+                  "size": 242430,
+                  "lmtime": 1684853109000,
+                  "modified": false
+                }
+              }
+            },
+            "X": {
+              "5": {
+                "NynFspQtoQUjTchJvUAg": {
+                  "type": "-",
+                  "size": 1968,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "N": {
+                "Zs+JJlNd4TsZlsEuPNbA": {
+                  "type": "-",
+                  "size": 53257,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "Q": {
+                "B0OlyOUqReWp3eMYIVJQ": {
+                  "type": "-",
+                  "size": 4404,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "Y": {
+                "ogAGpbzy2xY3sWXN81Xw": {
+                  "type": "-",
+                  "size": 5384,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "Y": {
+              "9": {
+                "lGgdVovbjLy2Q5SRTgaw": {
+                  "type": "-",
+                  "size": 3652,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "G": {
+                "TenQ1k52l3EREatfQ7iw": {
+                  "type": "-",
+                  "size": 5536,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "P": {
+                "v7SlmtO0TJBBoxP7sAyg": {
+                  "type": "-",
+                  "size": 5720,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            },
+            "Z": {
+              "J": {
+                "n+a3TAhClzrCPZr3S3LA": {
+                  "type": "-",
+                  "size": 73429,
+                  "lmtime": 1684862752000,
+                  "modified": false
+                }
+              },
+              "U": {
+                "-ffO+O+t7Jj5dPuZDkAw": {
+                  "type": "-",
+                  "size": 6320,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "Y": {
+                "HLFNBQFZIy8Hif6Pvurg": {
+                  "type": "-",
+                  "size": 74325,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              }
+            }
+          },
+          "descriptors": {
+            "1": {
+              "C": {
+                "lJaBQj4Q+GMeczWtZ0EQ": {
+                  "type": "-",
+                  "size": 7759,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "3": {
+              "E": {
+                "jKST519giihAzszGZd+Q": {
+                  "type": "-",
+                  "size": 5675,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "R": {
+                "2q8kGbq4lOvDNPOf006Q": {
+                  "type": "-",
+                  "size": 5122,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "5": {
+              "P": {
+                "SIFyTqxo2mZAEtsIW23A": {
+                  "type": "-",
+                  "size": 5265,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "Y": {
+                "g4BxZsJkIOCRlqFgG2hA": {
+                  "type": "-",
+                  "size": 5117,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "8": {
+              "6": {
+                "L1H2YPBlDiVUzTmUR98Q": {
+                  "type": "-",
+                  "size": 16336,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "A": {
+                "DQckG4GlL0KpI55-S5BA": {
+                  "type": "-",
+                  "size": 5556,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "B": {
+                "HX3fPBu66IRY5E0Z0EKA": {
+                  "type": "-",
+                  "size": 4428,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                },
+                "YUUawcRPu8iqa0H4uRzA": {
+                  "type": "-",
+                  "size": 483,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "D": {
+                "Xs0HMTszuloM33mHIFKg": {
+                  "type": "-",
+                  "size": 4579,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "9": {
+              "5": {
+                "4im6bUiW5jViEvG2Be6Q": {
+                  "type": "-",
+                  "size": 14599,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "G": {
+                "YTQj94kOTHXXU9k+RsAw": {
+                  "type": "-",
+                  "size": 4347,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "J": {
+                "AH8aCXsz8k+2WCIO9z5A": {
+                  "type": "-",
+                  "size": 42265,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "I": {
+              "X": {
+                "4Woze1cSfa3-SNdoj25w": {
+                  "type": "-",
+                  "size": 57595,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "+": {
+                "z-LZzOOEzYPg462AB-VA": {
+                  "type": "-",
+                  "size": 5432,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "P": {
+                "ZzVe7a5HMTTpv4t+8w4Q": {
+                  "type": "-",
+                  "size": 4326,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "R": {
+                "np39DO2e5lAnaeDabGTw": {
+                  "type": "-",
+                  "size": 3648,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "Q": {
+              "S": {
+                "RHXpfXG92FPcfkqw+G0w": {
+                  "type": "-",
+                  "size": 3964,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                },
+                "ZrnYIm+W9xl97+LJUTYA": {
+                  "type": "-",
+                  "size": 192705,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "+": {
+                "+QhqW7kFo7Ku9UCdRmew": {
+                  "type": "-",
+                  "size": 2838,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "X": {
+                "m34IjXRQM6XhzoTrgGZg": {
+                  "type": "-",
+                  "size": 4645,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "-": {
+              "9": {
+                "Ze5hzUDj0wfbxw2kcAhA": {
+                  "type": "-",
+                  "size": 5257,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "A": {
+              "G": {
+                "mHwR98zfwsK3sEe+rLjQ": {
+                  "type": "-",
+                  "size": 6948,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "N": {
+                "yg0Hii9IcXCQbRHo9IgQ": {
+                  "type": "-",
+                  "size": 5381,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "U": {
+                "eAApbbsf8Q5ZAJrcvYTQ": {
+                  "type": "-",
+                  "size": 5240,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "B": {
+              "B": {
+                "Ue7YTGE6joiZ0x6cOjuA": {
+                  "type": "-",
+                  "size": 4607,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "P": {
+                "PoULOJUwNwc4QbKI2NjQ": {
+                  "type": "-",
+                  "size": 14122,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "T": {
+                "Ugb26-y6D0+Ua9PZVW7w": {
+                  "type": "-",
+                  "size": 2490,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "C": {
+              "U": {
+                "YY6rVzLNTMVdMbNwS7+Q": {
+                  "type": "-",
+                  "size": 7671,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "D": {
+              "7": {
+                "zIJyixV2XO1f7gN+Jmrg": {
+                  "type": "-",
+                  "size": 5301,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "9": {
+                "EuWko6eJnhH5OQ+r4pmw": {
+                  "type": "-",
+                  "size": 6483,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "C": {
+                "hHS5Uu5xkh-hDEIctTEg": {
+                  "type": "-",
+                  "size": 6238,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "D": {
+                "m0G1Z9xVFKtNtCQFoi5w": {
+                  "type": "-",
+                  "size": 7368,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "L": {
+                "5Kbfvsyzq2DNLR8YXF3Q": {
+                  "type": "-",
+                  "size": 5846,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "Y": {
+                "zJEV7tgVvOTGoNeDBPyg": {
+                  "type": "-",
+                  "size": 3873,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "E": {
+              "1": {
+                "+t7H3PA+lbSgKPoWK5Cw": {
+                  "type": "-",
+                  "size": 4648,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "G": {
+              "G": {
+                "6kJWm+CA-1WWzm6jSoaQ": {
+                  "type": "-",
+                  "size": 5203,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "W": {
+                "4jqG3+vyMkpFJwv-6VbA": {
+                  "type": "-",
+                  "size": 6006,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "Y": {
+                "np1Qet3Gw0ClFocvHXpQ": {
+                  "type": "-",
+                  "size": 6396,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "H": {
+              "3": {
+                "4Ko8lNW4ek5VF759uEGg": {
+                  "type": "-",
+                  "size": 276224,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "7": {
+                "aQBsClnyO1uZkyX3lCBQ": {
+                  "type": "-",
+                  "size": 7703,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "L": {
+                "AWEY6U018ZCyS8DW50tw": {
+                  "type": "-",
+                  "size": 5493,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "X": {
+                "SWA5IoZvQGQLEjQwuLKw": {
+                  "type": "-",
+                  "size": 6739,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "Z": {
+                "C+cWhrXTx0wXHHRGiSgw": {
+                  "type": "-",
+                  "size": 24646,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "J": {
+              "F": {
+                "E3JB7RJHkRjBttyrLx8w": {
+                  "type": "-",
+                  "size": 5522,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "H": {
+                "LsgAA9-DxNU4ceD5914Q": {
+                  "type": "-",
+                  "size": 2934,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                },
+                "QFnZesd9hAgddXF1uD0w": {
+                  "type": "-",
+                  "size": 12052,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "K": {
+              "V": {
+                "Dd8FlcnzeUeafkGN8IlQ": {
+                  "type": "-",
+                  "size": 8891,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "L": {
+              "4": {
+                "dquNAwq4EMGrLuvM+kJg": {
+                  "type": "-",
+                  "size": 7367,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "9": {
+                "27+E14-tEz69kh8GYauA": {
+                  "type": "-",
+                  "size": 5275,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "D": {
+                "6ZarPi1oU05NHj+VpATQ": {
+                  "type": "-",
+                  "size": 5190,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "R": {
+                "vd4Nceuv1XBD+J-nX9aQ": {
+                  "type": "-",
+                  "size": 5392,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "W": {
+                "yj-F7zK1zhAGVaqaPsnw": {
+                  "type": "-",
+                  "size": 6390,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "M": {
+              "E": {
+                "ydMTqVSxE7dT6IAWx6yA": {
+                  "type": "-",
+                  "size": 122112,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "J": {
+                "1Ju2dVcRZ21e7xHlW4VQ": {
+                  "type": "-",
+                  "size": 2703,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "P": {
+                "KPYwaVntl5DjB50XECXQ": {
+                  "type": "-",
+                  "size": 5054,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "N": {
+              "7": {
+                "ZPWP944Jr5ZxjCO1Abfg": {
+                  "type": "-",
+                  "size": 5227,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "E": {
+                "OPDvW2-QzpZUzbaVl2mg": {
+                  "type": "-",
+                  "size": 5240,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "I": {
+                "e1ueeHJ0QXjOrPYqbRTQ": {
+                  "type": "-",
+                  "size": 19283,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "O": {
+                "112XjUuENQepg7N0lpVw": {
+                  "type": "-",
+                  "size": 16591,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "O": {
+              "3": {
+                "JOQE+DkHxRkditC3hy+A": {
+                  "type": "-",
+                  "size": 10307,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "G": {
+                "J5F9m-FSXMmU2dpmFWMQ": {
+                  "type": "-",
+                  "size": 3974,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "U": {
+                "RKABylfO6JEdAM4DOL8A": {
+                  "type": "-",
+                  "size": 5676,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "P": {
+              "F": {
+                "hRTh-BEtrsWno3WjyRyw": {
+                  "type": "-",
+                  "size": 15244,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "H": {
+                "f7Qxbefxp4KkT9E6bGiQ": {
+                  "type": "-",
+                  "size": 4559,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "T": {
+                "4RkMNVQzC1M6csmqMvIA": {
+                  "type": "-",
+                  "size": 5249,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "R": {
+              "I": {
+                "5DbUjCFHLO9st3-57t4A": {
+                  "type": "-",
+                  "size": 944154,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "Y": {
+                "b4Z9fpv425GqrD75IIig": {
+                  "type": "-",
+                  "size": 6772,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "S": {
+              "0": {
+                "kAsY3blUTTN++ZErKSoA": {
+                  "type": "-",
+                  "size": 3649,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "E": {
+                "53D11JeXd48D7lLHnldQ": {
+                  "type": "-",
+                  "size": 8937,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "P": {
+                "PLXpA9CPF0k5M1UC+izQ": {
+                  "type": "-",
+                  "size": 3929,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "X": {
+                "ZocLLZ3PQ7YZ46+Jwwpg": {
+                  "type": "-",
+                  "size": 5306,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "T": {
+              "M": {
+                "DuKYBjY6uh98hFFpEpgQ": {
+                  "type": "-",
+                  "size": 5861,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "P": {
+                "E-Lp+YFKPfJYdTT8AuGg": {
+                  "type": "-",
+                  "size": 6503,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "U": {
+                "2A9uk+V0oYN2Gut30B9A": {
+                  "type": "-",
+                  "size": 5964,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "Y": {
+                "Nzwibn5JQ8TXXrRK+VQA": {
+                  "type": "-",
+                  "size": 34110,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "U": {
+              "A": {
+                "5S+z4STtKcKOOtWljOSw": {
+                  "type": "-",
+                  "size": 5100,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "G": {
+                "zUhruEJX9J2fEd-HMsAA": {
+                  "type": "-",
+                  "size": 5217,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "V": {
+              "L": {
+                "6F8mFeAig3Ch3DXtmKWQ": {
+                  "type": "-",
+                  "size": 5219,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "S": {
+                "Txekwc+AwHDnl8RgTqYA": {
+                  "type": "-",
+                  "size": 6439,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "Y": {
+                "ktpRKYH9TFKXgHIhPgCA": {
+                  "type": "-",
+                  "size": 5217,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "W": {
+              "0": {
+                "yWNnyqqTO74hHCtHUV7w": {
+                  "type": "-",
+                  "size": 4418,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "G": {
+                "-AQQUGhrNhLVdmPk26SQ": {
+                  "type": "-",
+                  "size": 11986,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "X": {
+                "MUYiCA2uZnBKU7Xcq8Vg": {
+                  "type": "-",
+                  "size": 5241,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "Y": {
+              "B": {
+                "6f6fBCYAu+IrdN3PBLLQ": {
+                  "type": "-",
+                  "size": 6056,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "F": {
+                "00pIKS3ChHM-v1oKgLjw": {
+                  "type": "-",
+                  "size": 5690,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                },
+                "yIzA6ZQHVyGUZ3Qbn29A": {
+                  "type": "-",
+                  "size": 6082,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "O": {
+                "3Hr+84++EfuCBAeZ3S+Q": {
+                  "type": "-",
+                  "size": 4280,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              },
+              "T": {
+                "uoePhOodHV7NBFrZP+GA": {
+                  "type": "-",
+                  "size": 6159,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            },
+            "Z": {
+              "P": {
+                "JT3YTSLMn+PGJmW1BYGA": {
+                  "type": "-",
+                  "size": 2463,
+                  "lmtime": 1684862753000,
+                  "modified": false
+                }
+              }
+            }
+          }
+        }
+      },
       ".well-known": {},
       "ESP32": {
         "enviarDatos1.php": {
           "type": "-",
           "size": 1441,
-          "lmtime": 1652870822238,
+          "lmtime": 0,
           "modified": false
         },
         "enviarDatos2.php": {
           "type": "-",
           "size": 2072,
-          "lmtime": 1652870822240,
+          "lmtime": 0,
           "modified": false
         },
         "recibirDatos.php": {
           "type": "-",
           "size": 1665,
-          "lmtime": 1652870822241,
+          "lmtime": 0,
           "modified": false
         }
       },
       "README.md": {
         "type": "-",
         "size": 41,
-        "lmtime": 1652870822243,
+        "lmtime": 0,
         "modified": false
       },
       "bd": {
+        "Conexion.php": {
+          "type": "-",
+          "size": 4104,
+          "lmtime": 1653304838629,
+          "modified": false
+        },
+        "Consultas.php": {
+          "type": "-",
+          "size": 46721,
+          "lmtime": 1653297989879,
+          "modified": false
+        },
+        "Listado.php": {
+          "type": "-",
+          "size": 46676,
+          "lmtime": 1653311195258,
+          "modified": false
+        },
         "conexion.php": {
           "type": "-",
-          "size": 1729,
-          "lmtime": 1652870822245,
+          "size": 4113,
+          "lmtime": 0,
           "modified": false
         },
         "consultas.php": {
           "type": "-",
-          "size": 40125,
-          "lmtime": 1652965936877,
+          "size": 46720,
+          "lmtime": 1653297950072,
           "modified": false
         }
       },
       "css": {
         "estilos.css": {
           "type": "-",
-          "size": 25362,
-          "lmtime": 1652871715838,
+          "size": 25555,
+          "lmtime": 0,
           "modified": false
         },
         "normalize.css": {
           "type": "-",
           "size": 6487,
-          "lmtime": 1652870822253,
+          "lmtime": 0,
           "modified": false
         }
+      },
+      "docs": {
+        "api": {
+          "classes": {
+            "Conexion.html": {
+              "type": "-",
+              "size": 45237,
+              "lmtime": 0,
+              "modified": false
+            },
+            "PHPMailer-PHPMailer-Exception.html": {
+              "type": "-",
+              "size": 13714,
+              "lmtime": 1653305828763,
+              "modified": false
+            },
+            "PHPMailer-PHPMailer-OAuth.html": {
+              "type": "-",
+              "size": 32315,
+              "lmtime": 1653305828798,
+              "modified": false
+            },
+            "PHPMailer-PHPMailer-OAuthTokenProvider.html": {
+              "type": "-",
+              "size": 15868,
+              "lmtime": 1653305829344,
+              "modified": false
+            },
+            "PHPMailer-PHPMailer-PHPMailer.html": {
+              "type": "-",
+              "size": 586894,
+              "lmtime": 1653305829083,
+              "modified": false
+            },
+            "PHPMailer-PHPMailer-POP3.html": {
+              "type": "-",
+              "size": 78710,
+              "lmtime": 1653305829115,
+              "modified": false
+            },
+            "PHPMailer-PHPMailer-SMTP.html": {
+              "type": "-",
+              "size": 167818,
+              "lmtime": 1653305829207,
+              "modified": false
+            },
+            "bd-Conexion.html": {
+              "type": "-",
+              "size": 44707,
+              "lmtime": 1653305829229,
+              "modified": false
+            },
+            "bd-Listado.html": {
+              "type": "-",
+              "size": 156658,
+              "lmtime": 1653305829331,
+              "modified": false
+            },
+            "bd-conexion-Conexion.html": {
+              "type": "-",
+              "size": 45437,
+              "lmtime": 0,
+              "modified": false
+            },
+            "bd-consultas-Listado.html": {
+              "type": "-",
+              "size": 128886,
+              "lmtime": 0,
+              "modified": false
+            }
+          },
+          "css": {
+            "base.css": {
+              "type": "-",
+              "size": 26743,
+              "lmtime": 1653305829539,
+              "modified": false
+            },
+            "normalize.css": {
+              "type": "-",
+              "size": 7927,
+              "lmtime": 1653305829542,
+              "modified": false
+            },
+            "template.css": {
+              "type": "-",
+              "size": 6532,
+              "lmtime": 1653305829560,
+              "modified": false
+            }
+          },
+          "files": {
+            "bd-conexion.html": {
+              "type": "-",
+              "size": 7726,
+              "lmtime": 1653305828667,
+              "modified": false
+            },
+            "bd-consultas.html": {
+              "type": "-",
+              "size": 8022,
+              "lmtime": 0,
+              "modified": false
+            },
+            "bd-listado.html": {
+              "type": "-",
+              "size": 7722,
+              "lmtime": 1653305828671,
+              "modified": false
+            },
+            "esp32-enviardatos1.html": {
+              "type": "-",
+              "size": 7268,
+              "lmtime": 1653305828231,
+              "modified": false
+            },
+            "esp32-enviardatos2.html": {
+              "type": "-",
+              "size": 7268,
+              "lmtime": 1653305828234,
+              "modified": false
+            },
+            "esp32-recibirdatos.html": {
+              "type": "-",
+              "size": 7268,
+              "lmtime": 1653305828237,
+              "modified": false
+            },
+            "funciones-cerrarsesion.html": {
+              "type": "-",
+              "size": 7272,
+              "lmtime": 1653305828240,
+              "modified": false
+            },
+            "funciones-configsesiones-inc.html": {
+              "type": "-",
+              "size": 10874,
+              "lmtime": 1653305828250,
+              "modified": false
+            },
+            "funciones-reutilizables-inc.html": {
+              "type": "-",
+              "size": 18400,
+              "lmtime": 1653305828261,
+              "modified": false
+            },
+            "inc.html": {
+              "type": "-",
+              "size": 9835,
+              "lmtime": 1653305828267,
+              "modified": false
+            },
+            "index.html": {
+              "type": "-",
+              "size": 7248,
+              "lmtime": 1653305828274,
+              "modified": false
+            },
+            "landingpage-contacto-mandarcorreo.html": {
+              "type": "-",
+              "size": 7283,
+              "lmtime": 1653305828278,
+              "modified": false
+            },
+            "landingpage-contacto.html": {
+              "type": "-",
+              "size": 7266,
+              "lmtime": 1653305828287,
+              "modified": false
+            },
+            "landingpage-cookies.html": {
+              "type": "-",
+              "size": 7264,
+              "lmtime": 1653305828292,
+              "modified": false
+            },
+            "landingpage-login.html": {
+              "type": "-",
+              "size": 7260,
+              "lmtime": 1653305828298,
+              "modified": false
+            },
+            "landingpage-nosotros.html": {
+              "type": "-",
+              "size": 7266,
+              "lmtime": 1653305828301,
+              "modified": false
+            },
+            "landingpage-privacidad.html": {
+              "type": "-",
+              "size": 7270,
+              "lmtime": 1653305828308,
+              "modified": false
+            },
+            "landingpage-sesion-procesar.html": {
+              "type": "-",
+              "size": 7273,
+              "lmtime": 1653305828313,
+              "modified": false
+            },
+            "landingpage-termscond.html": {
+              "type": "-",
+              "size": 7268,
+              "lmtime": 1653305828315,
+              "modified": false
+            },
+            "librerias-phpmailer-get-oauth-token.html": {
+              "type": "-",
+              "size": 13301,
+              "lmtime": 1653305828335,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-af.html": {
+              "type": "-",
+              "size": 7368,
+              "lmtime": 1653305828339,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-ar.html": {
+              "type": "-",
+              "size": 8146,
+              "lmtime": 1653305828343,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-az.html": {
+              "type": "-",
+              "size": 8078,
+              "lmtime": 1653305828345,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-ba.html": {
+              "type": "-",
+              "size": 8142,
+              "lmtime": 1653305828349,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-be.html": {
+              "type": "-",
+              "size": 8139,
+              "lmtime": 1653305828352,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-bg.html": {
+              "type": "-",
+              "size": 8138,
+              "lmtime": 1653305828358,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-ca.html": {
+              "type": "-",
+              "size": 8103,
+              "lmtime": 1653305828368,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-ch.html": {
+              "type": "-",
+              "size": 8137,
+              "lmtime": 1653305828373,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-cs.html": {
+              "type": "-",
+              "size": 7364,
+              "lmtime": 1653305828378,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-da.html": {
+              "type": "-",
+              "size": 8232,
+              "lmtime": 1653305828382,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-de.html": {
+              "type": "-",
+              "size": 7365,
+              "lmtime": 1653305828388,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-el.html": {
+              "type": "-",
+              "size": 7364,
+              "lmtime": 1653305828392,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-eo.html": {
+              "type": "-",
+              "size": 7368,
+              "lmtime": 1653305828396,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-es.html": {
+              "type": "-",
+              "size": 8141,
+              "lmtime": 1653305828399,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-et.html": {
+              "type": "-",
+              "size": 8605,
+              "lmtime": 1653305828404,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-fa.html": {
+              "type": "-",
+              "size": 8689,
+              "lmtime": 1653305828408,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-fi.html": {
+              "type": "-",
+              "size": 8078,
+              "lmtime": 1653305828413,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-fo.html": {
+              "type": "-",
+              "size": 8155,
+              "lmtime": 1653305828417,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-fr.html": {
+              "type": "-",
+              "size": 8241,
+              "lmtime": 1653305828423,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-gl.html": {
+              "type": "-",
+              "size": 8146,
+              "lmtime": 1653305828426,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-he.html": {
+              "type": "-",
+              "size": 8133,
+              "lmtime": 1653305828430,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-hi.html": {
+              "type": "-",
+              "size": 8138,
+              "lmtime": 1653305828434,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-hr.html": {
+              "type": "-",
+              "size": 8130,
+              "lmtime": 1653305828437,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-hu.html": {
+              "type": "-",
+              "size": 8080,
+              "lmtime": 1653305828440,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-hy.html": {
+              "type": "-",
+              "size": 8130,
+              "lmtime": 1653305828479,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-id.html": {
+              "type": "-",
+              "size": 9159,
+              "lmtime": 1653305828482,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-it.html": {
+              "type": "-",
+              "size": 8674,
+              "lmtime": 1653305828485,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-ja.html": {
+              "type": "-",
+              "size": 9216,
+              "lmtime": 1653305828488,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-ka.html": {
+              "type": "-",
+              "size": 8159,
+              "lmtime": 1653305828491,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-ko.html": {
+              "type": "-",
+              "size": 8132,
+              "lmtime": 1653305828494,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-lt.html": {
+              "type": "-",
+              "size": 8126,
+              "lmtime": 1653305828496,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-lv.html": {
+              "type": "-",
+              "size": 8114,
+              "lmtime": 1653305828498,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-mg.html": {
+              "type": "-",
+              "size": 8143,
+              "lmtime": 1653305828501,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-ms.html": {
+              "type": "-",
+              "size": 8137,
+              "lmtime": 1653305828503,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-nb.html": {
+              "type": "-",
+              "size": 7376,
+              "lmtime": 1653305828505,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-nl.html": {
+              "type": "-",
+              "size": 8115,
+              "lmtime": 1653305828508,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-pl.html": {
+              "type": "-",
+              "size": 7365,
+              "lmtime": 1653305828510,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-pt-br.html": {
+              "type": "-",
+              "size": 10385,
+              "lmtime": 1653305828551,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-pt.html": {
+              "type": "-",
+              "size": 8150,
+              "lmtime": 1653305828546,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-ro.html": {
+              "type": "-",
+              "size": 7367,
+              "lmtime": 1653305828555,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-ru.html": {
+              "type": "-",
+              "size": 8671,
+              "lmtime": 1653305828559,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-sk.html": {
+              "type": "-",
+              "size": 8680,
+              "lmtime": 1653305828563,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-sl.html": {
+              "type": "-",
+              "size": 9196,
+              "lmtime": 1653305828567,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-sr-latn.html": {
+              "type": "-",
+              "size": 8731,
+              "lmtime": 1653305828575,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-sr.html": {
+              "type": "-",
+              "size": 8721,
+              "lmtime": 1653305828571,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-sv.html": {
+              "type": "-",
+              "size": 8133,
+              "lmtime": 1653305828578,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-tl.html": {
+              "type": "-",
+              "size": 8233,
+              "lmtime": 1653305828582,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-tr.html": {
+              "type": "-",
+              "size": 9986,
+              "lmtime": 1653305828587,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-uk.html": {
+              "type": "-",
+              "size": 8701,
+              "lmtime": 1653305828591,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-vi.html": {
+              "type": "-",
+              "size": 8157,
+              "lmtime": 1653305828594,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-zh-cn.html": {
+              "type": "-",
+              "size": 9194,
+              "lmtime": 1653305828603,
+              "modified": false
+            },
+            "librerias-phpmailer-language-phpmailer-lang-zh.html": {
+              "type": "-",
+              "size": 9176,
+              "lmtime": 1653305828599,
+              "modified": false
+            },
+            "librerias-phpmailer-src-exception.html": {
+              "type": "-",
+              "size": 13752,
+              "lmtime": 1653305828609,
+              "modified": false
+            },
+            "librerias-phpmailer-src-oauth.html": {
+              "type": "-",
+              "size": 13773,
+              "lmtime": 1653305828616,
+              "modified": false
+            },
+            "librerias-phpmailer-src-oauthtokenprovider.html": {
+              "type": "-",
+              "size": 13851,
+              "lmtime": 1653305828622,
+              "modified": false
+            },
+            "librerias-phpmailer-src-phpmailer.html": {
+              "type": "-",
+              "size": 13800,
+              "lmtime": 1653305828630,
+              "modified": false
+            },
+            "librerias-phpmailer-src-pop3.html": {
+              "type": "-",
+              "size": 13767,
+              "lmtime": 1653305828635,
+              "modified": false
+            },
+            "librerias-phpmailer-src-smtp.html": {
+              "type": "-",
+              "size": 13761,
+              "lmtime": 1653305828640,
+              "modified": false
+            },
+            "panel-actualizardatos.html": {
+              "type": "-",
+              "size": 7274,
+              "lmtime": 1653305828642,
+              "modified": false
+            },
+            "panel-actualizardatossensoresbd.html": {
+              "type": "-",
+              "size": 7294,
+              "lmtime": 1653305828645,
+              "modified": false
+            },
+            "panel-actualizardatostema.html": {
+              "type": "-",
+              "size": 7282,
+              "lmtime": 1653305828647,
+              "modified": false
+            },
+            "panel-actualizarvalorespanel.html": {
+              "type": "-",
+              "size": 7288,
+              "lmtime": 1653305828649,
+              "modified": false
+            },
+            "panel-cambiartema.html": {
+              "type": "-",
+              "size": 7266,
+              "lmtime": 1653305828651,
+              "modified": false
+            },
+            "panel-cogerdatoslog.html": {
+              "type": "-",
+              "size": 7270,
+              "lmtime": 1653305828653,
+              "modified": false
+            },
+            "panel-configuracion.html": {
+              "type": "-",
+              "size": 7270,
+              "lmtime": 1653305828655,
+              "modified": false
+            },
+            "panel-estadoarduino.html": {
+              "type": "-",
+              "size": 7270,
+              "lmtime": 1653305828657,
+              "modified": false
+            },
+            "panel-graficas.html": {
+              "type": "-",
+              "size": 7260,
+              "lmtime": 1653305828660,
+              "modified": false
+            },
+            "panel-index.html": {
+              "type": "-",
+              "size": 7254,
+              "lmtime": 1653305828662,
+              "modified": false
+            },
+            "panel-logcasa.html": {
+              "type": "-",
+              "size": 7258,
+              "lmtime": 1653305828665,
+              "modified": false
+            }
+          },
+          "graphs": {
+            "classes.html": {
+              "type": "-",
+              "size": 6201,
+              "lmtime": 1653305829421,
+              "modified": false
+            }
+          },
+          "index.html": {
+            "type": "-",
+            "size": 24581,
+            "lmtime": 1653305828221,
+            "modified": false
+          },
+          "indices": {
+            "files.html": {
+              "type": "-",
+              "size": 23936,
+              "lmtime": 1653305829509,
+              "modified": false
+            }
+          },
+          "js": {
+            "search.js": {
+              "type": "-",
+              "size": 6867,
+              "lmtime": 1653305829347,
+              "modified": false
+            },
+            "searchIndex.js": {
+              "type": "-",
+              "size": 129673,
+              "lmtime": 1653305829414,
+              "modified": false
+            }
+          },
+          "namespaces": {
+            "bd-conexion.html": {
+              "type": "-",
+              "size": 8110,
+              "lmtime": 0,
+              "modified": false
+            },
+            "bd-consultas.html": {
+              "type": "-",
+              "size": 8060,
+              "lmtime": 0,
+              "modified": false
+            },
+            "bd.html": {
+              "type": "-",
+              "size": 7883,
+              "lmtime": 1653305828678,
+              "modified": false
+            },
+            "default.html": {
+              "type": "-",
+              "size": 24030,
+              "lmtime": 1653305828693,
+              "modified": false
+            },
+            "phpmailer-phpmailer.html": {
+              "type": "-",
+              "size": 9089,
+              "lmtime": 1653305828681,
+              "modified": false
+            },
+            "phpmailer.html": {
+              "type": "-",
+              "size": 7560,
+              "lmtime": 1653305828697,
+              "modified": false
+            }
+          },
+          "packages": {
+            "Application.html": {
+              "type": "-",
+              "size": 25778,
+              "lmtime": 1653305828729,
+              "modified": false
+            },
+            "PHPMailer.html": {
+              "type": "-",
+              "size": 7200,
+              "lmtime": 1653305828732,
+              "modified": false
+            },
+            "PHPMailerSomeFrenchpunctuationrequiresathinnon-breakingspaceU202Fcharacterbeforeitforexamplebeforeacolonorexclamationmark-Thereisoneofthesecharactersbetweenthesequotes.html": {
+              "type": "-",
+              "size": 7842,
+              "lmtime": 1653305828740,
+              "modified": false
+            },
+            "PHPMailerSomeFrenchpunctuationrequiresathinnon-breakingspaceU202Fcharacterbeforeitforexamplebeforeacolonorexclamationmark.html": {
+              "type": "-",
+              "size": 8231,
+              "lmtime": 1653305828737,
+              "modified": false
+            },
+            "PHPMailerSomeFrenchpunctuationrequiresathinnon.html": {
+              "type": "-",
+              "size": 7889,
+              "lmtime": 1653305828735,
+              "modified": false
+            },
+            "default.html": {
+              "type": "-",
+              "size": 7956,
+              "lmtime": 1653305828702,
+              "modified": false
+            }
+          },
+          "reports": {
+            "deprecated.html": {
+              "type": "-",
+              "size": 8561,
+              "lmtime": 1653305829466,
+              "modified": false
+            },
+            "errors.html": {
+              "type": "-",
+              "size": 20749,
+              "lmtime": 1653305829449,
+              "modified": false
+            },
+            "markers.html": {
+              "type": "-",
+              "size": 7382,
+              "lmtime": 1653305829478,
+              "modified": false
+            }
+          }
+        }
+      },
+      "error_log": {
+        "type": "-",
+        "size": 265,
+        "lmtime": 0,
+        "modified": false
       },
       "funciones": {
         "cerrarSesion.php": {
           "type": "-",
           "size": 723,
-          "lmtime": 1652870822255,
+          "lmtime": 0,
           "modified": false
         },
         "configSesiones.inc.php": {
           "type": "-",
           "size": 433,
-          "lmtime": 1652870822256,
+          "lmtime": 0,
           "modified": false
         },
         "reutilizables.inc.php": {
           "type": "-",
-          "size": 7421,
-          "lmtime": 1652874662581,
+          "size": 7688,
+          "lmtime": 0,
           "modified": false
         }
       },
       "imagenes": {
+        "html": {},
         "iconos": {
           "accesibilidad.png": {
             "type": "-",
             "size": 18001,
-            "lmtime": 1652870822261,
+            "lmtime": 0,
             "modified": false
           },
           "advertencia.png": {
             "type": "-",
             "size": 19380,
-            "lmtime": 1652870822263,
+            "lmtime": 0,
             "modified": false
           },
           "cambiarTema.svg": {
             "type": "-",
             "size": 822,
-            "lmtime": 1652870822264,
+            "lmtime": 0,
             "modified": false
           },
           "estadisticas.svg": {
             "type": "-",
             "size": 2235,
-            "lmtime": 1652870822266,
+            "lmtime": 0,
             "modified": false
           },
           "exit.svg": {
             "type": "-",
             "size": 2062,
-            "lmtime": 1652870822267,
+            "lmtime": 0,
             "modified": false
           },
           "fotoPerfil.svg": {
             "type": "-",
             "size": 763,
-            "lmtime": 1652870822268,
+            "lmtime": 0,
             "modified": false
           },
           "gestion.png": {
             "type": "-",
             "size": 19187,
-            "lmtime": 1652870822270,
+            "lmtime": 0,
             "modified": false
           },
           "homePanel.svg": {
             "type": "-",
             "size": 1778,
-            "lmtime": 1652870822271,
+            "lmtime": 0,
             "modified": false
           },
           "humedad.png": {
             "type": "-",
             "size": 14796,
-            "lmtime": 1652870822273,
+            "lmtime": 0,
             "modified": false
           },
           "humidity.png": {
             "type": "-",
             "size": 14796,
-            "lmtime": 1652870822274,
+            "lmtime": 0,
             "modified": false
           },
           "iconoPerfil.jpg": {
             "type": "-",
             "size": 22544,
-            "lmtime": 1652870822276,
+            "lmtime": 0,
             "modified": false
           },
           "lluvia.svg": {
             "type": "-",
             "size": 30591,
-            "lmtime": 1652870822278,
+            "lmtime": 0,
             "modified": false
           },
           "login.svg": {
             "type": "-",
             "size": 763,
-            "lmtime": 1652870822280,
+            "lmtime": 0,
             "modified": false
           },
           "maxHum.png": {
             "type": "-",
             "size": 3244,
-            "lmtime": 1652870822282,
+            "lmtime": 0,
             "modified": false
           },
           "maxTemp.png": {
             "type": "-",
             "size": 25094,
-            "lmtime": 1652870822284,
+            "lmtime": 0,
             "modified": false
           },
           "minHum.png": {
             "type": "-",
             "size": 3601,
-            "lmtime": 1652870822285,
+            "lmtime": 0,
             "modified": false
           },
           "minTemp.png": {
             "type": "-",
             "size": 9637,
-            "lmtime": 1652870822287,
+            "lmtime": 0,
             "modified": false
           },
           "nublado.svg": {
             "type": "-",
             "size": 3225,
-            "lmtime": 1652870822288,
+            "lmtime": 0,
             "modified": false
           },
           "opciones.svg": {
             "type": "-",
             "size": 2113,
-            "lmtime": 1652870822290,
+            "lmtime": 0,
             "modified": false
           },
           "sistema-de-gestion-de-contenidos.png": {
             "type": "-",
             "size": 19187,
-            "lmtime": 1652870822292,
+            "lmtime": 0,
             "modified": false
           },
           "soleado.svg": {
             "type": "-",
             "size": 1577,
-            "lmtime": 1652870822294,
+            "lmtime": 0,
             "modified": false
           },
           "soporte.svg": {
             "type": "-",
             "size": 6691,
-            "lmtime": 1652870822295,
+            "lmtime": 0,
             "modified": false
           },
           "stats.png": {
             "type": "-",
             "size": 7469,
-            "lmtime": 1652870822296,
+            "lmtime": 0,
             "modified": false
           },
           "stats.svg": {
             "type": "-",
             "size": 2297,
-            "lmtime": 1652870822297,
+            "lmtime": 0,
             "modified": false
           },
           "temperatura.svg": {
             "type": "-",
             "size": 1072,
-            "lmtime": 1652870822298,
+            "lmtime": 0,
             "modified": false
           }
         },
@@ -239,37 +2710,37 @@
           "imagenPP_PanelConf.png": {
             "type": "-",
             "size": 42937,
-            "lmtime": 1652870822301,
+            "lmtime": 0,
             "modified": false
           },
           "imagenPortadaCabecera.png": {
             "type": "-",
             "size": 245285,
-            "lmtime": 1652870822304,
+            "lmtime": 0,
             "modified": false
           },
           "imagenPortada_Solicitar.jpg": {
             "type": "-",
             "size": 165995,
-            "lmtime": 1652870822308,
+            "lmtime": 0,
             "modified": false
           },
           "login.webp": {
             "type": "-",
             "size": 34380,
-            "lmtime": 1652870822310,
+            "lmtime": 0,
             "modified": false
           },
           "nosotros.jpg": {
             "type": "-",
             "size": 153211,
-            "lmtime": 1652870822313,
+            "lmtime": 0,
             "modified": false
           },
           "registro.webp": {
             "type": "-",
             "size": 10590,
-            "lmtime": 1652870822315,
+            "lmtime": 0,
             "modified": false
           }
         },
@@ -277,152 +2748,170 @@
           "android-chrome-192x192.png": {
             "type": "-",
             "size": 444,
-            "lmtime": 1652873850000,
+            "lmtime": 0,
             "modified": false
           },
           "android-chrome-256x256.png": {
             "type": "-",
             "size": 432,
-            "lmtime": 1652873850000,
+            "lmtime": 0,
+            "modified": false
+          },
+          "android-chrome-512x512.png": {
+            "type": "-",
+            "size": 2070,
+            "lmtime": 0,
             "modified": false
           },
           "android-icon-192x192.png": {
             "type": "-",
             "size": 1041,
-            "lmtime": 1652873424000,
+            "lmtime": 0,
             "modified": false
           },
           "apple-touch-icon.png": {
             "type": "-",
             "size": 876,
-            "lmtime": 1652873851000,
+            "lmtime": 0,
             "modified": false
           },
           "browserconfig.xml": {
             "type": "-",
             "size": 246,
-            "lmtime": 1652873851000,
+            "lmtime": 0,
             "modified": false
           },
           "d7e9dc4b49303f729f8dc3a15ca01a99.zip": {
             "type": "-",
             "size": 22911,
-            "lmtime": 1652873438154,
+            "lmtime": 0,
             "modified": false
           },
           "favicon-16x16.png": {
             "type": "-",
             "size": 830,
-            "lmtime": 1652873851000,
+            "lmtime": 0,
             "modified": false
           },
           "favicon-32x32.png": {
             "type": "-",
             "size": 1274,
-            "lmtime": 1652873851000,
+            "lmtime": 0,
             "modified": false
           },
           "favicon.ico": {
             "type": "-",
             "size": 15086,
-            "lmtime": 1652873852000,
+            "lmtime": 0,
             "modified": false
           },
           "favicon_package_v0.16.zip": {
             "type": "-",
             "size": 9067,
-            "lmtime": 1652873873818,
+            "lmtime": 0,
+            "modified": false
+          },
+          "maskable_icon.png": {
+            "type": "-",
+            "size": 10774,
+            "lmtime": 0,
+            "modified": false
+          },
+          "maskable_icon_x192.png": {
+            "type": "-",
+            "size": 2490,
+            "lmtime": 0,
             "modified": false
           },
           "mstile-150x150.png": {
             "type": "-",
             "size": 506,
-            "lmtime": 1652873852000,
+            "lmtime": 0,
             "modified": false
           },
           "safari-pinned-tab.svg": {
             "type": "-",
             "size": 1025,
-            "lmtime": 1652873852000,
+            "lmtime": 0,
             "modified": false
           }
         }
       },
       "inc.php": {
         "type": "-",
-        "size": 345,
-        "lmtime": 1652871461599,
+        "size": 971,
+        "lmtime": 1653310869800,
         "modified": false
       },
       "index.php": {
         "type": "-",
         "size": 5517,
-        "lmtime": 1652874914086,
+        "lmtime": 1653304649556,
         "modified": false
       },
       "landingPage": {
         "contacto": {
           "mandarCorreo.php": {
             "type": "-",
-            "size": 3012,
-            "lmtime": 1652870822322,
-            "modified": false
+            "size": 3042,
+            "lmtime": 1653297186295,
+            "modified": true
           }
         },
         "contacto.php": {
           "type": "-",
           "size": 6731,
-          "lmtime": 1652870822320,
+          "lmtime": 0,
           "modified": false
         },
         "cookies.php": {
           "type": "-",
           "size": 3955,
-          "lmtime": 1652870822323,
+          "lmtime": 0,
           "modified": false
         },
         "estilosLandingPage.css": {
           "type": "-",
           "size": 30105,
-          "lmtime": 1652870822326,
+          "lmtime": 0,
           "modified": false
         },
         "login.php": {
           "type": "-",
-          "size": 12317,
-          "lmtime": 1652870822328,
+          "size": 12433,
+          "lmtime": 1653310283313,
           "modified": false
         },
         "nosotros.php": {
           "type": "-",
           "size": 1442,
-          "lmtime": 1652870822328,
+          "lmtime": 0,
           "modified": false
         },
         "privacidad.php": {
           "type": "-",
           "size": 1719,
-          "lmtime": 1652870822354,
+          "lmtime": 0,
           "modified": false
         },
         "sesion": {
           "error_log": {
             "type": "-",
-            "size": 832,
+            "size": 3142,
             "lmtime": 0,
-            "modified": false
+            "modified": true
           },
           "procesar.php": {
             "type": "-",
-            "size": 2272,
-            "lmtime": 1652966060245,
+            "size": 2205,
+            "lmtime": 1653305380969,
             "modified": false
           }
         },
         "termsCond.php": {
           "type": "-",
           "size": 8099,
-          "lmtime": 1652870822372,
+          "lmtime": 0,
           "modified": false
         }
       },
@@ -431,350 +2920,356 @@
           "COMMITMENT": {
             "type": "-",
             "size": 2138,
-            "lmtime": 1652870822381,
+            "lmtime": 0,
             "modified": false
           },
           "LICENSE": {
             "type": "-",
             "size": 27030,
-            "lmtime": 1652870822386,
+            "lmtime": 0,
             "modified": false
           },
           "README.md": {
             "type": "-",
             "size": 16469,
-            "lmtime": 1652870822390,
+            "lmtime": 0,
             "modified": false
           },
           "SECURITY.md": {
             "type": "-",
             "size": 7621,
-            "lmtime": 1652870822394,
+            "lmtime": 0,
+            "modified": false
+          },
+          "VERSION": {
+            "type": "-",
+            "size": 5,
+            "lmtime": 0,
             "modified": false
           },
           "composer.json": {
             "type": "-",
             "size": 2561,
-            "lmtime": 1652870822397,
+            "lmtime": 0,
             "modified": false
           },
           "get_oauth_token.php": {
             "type": "-",
             "size": 5018,
-            "lmtime": 1652870822399,
+            "lmtime": 0,
             "modified": false
           },
           "language": {
             "phpmailer.lang-af.php": {
               "type": "-",
               "size": 1610,
-              "lmtime": 1652870822402,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-ar.php": {
               "type": "-",
               "size": 2051,
-              "lmtime": 1652870822404,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-az.php": {
               "type": "-",
               "size": 1776,
-              "lmtime": 1652870822407,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-ba.php": {
               "type": "-",
               "size": 1772,
-              "lmtime": 1652870822409,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-be.php": {
               "type": "-",
               "size": 2205,
-              "lmtime": 1652870822410,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-bg.php": {
               "type": "-",
               "size": 2223,
-              "lmtime": 1652870822412,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-ca.php": {
               "type": "-",
               "size": 1757,
-              "lmtime": 1652870822413,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-ch.php": {
               "type": "-",
               "size": 1641,
-              "lmtime": 1652870822415,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-cs.php": {
               "type": "-",
               "size": 1826,
-              "lmtime": 1652870822418,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-da.php": {
               "type": "-",
               "size": 1733,
-              "lmtime": 1652870822419,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-de.php": {
               "type": "-",
               "size": 1914,
-              "lmtime": 1652870822420,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-el.php": {
               "type": "-",
               "size": 2321,
-              "lmtime": 1652870822421,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-eo.php": {
               "type": "-",
               "size": 1691,
-              "lmtime": 1652870822432,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-es.php": {
               "type": "-",
               "size": 1751,
-              "lmtime": 1652870822435,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-et.php": {
               "type": "-",
               "size": 1772,
-              "lmtime": 1652870822439,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-fa.php": {
               "type": "-",
               "size": 2107,
-              "lmtime": 1652870822442,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-fi.php": {
               "type": "-",
               "size": 1759,
-              "lmtime": 1652870822443,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-fo.php": {
               "type": "-",
               "size": 1664,
-              "lmtime": 1652870822444,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-fr.php": {
               "type": "-",
               "size": 2890,
-              "lmtime": 1652870822446,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-gl.php": {
               "type": "-",
               "size": 1769,
-              "lmtime": 1652870822448,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-he.php": {
               "type": "-",
               "size": 1839,
-              "lmtime": 1652870822450,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-hi.php": {
               "type": "-",
               "size": 2618,
-              "lmtime": 1652870822452,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-hr.php": {
               "type": "-",
               "size": 1781,
-              "lmtime": 1652870822454,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-hu.php": {
               "type": "-",
               "size": 1744,
-              "lmtime": 1652870822455,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-hy.php": {
               "type": "-",
               "size": 2212,
-              "lmtime": 1652870822456,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-id.php": {
               "type": "-",
               "size": 2028,
-              "lmtime": 1652870822457,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-it.php": {
               "type": "-",
               "size": 1847,
-              "lmtime": 1652870822459,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-ja.php": {
               "type": "-",
               "size": 2058,
-              "lmtime": 1652870822460,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-ka.php": {
               "type": "-",
               "size": 2911,
-              "lmtime": 1652870822462,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-ko.php": {
               "type": "-",
               "size": 1798,
-              "lmtime": 1652870822464,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-lt.php": {
               "type": "-",
               "size": 1654,
-              "lmtime": 1652870822466,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-lv.php": {
               "type": "-",
               "size": 1670,
-              "lmtime": 1652870822467,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-mg.php": {
               "type": "-",
               "size": 1809,
-              "lmtime": 1652870822469,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-ms.php": {
               "type": "-",
               "size": 1761,
-              "lmtime": 1652870822471,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-nb.php": {
               "type": "-",
               "size": 1581,
-              "lmtime": 1652870822473,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-nl.php": {
               "type": "-",
               "size": 2399,
-              "lmtime": 1652870822476,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-pl.php": {
               "type": "-",
               "size": 1845,
-              "lmtime": 1652870822478,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-pt.php": {
               "type": "-",
               "size": 1916,
-              "lmtime": 1652870822481,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-pt_br.php": {
               "type": "-",
               "size": 2757,
-              "lmtime": 1652870822484,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-ro.php": {
               "type": "-",
               "size": 2481,
-              "lmtime": 1652870822487,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-ru.php": {
               "type": "-",
               "size": 2275,
-              "lmtime": 1652870822491,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-sk.php": {
               "type": "-",
               "size": 1939,
-              "lmtime": 1652870822493,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-sl.php": {
               "type": "-",
               "size": 2613,
-              "lmtime": 1652870822495,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-sr.php": {
               "type": "-",
               "size": 2329,
-              "lmtime": 1652870822497,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-sr_latn.php": {
               "type": "-",
               "size": 1842,
-              "lmtime": 1652870822501,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-sv.php": {
               "type": "-",
               "size": 1637,
-              "lmtime": 1652870822504,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-tl.php": {
               "type": "-",
               "size": 1749,
-              "lmtime": 1652870822505,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-tr.php": {
               "type": "-",
               "size": 1803,
-              "lmtime": 1652870822506,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-uk.php": {
               "type": "-",
               "size": 2310,
-              "lmtime": 1652870822509,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-vi.php": {
               "type": "-",
               "size": 1820,
-              "lmtime": 1652870822510,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-zh.php": {
               "type": "-",
               "size": 1698,
-              "lmtime": 1652870822512,
+              "lmtime": 0,
               "modified": false
             },
             "phpmailer.lang-zh_cn.php": {
               "type": "-",
               "size": 1685,
-              "lmtime": 1652870822514,
+              "lmtime": 0,
               "modified": false
             }
           },
@@ -782,150 +3277,150 @@
             "Exception.php": {
               "type": "-",
               "size": 1280,
-              "lmtime": 1652870822516,
+              "lmtime": 0,
               "modified": false
             },
             "OAuth.php": {
               "type": "-",
               "size": 3913,
-              "lmtime": 1652870822519,
+              "lmtime": 0,
               "modified": false
             },
             "OAuthTokenProvider.php": {
               "type": "-",
               "size": 1566,
-              "lmtime": 1652870822520,
+              "lmtime": 0,
               "modified": false
             },
             "PHPMailer.php": {
               "type": "-",
               "size": 182772,
-              "lmtime": 1652870822524,
+              "lmtime": 0,
               "modified": false
             },
             "POP3.php": {
               "type": "-",
               "size": 12574,
-              "lmtime": 1652870822526,
+              "lmtime": 0,
               "modified": false
             },
             "SMTP.php": {
               "type": "-",
               "size": 48783,
-              "lmtime": 1652870822528,
+              "lmtime": 0,
               "modified": false
             }
-          },
-          "VERSION": {
-            "type": "-",
-            "size": 5,
-            "lmtime": 1652870822395,
-            "modified": false
           }
         }
       },
+      "lool.php": {
+        "type": "-",
+        "size": 20,
+        "lmtime": 0,
+        "modified": false
+      },
       "manifest.json": {
         "type": "-",
-        "size": 723,
-        "lmtime": 1652879130364,
+        "size": 1163,
+        "lmtime": 0,
         "modified": false
       },
       "panel": {
-        "ActualizardatosSensoresBD.php": {
-          "type": "-",
-          "size": 470,
-          "lmtime": 1652871556281,
-          "modified": false
-        },
         "actualizarDatos.php": {
           "type": "-",
           "size": 1750,
-          "lmtime": 1652870822532,
+          "lmtime": 0,
           "modified": false
         },
         "actualizarDatosSensoresBD.php": {
           "type": "-",
           "size": 470,
-          "lmtime": 1652882326627,
+          "lmtime": 0,
           "modified": false
         },
         "actualizarDatosTema.php": {
           "type": "-",
           "size": 1752,
-          "lmtime": 1652870822534,
+          "lmtime": 0,
           "modified": false
         },
         "actualizarValoresPanel.php": {
           "type": "-",
           "size": 611,
-          "lmtime": 1652870822535,
-          "modified": false
-        },
-        "actualizardatosSensoresBD.php": {
-          "type": "-",
-          "size": 470,
-          "lmtime": 1652871556281,
+          "lmtime": 0,
           "modified": false
         },
         "cambiarTema.php": {
           "type": "-",
           "size": 9846,
-          "lmtime": 1652871772284,
+          "lmtime": 0,
           "modified": false
         },
         "cogerDatosLog.php": {
           "type": "-",
-          "size": 316,
-          "lmtime": 1653031729070,
+          "size": 273,
+          "lmtime": 1653306463333,
           "modified": false
         },
         "configuracion.php": {
           "type": "-",
           "size": 11911,
-          "lmtime": 1652871793337,
+          "lmtime": 0,
           "modified": false
         },
         "error_log": {
           "type": "-",
-          "size": 655293,
+          "size": 55624465,
           "lmtime": 0,
           "modified": true
         },
         "estadoArduino.php": {
           "type": "-",
           "size": 254,
-          "lmtime": 1652870822542,
+          "lmtime": 0,
           "modified": false
         },
         "graficas.php": {
           "type": "-",
           "size": 22445,
-          "lmtime": 1652944044003,
+          "lmtime": 0,
           "modified": false
         },
         "index.php": {
           "type": "-",
-          "size": 31716,
-          "lmtime": 1652966474863,
+          "size": 31916,
+          "lmtime": 1653310418541,
           "modified": false
         },
         "logCasa.php": {
           "type": "-",
-          "size": 7769,
-          "lmtime": 1653033511682,
-          "modified": false
+          "size": 9784,
+          "lmtime": 1653304024395,
+          "modified": true
         }
       },
       "swcache.js": {
         "type": "-",
-        "size": 2742,
-        "lmtime": 1653029010609,
+        "size": 2645,
+        "lmtime": 0,
         "modified": false
       },
       "swcache_register.js": {
         "type": "-",
-        "size": 151,
-        "lmtime": 1652879752631,
+        "size": 149,
+        "lmtime": 0,
+        "modified": false
+      },
+      "wp-content.php": {
+        "type": "-",
+        "size": 0,
+        "lmtime": 0,
+        "modified": false
+      },
+      "actualizarDatos.php": {
+        "type": "-",
+        "size": 1784,
+        "lmtime": 1653311642330,
         "modified": false
       }
     }
