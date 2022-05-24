@@ -950,7 +950,7 @@
                             INNER JOIN tienen ON tienen.idSensor = sensor.idSensor 
                             INNER JOIN registro ON registro.idRegistro = tienen.idRegistro 
                             WHERE sensor.`nombSensor` = '".$nombSensor."' AND sensor.idCasa = '".$idCasa."'
-                            ORDER BY tienen.idRegistro DESC 
+                            ORDER BY registro.fechaRegistro DESC 
                             LIMIT 1";
 
                         
