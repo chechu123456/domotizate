@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+h1,h2,h3, p, label, a{
+    font-family: 'Roboto', sans-serif;
+}
+
 
 /*******************************/
 /********* COMPONENTES *********/

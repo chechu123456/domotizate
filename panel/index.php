@@ -556,11 +556,11 @@
                 },
             })
             .done(function(data) {
-               console.log(data);
+               //console.log(data);
             })
             .fail(function( textStatus ) {
                 swal("ERROR!", "No se ha podido realizar esta acción", "warning");
-                console.log(textStatus);
+                //console.log(textStatus);
             });
         }
 

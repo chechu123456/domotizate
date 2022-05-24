@@ -37,7 +37,7 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
 
     //Coger el registro Máximo y Mínimo de humedad del Mes 
     $registrosHumedadMesMin = $listado->tempHumMinFecha($_SESSION['idCasa'], "humedad", date('Y-m-01 00:00'), date('Y-m-t 23:59'));
-    $registrosHumedadAñoMax = $listado->tempHumMaxFecha($_SESSION['idCasa'], "humedad", date('Y-01-01 00:00'), date('Y-12-t 23:59'));
+    $registrosHumedadMesMax = $listado->tempHumMaxFecha($_SESSION['idCasa'], "humedad", date('Y-m-01 00:00'), date('Y-m-t 23:59'));
 
     //Coger el registro Máximo y Mínimo de humedad del Año 
     $registrosHumedadAñoMin = $listado->tempHumMinFecha($_SESSION['idCasa'], "humedad", date('Y-01-01 00:00'), date('Y-12-t 23:59'));
@@ -52,7 +52,7 @@ $datosSensoresUsuario = $listado->listarSensoresValoresPorCasa($_SESSION['idCasa
     echo date('Y-12-t 23:59');
     echo "<br>----------------<br>";
 
-
+/*
     var_dump($registrosTemperaturaMes);
     echo "<br>----------------------------<br>";
     echo count($registrosTemperaturaMes) . "<br>";
@@ -281,8 +281,8 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
 
     <script>
         $(document).ready(function(){
-            $("#valorMaxTemp").html("<?= (empty($registrosTemperaturaDiaMax)) ?  "-" : $registrosTemperaturaDiaMax ?>");
-            $("#valorMinTemp").html("<?= (empty($registrosTemperaturaDiaMin)) ? "-"  : $registrosTemperaturaDiaMin ?>");
+            $("#valorMaxTemp").html("<?= (empty($registrosTemperaturaDiaMax) &&  $registrosTemperaturaDiaMax != 0) ? "-" : $registrosTemperaturaDiaMax ?>");
+            $("#valorMinTemp").html("<?= (empty($registrosTemperaturaDiaMin) &&  $registrosTemperaturaDiaMin != 0) ? "-"  : $registrosTemperaturaDiaMin ?>");
 
             var data = [{
                 x: [<?=$fechasTempGraficaDia?>],
@@ -298,8 +298,8 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
 
             Plotly.newPlot('contGraficaTemp', data, layout, config);
 
-            $("#valorMaxHum").html("<?= (empty($registrosHumedadDiaMax)) ?  "-" : $registrosHumedadDiaMax ?>");
-            $("#valorMinHum").html("<?= (empty($registrosHumedadDiaMin)) ? "-"  : $registrosHumedadDiaMin ?>");
+            $("#valorMaxHum").html("<?= (empty($registrosHumedadDiaMax) &&  $registrosHumedadDiaMax != 0) ?  "-" : $registrosHumedadDiaMax ?>");
+            $("#valorMinHum").html("<?= (empty($registrosHumedadDiaMin) &&  $registrosHumedadDiaMin != 0) ? "-"  : $registrosHumedadDiaMin ?>");
 
             var dataHum = [{
                 x: [<?=$fechasHumGraficaDia?>],
@@ -331,9 +331,9 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
 
         $(document).on("change", "#fechaTemp", function() {
             if ($("#fechaTemp option:selected").text() == "Día") {
-                console.log("Has elegido dia");
-                $("#valorMaxTemp").html("<?= (empty($registrosTemperaturaDiaMax)) ?  "-" : $registrosTemperaturaDiaMax ?>");
-                $("#valorMinTemp").html("<?= (empty($registrosTemperaturaDiaMin)) ? "-"  : $registrosTemperaturaDiaMin ?>");
+                //console.log("Has elegido dia");
+                $("#valorMaxTemp").html("<?= (empty($registrosTemperaturaDiaMax) &&  $registrosTemperaturaDiaMax != 0) ?  "-" : $registrosTemperaturaDiaMax ?>");
+                $("#valorMinTemp").html("<?= (empty($registrosTemperaturaDiaMin) && $registrosTemperaturaDiaMin != 0) ? "-"  : $registrosTemperaturaDiaMin ?>");
 
                 var dataTemp = [{
                     x: [<?=$fechasTempGraficaDia?>],
@@ -350,7 +350,7 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
                 
                 
             } else if ($("#fechaTemp option:selected").text() == "Mes") {
-                console.log("Has elegido mes");
+                //console.log("Has elegido mes");
                 $("#valorMaxTemp").html("<?= (empty($registrosTemperaturaMesMax)) ?  "-" : $registrosTemperaturaMesMax ?>");
                 $("#valorMinTemp").html("<?= (empty($registrosTemperaturaMesMin)) ? "-"  : $registrosTemperaturaMesMin ?>");
 
@@ -372,9 +372,9 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
                 Plotly.newPlot('contGraficaTemp', dataTemp, layout);
 
             } else if ($("#fechaTemp option:selected").text() == "Año") {
-                console.log("Has elegido año");
-                $("#valorMaxTemp").html("<?= (empty($registrosTemperaturaAñoMax)) ?  "-" : $registrosTemperaturaAñoMax ?>");
-                $("#valorMinTemp").html("<?= (empty($registrosTemperaturaAñoMin)) ? "-"  : $registrosTemperaturaAñoMin ?>");
+                //console.log("Has elegido año");
+                $("#valorMaxTemp").html("<?= (empty($registrosTemperaturaAñoMax) && $registrosTemperaturaAñoMax != 0) ?  "-" : $registrosTemperaturaAñoMax ?>");
+                $("#valorMinTemp").html("<?= (empty($registrosTemperaturaAñoMin) && $registrosTemperaturaAñoMin != 0) ? "-"  : $registrosTemperaturaAñoMin ?>");
 
                 var dataTemp = [{
                     x: [<?=$fechasTempGraficaAño?>],
@@ -396,9 +396,9 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
 
         $(document).on("change", "#fechaHum", function() {
             if ($("#fechaHum option:selected").text() == "Día") {
-                console.log("Has elegido dia");
-                $("#valorMaxHum").html("<?= (empty($registrosHumedadDiaMax)) ?  "-" : $registrosHumedadDiaMax ?>");
-                $("#valorMinHum").html("<?= (empty($registrosHumedadDiaMin)) ? "-"  : $registrosHumedadDiaMin ?>");
+                //console.log("Has elegido dia");
+                $("#valorMaxHum").html("<?= (empty($registrosHumedadDiaMax) && $registrosHumedadDiaMax != 0) ?  "-" : $registrosHumedadDiaMax ?>");
+                $("#valorMinHum").html("<?= (empty($registrosHumedadDiaMin) && $registrosHumedadDiaMin != 0) ? "-"  : $registrosHumedadDiaMin ?>");
 
                 var dataHum = [{
                     x: [<?=$fechasHumGraficaDia?>],
@@ -414,9 +414,9 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
 
                 
             } else if ($("#fechaHum option:selected").text() == "Mes") {
-                console.log("Has elegido mes");
-                $("#valorMaxHum").html("<?= (empty($registrosHumedadMesMax)) ?  "-" : $registrosHumedadMesMax ?>");
-                $("#valorMaxHum").html("<?= (empty($registrosHumedadMesMin)) ? "-"  : $registrosHumedadMesMin ?>");
+                //console.log("Has elegido mes");
+                $("#valorMaxHum").html("<?= (empty($registrosHumedadMesMax) && $registrosHumedadMesMax != 0 ) ? "-" : $registrosHumedadMesMax ?>");
+                $("#valorMinHum").html("<?= (empty($registrosHumedadMesMin) && $registrosHumedadMesMin != 0) ? "-"  : $registrosHumedadMesMin ?>");
 
                 var dataHum = [{
                     x: [<?=$fechasHumGraficaMes?>],
@@ -435,9 +435,9 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
                 Plotly.newPlot('contGraficaHum', dataHum, layout);
 
             } else if ($("#fechaHum option:selected").text() == "Año") {
-                console.log("Has elegido año");
-                $("#valorMaxHum").html("<?= (empty($registrosHumedadAñoMax)) ?  "-" : $registrosHumedadAñoMax ?>");
-                $("#valorMaxHum").html("<?= (empty($registrosHumedadAñoMin)) ? "-"  : $registrosHumedadAñoMin ?>");
+                //console.log("Has elegido año");
+                $("#valorMaxHum").html("<?= (empty($registrosHumedadAñoMax) && $registrosHumedadAñoMax != 0) ?  "-" : $registrosHumedadAñoMax ?>");
+                $("#valorMinHum").html("<?= (empty($registrosHumedadAñoMin) && $registrosHumedadAñoMin != 0) ? "-"  : $registrosHumedadAñoMin ?>");
 
                 var dataHum = [{
                     x: [<?=$fechasHumGraficaAño?>],
@@ -445,7 +445,7 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
                     type: 'scatter'
                 }];
 
-                
+                /*
                 var layout = {
                     autorange: true,
                     xaxis: {
@@ -453,10 +453,11 @@ for ($i = 0; $i < count($registrosHumedadAño); $i++) {
                         type: 'date'
                     }
                 };
-                
+                */
 
 
-                Plotly.newPlot('contGraficaHum', dataHum, layout);
+                //Plotly.newPlot('contGraficaHum', dataHum, layout);
+                Plotly.newPlot('contGraficaHum', dataHum);
             }
         });
 

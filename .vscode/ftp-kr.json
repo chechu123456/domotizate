@@ -11,6 +11,7 @@
     "autoDownload": false,
     "ignore": [
         ".git",
-        "/.vscode"
+        "/.vscode",
+        "./phpdoc"
     ]
 }

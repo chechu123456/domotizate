@@ -162,7 +162,8 @@
                     $this->crearTema();
                     $idTema = $this->obtenerUltIdTema();
                     $query = 'INSERT INTO usuario VALUES ("'.$nickname.'", "'.$password.'", "'.$localidad.'", "'.$idTema.'", "'.$idCasa.'")';
-            
+                    $_SESSION['idCasa'] = $idCasa;
+
                     $enlace = parent::conecta();
                     $res = $enlace ->query($query);
                     
@@ -192,7 +193,8 @@
                 $this->crearTema();
                 $idTema = $this->obtenerUltIdTema();
                 $query = 'INSERT INTO usuario VALUES ("'.$nickname.'", "'.$password.'", "'.$localidad.'", "'.$idTema.'", "'.$idCasa.'")';
-        
+                $_SESSION['idCasa'] = $idCasa;
+
                 $enlace = parent::conecta();
                 $res = $enlace ->query($query);
     
@@ -884,7 +886,7 @@
             $idRegistro = $this->obtenerUltRegistro($nickname);
             
             //echo "\n ------------------------ \n";
-            ///echo "\n El registro obtenido es: " .$idRegistro ."\n";
+            //echo "\n El registro obtenido es: " .$idRegistro ."\n";
             $idSensor = $this->buscarIdSensorNomb($nombSensor, $idCasa);
             //echo "\n El idSensor recuperado es: " .$idSensor ."\n"; 
             $this->crearTienen($idSensor, $idRegistro);
@@ -1176,7 +1178,7 @@
         *   Obtener la temperatura o la humedad mínima entre 2 fechas
         * 
         *  @access public
-        *  @return array|null
+        *  @return int|null
         */  
         function tempHumMinFecha(int $idCasa, String $nombSensor, String $fechaInicio,String $fechaFin){
  
@@ -1186,12 +1188,12 @@
                     INNER JOIN sensor on sensor.idSensor = tienen.idSensor
                     INNER JOIN registro on registro.idRegistro = tienen.idRegistro
                     WHERE nombSensor = '".$nombSensor."' AND sensor.idCasa = $idCasa AND (fechaRegistro BETWEEN '".$fechaInicio."' AND '".$fechaFin."')
-                    ORDER BY `registro`.`valor` ASC LIMIT 1";
+                    ORDER BY CAST(`valor` AS UNSIGNED) ASC LIMIT 1";
                 
                         
                 if($res = parent::conecta()->query($query)) {  
                     $fila = mysqli_fetch_array($res); 
-                    return (isset($fila['valor'])) ? $fila['valor']: array();
+                    return (isset($fila['valor'])) ? $fila['valor']: null;
                 }else{
                     echo "No se han obtenido el valor mínimo del sensor TemperaturaHumedad para las gráficas";
                 }
@@ -1212,7 +1214,7 @@
                     INNER JOIN sensor on sensor.idSensor = tienen.idSensor
                     INNER JOIN registro on registro.idRegistro = tienen.idRegistro
                     WHERE nombSensor = '".$nombSensor."' AND sensor.idCasa = $idCasa AND (fechaRegistro BETWEEN '".$fechaInicio."' AND '".$fechaFin."')
-                    ORDER BY `registro`.`valor` DESC LIMIT 1";
+                    ORDER BY CAST(`valor` AS UNSIGNED) DESC LIMIT 1";
                 
                         
                 if($res = parent::conecta()->query($query)) {  
