@@ -632,8 +632,8 @@
         },
         "Listado.php": {
           "type": "-",
-          "size": 46755,
-          "lmtime": 1653374311828,
+          "size": 46769,
+          "lmtime": 1653383631665,
           "modified": false
         }
       },
@@ -2200,9 +2200,9 @@
         },
         "error_log": {
           "type": "-",
-          "size": 137437,
+          "size": 258881,
           "lmtime": 0,
-          "modified": false
+          "modified": true
         },
         "estadoArduino.php": {
           "type": "-",
@@ -2212,8 +2212,8 @@
         },
         "graficas.php": {
           "type": "-",
-          "size": 22445,
-          "lmtime": 1652944044003,
+          "size": 23002,
+          "lmtime": 1653382877456,
           "modified": false
         },
         "index.php": {

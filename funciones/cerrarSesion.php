@@ -1,13 +1,14 @@
 <?php
     session_start();
 
-    if (strpos(dirname(__DIR__), "htdocs") === true) {
+    if (strpos(dirname(__DIR__), "htdocs") == true) {
         $ruta = explode("htdocs", dirname(__DIR__));
         $ruta = $ruta[1];
         $ruta = str_replace('\\', "/", $ruta) . "/";
     } else {
         $ruta = "/";
     }
+
     // Destruir todas las variables de sesión.
     $_SESSION = array();
 

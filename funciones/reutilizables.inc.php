@@ -4,7 +4,7 @@
 function localizacion(){
     //echo dirname( __DIR__ );  
 
-    if (strpos(dirname(__DIR__), "htdocs") === true) {
+    if (strpos(dirname(__DIR__), "htdocs") == true) {
         $ruta = explode("htdocs", dirname(__DIR__));
         $ruta = $ruta[1];
         $ruta = str_replace('\\', "/", $ruta) . "/";

@@ -163,6 +163,7 @@
                 })
                 .done(function(data) {
                     usuarioOK = "Usuario y contraseña OK";
+                    //console.log(data);
                     if(data.includes(usuarioOK)){
                         //usuario y contraseña coinciden
                         window.location.href = "../panel/index.php";
