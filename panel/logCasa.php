@@ -180,10 +180,12 @@ echo "</script>";
                         var valorSensor = $(this).children("td:nth-child(3)");
                         //console.log("----------\n"+valorSensor.html());
 
-                        if(valorSensor.html() == "0" || valorSensor.html() == "E" ){
+                        if(valorSensor.html() == "0"){
                             valorSensor.html("Planta Baja");
                         }else if(valorSensor.html() == "1"){
                             valorSensor.html("Planta Alta");
+                        }else if(valorSensor.html() == "E" ){
+                            valorSensor.html("Parado");
                         }
                     }
                 });
